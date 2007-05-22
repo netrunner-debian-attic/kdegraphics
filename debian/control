@@ -1,0 +1,22 @@
+Source: kdegraphics
+Section: kde
+Priority: extra
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
+ libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1), libxml2-utils,
+ libfam-dev, libbz2-dev, libpcre++-dev,
+ libpoppler-qt-dev, libpoppler-qt4-dev, libsane-dev, libtiff4-dev, libgphoto2-2-dev, 
+ imlib11-dev, libchm-dev, libdjvulibre-dev, libxxf86vm-dev,
+Standards-Version: 3.7.2
+
+Package: kdegraphics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: graphics apps from the official KDE release
+ KDE (the K Desktop Environment) is a powerful Open Source graphical
+ desktop environment for Unix workstations. It combines ease of use,
+ contemporary functionality, and outstanding graphical design with the
+ technological superiority of the Unix operating system.
+ .
+ This metapackage includes a collection of graphics applications
+ provided with the official release of KDE.
