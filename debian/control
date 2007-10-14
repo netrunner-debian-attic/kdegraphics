@@ -4,12 +4,13 @@ Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.90.1),
  libpoppler-qt-dev, libpoppler-qt4-dev, libsane-dev, libtiff4-dev, libgphoto2-2-dev, 
- imlib11-dev, libchm-dev, libdjvulibre-dev, libxxf86vm-dev,
+ imlib11-dev, libchm-dev, libdjvulibre-dev, libxxf86vm-dev, libstreamanalyzer-dev, 
+ libstreams-dev, libqimageblitz-dev, libexiv2-dev
 Standards-Version: 3.7.2
 
 Package: kdegraphics
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: kolourpaint4, ksnapshot, gwenview
 Description: graphics apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -18,3 +19,136 @@ Description: graphics apps from the official KDE release
  .
  This metapackage includes a collection of graphics applications
  provided with the official release of KDE.
+
+Package: kcolorchooser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: kde color picker
+ contains a color chooser for kde
+ .
+ This metapackage includes a collection of graphics applications
+ provided with the official release of KDE.
+
+Package: kruler
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: a screen ruler and color measurement tool for KDE
+ Kruler is a screen ruler (using pixels) and color measurement tool for KDE.
+ .
+ This package is part of KDE, as a component of the KDE graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
+
+Package: kolourpaint4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: a simple paint program for KDE
+ KolourPaint is a very simple paint program for KDE. It aims to be
+ conceptually simple to understand; providing a level of functionality
+ targeted towards the average user. It's designed for daily tasks like:
+ .
+  * Painting - drawing diagrams and "finger painting"
+  * Image Manipulation - editing screenshots and photos; applying effects
+  * Icon Editing - drawing clipart and logos with transparency
+ .
+ This package is part of KDE, as a component of the KDE graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
+
+Package: kscan
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Scanner plugin for kde
+ .
+ This package is part of KDE, as a component of the KDE graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
+
+
+Package: ksnapshot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: screenshot utility for KDE
+ KSnapshot is a simple applet for taking screenshots. It is capable of
+ capturing images of either the whole desktop or just a single window.
+ The images can then be saved in a variety of formats.
+ .
+ This package is part of KDE, as a component of the KDE graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
+
+Package: gwenview
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: image viewer for KDE
+ Gwenview is an image viewer for the K Desktop Environment. It features a
+ folder tree window and a file list window to provide easy navigation of your
+ file hierarchy. Gwenview uses docked windows, so you can alter its layout
+ any way you wish. You can also browse your images in full-screen mode, or
+ embedded within Konqueror using the Gwenview Image Browser View and Kpart.
+ .
+ This package is part of KDE, as a component of the KDE graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
+
+Package: kamera
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: digital camera io slave for konqueror
+ This is a digital camera io_slave for KDE which uses gphoto2 and libgpio
+ to allow access to your camera's pictures with the URL camera:/
+ .
+ This package is part of KDE, as a component of the KDE graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
+
+Package: kdegraphics-strigi-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: strigi metainfo plugins for kde graphics
+ .
+ This package is part of KDE, as a component of the KDE graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
+
+
+Package: okular
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: document viewer for KDE
+ okular allows you to view documents in many formats
+ * postscript
+ * pdf
+ * OpenDocument format (odf)
+ * comic books
+ * dvi files
+  - and several others
+ and with additionally backends installed also
+ * chm files
+ * tiff files
+ * djvu files
+ .
+ This package is part of KDE, as a component of the KDE graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
+
+Package: libokularcore1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: core library for okular, a kde document viewer
+ .
+ This package is part of KDE, as a component of the KDE graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
+
+Package: okular-dev
+Architecture: any
+Depends: libokularcore1 (= ${source:Version})
+Description: development files for okular
+ development headers used when writing backends for okular.
+ .
+ This package is part of KDE, as a component of the KDE graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
+
+Package: okular-extra-backends
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: extra backends for okular
+ with this package, you can view additiotnal document  formats with okular, 
+  * chm files
+  * tiff files
+  * djvu files
+ .
+ This package is part of KDE, as a component of the KDE graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
