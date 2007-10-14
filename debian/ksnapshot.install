@@ -1,0 +1,13 @@
+usr/share/dbus-1/interfaces/org.kde.ksnapshot.xml
+usr/share/icons/hicolor/32x32/apps/ksnapshot.png
+usr/share/icons/hicolor/scalable/apps/ksnapshot.svgz
+usr/share/icons/hicolor/48x48/apps/ksnapshot.png
+usr/share/icons/hicolor/22x22/apps/ksnapshot.png
+usr/share/icons/hicolor/16x16/apps/ksnapshot.png
+usr/share/applications/kde4/ksnapshot.desktop
+usr/share/doc/kde4/HTML/en/ksnapshot
+usr/share/doc/kde4/HTML/en/ksnapshot/preview.png
+usr/share/doc/kde4/HTML/en/ksnapshot/window.png
+usr/share/doc/kde4/HTML/en/ksnapshot/index.docbook
+usr/bin/ksnapshot
+usr/bin/kbackgroundsnapshot

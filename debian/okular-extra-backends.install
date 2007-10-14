@@ -1,0 +1,14 @@
+usr/lib/kde4/libokularGenerator_chmlib.so
+usr/lib/kde4/libokularGenerator_djvu.so
+usr/lib/kde4/libokularGenerator_tiff.so
+usr/share/applications/kde4/okularApplication_chm.desktop
+usr/share/applications/kde4/okularApplication_djvu.desktop
+usr/share/applications/kde4/okularApplication_tiff.desktop
+usr/share/kde4/services/libokularGenerator_chmlib.desktop
+usr/share/kde4/services/libokularGenerator_djvu.desktop
+usr/share/kde4/services/libokularGenerator_tiff.desktop
+usr/share/kde4/services/okularChm.desktop
+usr/share/kde4/services/okularDjvu.desktop
+usr/share/kde4/services/okularTiff.desktop
+usr/lib/kde4/kio_msits.so
+usr/share/kde4/services/msits.protocol
