@@ -1,7 +1,7 @@
 #kolourpaint don't have anything we need to link against
 ./usr/lib/libkolourpaint4_lgpl.so
 
-#people are guessing tha kghostview will be removed very soon
+#people are guessing the kghostview will be removed very soon
 ./usr/bin/kghostview
 ./usr/lib/kde4/libkghostviewpart.so
 ./usr/lib/libkghostviewlib.so

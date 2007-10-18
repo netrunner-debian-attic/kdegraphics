@@ -1,9 +1,19 @@
-kdegraphics (4:3.94.0-1) unstable; urgency=low
+kdegraphics (4:3.94.0-1) experimental; urgency=low
 
-  * New upstream version.
-  * Split out programs and plugin and stuff.
+  * KDE4 beta3, first upload to the Debian archive.
+ 
+  +++ Changes by Sune Vuorela:
+ 
+  * Split out programs, plugins and stuff.
+  * Write copyright file.
 
- -- Sune Vuorela <debian@pusling.com>  Sun, 14 Oct 2007 14:20:58 +0000
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update Uploaders field.
+  * Improve package descriptions.
+  * Improve copyright file. 
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 21:31:44 +0200
 
 kdegraphics (4:3.90.1-1) unstable; urgency=low
 
