@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.90.1),
  libpoppler-qt-dev, libpoppler-qt4-dev, libsane-dev, libtiff4-dev, libgphoto2-2-dev, 
  imlib11-dev, libchm-dev, libdjvulibre-dev, libxxf86vm-dev, libstreamanalyzer-dev, 
- libstreams-dev, libqimageblitz-dev, libexiv2-dev
+ libstreams-dev, libqimageblitz-dev, libexiv2-dev, libgs-dev
 Standards-Version: 3.7.2
 
 Package: kdegraphics

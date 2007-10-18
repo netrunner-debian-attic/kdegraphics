@@ -75,3 +75,8 @@ usr/lib/kde4/libokularGenerator_kimgio.so
 usr/lib/kde4/libokularGenerator_xps.so
 usr/lib/kde4/libokularGenerator_dvi.so
 usr/lib/kde4/libokularpart.so
+usr/lib/kde4/libokularGenerator_ghostview.so
+usr/share/applications/kde4/okularApplication_ghostview.desktop
+usr/share/kde4/services/libokularGenerator_ghostview.desktop
+usr/share/kde4/services/okularGhostview.desktop
+usr/share/kde4/config.kcfg/gssettings.kcfg
