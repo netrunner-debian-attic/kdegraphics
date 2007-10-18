@@ -12,6 +12,7 @@ kdegraphics (4:3.94.0-1) experimental; urgency=low
   * Update Uploaders field.
   * Improve package descriptions.
   * Improve copyright file. 
+  * Change kdegraphics metapackage to Arch:all.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 21:31:44 +0200
 

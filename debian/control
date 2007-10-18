@@ -10,7 +10,7 @@ Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.94.0),
 Standards-Version: 3.7.2
 
 Package: kdegraphics
-Architecture: any
+Architecture: all
 Depends: kolourpaint4, ksnapshot, gwenview
 Description: graphics applications from the official KDE4 release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
