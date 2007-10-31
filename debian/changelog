@@ -1,12 +1,12 @@
 kdegraphics (4:3.95.0-1) experimental; urgency=low
 
-  * New upstream release: KDE4 beta3.
+  * New upstream release: KDE4 beta4.
 
   +++ Changes by Armin Berres:
 
   * Update *.install files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 31 Oct 2007 01:58:30 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 31 Oct 2007 02:04:13 +0100
 
 kdegraphics (4:3.94.0-1) experimental; urgency=low
 
