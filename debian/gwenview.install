@@ -1,10 +1,10 @@
-usr/share/applications/kde4/gwenview.desktop
-usr/share/kde4/apps/gwenview
-usr/share/kde4/apps/gwenview/gwenviewui.rc
 usr/bin/gwenview
-usr/lib/libgwenviewlib.so.1.0.0
+usr/lib/kde4/gvpart.so
 usr/lib/libgwenviewlib.so
 usr/lib/libgwenviewlib.so.1
-usr/lib/kde4/gvpart.so
+usr/lib/libgwenviewlib.so.1.0.0
+usr/share/applications/kde4/gwenview.desktop
 usr/share/kde4/apps/gvpart/gvpart.rc
+usr/share/kde4/apps/gwenview
+usr/share/kde4/apps/gwenview/gwenviewui.rc
 usr/share/kde4/services/gvpart.desktop

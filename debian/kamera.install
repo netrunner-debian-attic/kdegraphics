@@ -1,5 +1,6 @@
 usr/lib/kde4/kcm_kamera.so
 usr/lib/kde4/kio_kamera.so
+usr/share/doc/kde4/HTML/en/kamera/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kamera/index.docbook
 usr/share/kde4/services/camera.protocol
 usr/share/kde4/services/kamera.desktop
