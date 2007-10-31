@@ -158,3 +158,13 @@ Description: extra backends for okular
  .
  This package is part of KDE4, as a component of the KDE4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
+
+Package: kdegraphics-dbg
+Section: libdevel
+Architecture: any
+Priority: extra
+Depends: kdebase-dbg
+Description: debugging symbols for kdegraphics
+ This package contains the debugging symbols associated with kdegraphics.
+ They will automatically be used by gdb for debugging kdegraphics-related
+ issues.
