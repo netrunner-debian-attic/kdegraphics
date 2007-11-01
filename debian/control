@@ -140,7 +140,7 @@ Description: core library for okular, KDE4 document viewer
 
 Package: okular-dev
 Architecture: any
-Depends: libokularcore1 (= ${source:Version})
+Depends: libokularcore1 (= ${source:Version}), libqt4-dev
 Description: development files for okular
  Development headers used when writing backends for okular.
  .
