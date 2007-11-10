@@ -1,3 +1,14 @@
+kdegraphics (4:3.92.0-1) experimental; urgency=low
+
+  * New Upstream release.
+
+  +++ Changes by Armin Berres:
+
+  * Update installed files.
+  * Build depend on up to date kdelibs5.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Nov 2007 11:00:03 +0000
+
 kdegraphics (4:3.95.0-2) experimental; urgency=low
 
   * Add kdegraphics-dbg package. 
