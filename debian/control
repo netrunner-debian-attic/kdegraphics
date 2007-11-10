@@ -4,8 +4,8 @@ Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>, Armin Berres <trigger+debian@space-based.de>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.95.2),
- libpoppler-qt-dev, libpoppler-qt4-dev, libsane-dev, libtiff4-dev, libgphoto2-2-dev, 
- imlib11-dev, libchm-dev, libdjvulibre-dev, libxxf86vm-dev, libqimageblitz-dev, 
+ libpoppler-qt-dev, libpoppler-qt4-dev, libsane-dev, libtiff4-dev, libgphoto2-2-dev,
+ imlib11-dev, libchm-dev, libdjvulibre-dev, libxxf86vm-dev, libqimageblitz-dev,
  libexiv2-dev, libgs-dev
 Standards-Version: 3.7.2
 
@@ -119,7 +119,7 @@ Description: document viewer for KDE4
   * comic books
   * dvi files
   * and several others
- . 
+ .
  With additionally backends installed, it also provides support
  for:
   * chm files

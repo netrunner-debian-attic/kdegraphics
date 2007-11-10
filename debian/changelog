@@ -1,11 +1,13 @@
-kdegraphics (4:3.92.0-1) experimental; urgency=low
+kdegraphics (4:3.95.2-1) experimental; urgency=low
 
-  * New Upstream release.
+  * New upstream release.
 
   +++ Changes by Armin Berres:
 
   * Update installed files.
   * Build depend on up to date kdelibs5.
+  * Clean up any kghostview related mention.
+    kghostview was dropped upstream in favor of okular.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Nov 2007 11:00:03 +0000
 
