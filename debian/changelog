@@ -1,3 +1,13 @@
+kdegraphics (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update b-d on poppler to latest release in experimental (0.6.1-1)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:34:27 +0100
+
 kdegraphics (4:3.95.2-1) experimental; urgency=low
 
   * New upstream release.
