@@ -2,6 +2,7 @@ usr/include/okular/core/action.h
 usr/include/okular/core/annotations.h
 usr/include/okular/core/area.h
 usr/include/okular/core/document.h
+usr/include/okular/core/fileprinter.h
 usr/include/okular/core/fontinfo.h
 usr/include/okular/core/form.h
 usr/include/okular/core/generator.h

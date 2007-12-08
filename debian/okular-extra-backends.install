@@ -1,7 +1,7 @@
 usr/lib/kde4/kio_msits.so
-usr/lib/kde4/libokularGenerator_chmlib.so
-usr/lib/kde4/libokularGenerator_djvu.so
-usr/lib/kde4/libokularGenerator_tiff.so
+usr/lib/kde4/okularGenerator_chmlib.so
+usr/lib/kde4/okularGenerator_djvu.so
+usr/lib/kde4/okularGenerator_tiff.so
 usr/share/applications/kde4/okularApplication_chm.desktop
 usr/share/applications/kde4/okularApplication_djvu.desktop
 usr/share/applications/kde4/okularApplication_tiff.desktop

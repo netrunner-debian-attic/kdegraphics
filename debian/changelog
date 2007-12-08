@@ -2,6 +2,7 @@ kdegraphics (4:3.97.0-1) experimental; urgency=low
 
   * New upstream release. 
   * Update Standards-Version to 3.7.3.
+  * Update *.install files and build-depends.
   * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
     happier.
 
