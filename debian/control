@@ -59,7 +59,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: KDE4's scanner library.
  It provides an easy-to-use library, which allows you to access to your 
- scanner, or camera. as long as it is sane compatible.
+ scanner, or camera. as long as it is supported by SANE.
  .
  This package is part of KDE4, as a component of the KDE4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
