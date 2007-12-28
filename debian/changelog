@@ -1,15 +1,10 @@
 kdegraphics (4:3.98.0~svn753247-1) experimental; urgency=low
 
-  * Svn snapshot of revision 753247. 
+  * Svn snapshot of revision 753247.
   * Update *.install files.
+  * Update kscan description. sane -> SANE
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 28 Dec 2007 18:12:25 +0100
-
-kdegraphics (4:3.97.0-2) experimental; urgency=low
-
-  * Update kscan description. sane -> SANE 
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 27 Dec 2007 00:22:11 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 28 Dec 2007 19:07:36 +0100
 
 kdegraphics (4:3.97.0-1) experimental; urgency=low
 
