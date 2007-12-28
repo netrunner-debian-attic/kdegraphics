@@ -21,3 +21,5 @@ usr/include/okular/interfaces/configinterface.h
 usr/include/okular/interfaces/guiinterface.h
 usr/include/okular/interfaces/printinterface.h
 usr/lib/libokularcore.so
+usr/lib/libspectreOkular.so
+
