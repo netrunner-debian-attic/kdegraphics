@@ -1,3 +1,5 @@
 # kolourpaint don't have anything we need to link against
 ./usr/lib/libkolourpaint4_lgpl.so
 
+# command line tool. useless until kgamma port to KDE4
+./usr/bin/xf86gammacfg
