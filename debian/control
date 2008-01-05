@@ -3,7 +3,7 @@ Section: kde
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.98.0~svn755919-1),
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:4.0.0-1),
  libphonon-dev, libpoppler-qt-dev (>=0.6.1-1), libpoppler-qt4-dev  (>=0.6.1-1),
  libsane-dev, libtiff4-dev, libgphoto2-2-dev, imlib11-dev, libchm-dev,
  libdjvulibre-dev, libxxf86vm-dev, libqimageblitz-dev, libexiv2-dev, libgs-dev
@@ -26,6 +26,19 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: KDE4's color chooser
  Kcolorchooser is a color chooser for KDE4.
+ .
+ This package is part of KDE4, as a component of the KDE4 graphics module.
+ See the 'kde' and 'kdegraphics' packages for more information.
+
+Package: kgamma
+Section: graphics
+Architecture: any
+Depends: ${shlibs:Depends}
+Suggests: khelpcenter
+Description: gamma correction module for the KDE Control Center
+ KGamma is a KDE Control Center module for gamma calibration/correction
+ of XFree86. With proper gamma settings, your display (websites, images,
+ etc.) will look the same on your monitor as on other monitors.
  .
  This package is part of KDE4, as a component of the KDE4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.

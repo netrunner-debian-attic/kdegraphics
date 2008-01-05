@@ -21,8 +21,11 @@ usr/share/applications/kde4/okularApplication_plucker.desktop
 usr/share/applications/kde4/okularApplication_xps.desktop
 usr/share/applications/kde4/okular.desktop
 usr/share/doc/kde4/HTML/en/okular/configure.png
+usr/share/doc/kde4/HTML/en/okular/embedded-files-bar.png
 usr/share/doc/kde4/HTML/en/okular/index.cache.bz2
 usr/share/doc/kde4/HTML/en/okular/index.docbook
+usr/share/kde4/apps/okular/icons/hicolor/16x16/apps/okular-gv.png
+usr/share/kde4/apps/okular/icons/hicolor/32x32/apps/okular-gv.png
 usr/share/kde4/apps/okular/part.rc
 usr/share/kde4/apps/okular/pics
 usr/share/kde4/apps/okular/pics/checkmark.png
@@ -63,5 +66,3 @@ usr/share/kde4/services/okularPlucker.desktop
 usr/share/kde4/services/okularPoppler.desktop
 usr/share/kde4/services/okularXps.desktop
 usr/share/kde4/servicetypes/okularGenerator.desktop
-usr/share/kde4/apps/okular/icons/hicolor/16x16/apps/okular-gv.png
-usr/share/kde4/apps/okular/icons/hicolor/32x32/apps/okular-gv.png

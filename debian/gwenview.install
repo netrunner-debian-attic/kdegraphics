@@ -5,6 +5,13 @@ usr/lib/libgwenviewlib.so
 usr/lib/libgwenviewlib.so.1
 usr/lib/libgwenviewlib.so.1.0.0
 usr/share/applications/kde4/gwenview.desktop
+usr/share/icons/oxygen/128x128/apps/gwenview.png
+usr/share/icons/oxygen/16x16/apps/gwenview.png
+usr/share/icons/oxygen/22x22/apps/gwenview.png
+usr/share/icons/oxygen/32x32/apps/gwenview.png
+usr/share/icons/oxygen/48x48/apps/gwenview.png
+usr/share/icons/oxygen/64x64/apps/gwenview.png
+usr/share/icons/oxygen/scalable/apps/gwenview.svgz
 usr/share/kde4/apps/gvpart/gvpart.rc
 usr/share/kde4/apps/gwenview
 usr/share/kde4/apps/gwenview/gwenviewui.rc
