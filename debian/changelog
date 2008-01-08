@@ -1,17 +1,19 @@
 kdegraphics (4:4.0.0-1) experimental; urgency=low
 
+  * New upstream release.
+
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * New upstream release.
   * Bump build-depends to >=4.0.0-1.
-  * Update *.install files. 
+  * Update *.install files.
   * Re-add kgamma.
 
   +++ Changes by Matthew Rosewarne:
 
   * Rework dependencies and descriptions.
+  * Add Homepage: to control.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 05 Jan 2008 09:45:12 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jan 2008 09:45:12 +0100
 
 kdegraphics (4:3.98.0~svn755919-1) experimental; urgency=low
 
