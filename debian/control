@@ -8,6 +8,7 @@ Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:4.0.0-1),
  libsane-dev, libtiff4-dev, libgphoto2-2-dev, imlib11-dev, libchm-dev,
  libdjvulibre-dev, libxxf86vm-dev, libqimageblitz-dev, libexiv2-dev, libgs-dev
 Standards-Version: 3.7.3
+Homepage: http://www.kde.org/
 
 Package: kdegraphics
 Architecture: all
@@ -50,6 +51,7 @@ Description: strigi metainfo plugins for kdegraphics4
 Package: gwenview
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Homepage: http://gwenview.sourceforge.net/
 Description: image viewer for KDE4
  Gwenview is an image viewer for the K Desktop Environment. It features a
  folder tree window and a file list window to provide easy navigation of your
@@ -95,6 +97,7 @@ Description: gamma correction module for the KDE Control Center
 Package: kolourpaint4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Homepage: http://kolourpaint.sourceforge.net/
 Description: a simple paint program for KDE4
  KolourPaint is a simple paint program for KDE4. It aims to be easy to use,
  providing a level of functionality targeted towards the average user. It is
@@ -136,6 +139,7 @@ Description: screenshot utility for KDE4
 Package: libokularcore1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Homepage: http://okular.kde.org/
 Description: core library for okular, KDE4 document viewer
  This package contains the core library for okular.
  .
@@ -146,6 +150,7 @@ Package: okular
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: okular-extra-backends (= ${binary:Version})
+Homepage: http://okular.kde.org/
 Description: document viewer for KDE4
  Okular is the KDE4 universal document viewer.  In addition to viewing
  documents, it has support for annotations, forms, and embedded files.
@@ -162,6 +167,7 @@ Description: document viewer for KDE4
 Package: okular-dev
 Architecture: any
 Depends: libokularcore1 (= ${binary:Version}), libqt4-dev
+Homepage: http://okular.kde.org/
 Description: development files for okular
  Development headers used when writing backends for okular.
  .
@@ -171,6 +177,7 @@ Description: development files for okular
 Package: okular-extra-backends
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Homepage: http://okular.kde.org/
 Description: extra backends for okular
  This package allows Okular to view additional document formats:
   * Microsoft Compiled HTML Help (CHM)
