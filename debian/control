@@ -19,14 +19,14 @@ Depends: gwenview (= ${binary:Version}), kamera (= ${binary:Version}),
  okular (= ${binary:Version})
 Recommends: kdegraphics-strigi-plugins (= ${binary:Version}),
  okular-extra-backends (= ${binary:Version})
-Description: graphics applications from the official KDE4 release
+Description: graphics applications from the official KDE 4 release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
  contemporary functionality, and outstanding graphical design with the
  technological superiority of the Unix operating system.
  .
  This metapackage includes a collection of graphics applications
- provided with the official release of KDE4.
+ provided with the official release of KDE 4.
 
 Package: kdegraphics-dbg
 Section: libdevel
@@ -45,20 +45,20 @@ Description: strigi metainfo plugins for kdegraphics4
  This package includes the strigi metainfo plugins for kdegraphics 
  applications.
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: gwenview
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: image viewer for KDE4
+Description: image viewer for KDE 4
  Gwenview is an image viewer for the K Desktop Environment. It features a
  folder tree window and a file list window to provide easy navigation of your
  file hierarchy. Gwenview uses docked windows, so you can alter its layout
  any way you wish. You can also browse your images in full-screen mode, or
  embedded within Konqueror using the Gwenview Image Browser View and Kpart.
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: kamera
@@ -68,16 +68,16 @@ Description: digital camera io slave for konqueror
  This is a digital camera io_slave for KDE which uses gphoto2 and libgpio
  to allow access to your camera's pictures with the URL camera:/
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: kcolorchooser
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: KDE4's color chooser
- Kcolorchooser is a color chooser for KDE4.
+Description: KDE 4's color chooser
+ Kcolorchooser is a color chooser for KDE 4.
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: kgamma
@@ -90,65 +90,65 @@ Description: gamma correction module for the KDE Control Center
  of Xorg. With proper gamma settings, your display (websites, images,
  etc.) will look the same on your monitor as on other monitors.
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: kolourpaint4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: a simple paint program for KDE4
- KolourPaint is a simple paint program for KDE4. It aims to be easy to use,
+Description: a simple paint program for KDE 4
+ KolourPaint is a simple paint program for KDE 4. It aims to be easy to use,
  providing a level of functionality targeted towards the average user. It is
  ideal for common tasks such as drawing, editing images, and touching-up photos.
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: kruler
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: a screen ruler and color measurement tool for KDE4
- Kruler is a screen ruler (using pixels) and color measurement tool for KDE4.
+Description: a screen ruler and color measurement tool for KDE 4
+ Kruler is a screen ruler (using pixels) and color measurement tool for KDE 4.
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: kscan
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: KDE4's scanner library.
+Description: KDE 4's scanner library.
  It provides an easy-to-use library, which allows you to access to your 
  scanner, or camera. as long as it is supported by SANE.
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: ksnapshot
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: screenshot utility for KDE4
+Description: screenshot utility for KDE 4
  KSnapshot is a simple applet for taking screenshots. It is capable of
  capturing images of either the whole desktop or just a single window.
  The images can then be saved in a variety of formats.
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: libokularcore1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: core library for okular, KDE4 document viewer
+Description: core library for okular, KDE 4 document viewer
  This package contains the core library for okular.
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: okular
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: okular-extra-backends (= ${binary:Version})
-Description: document viewer for KDE4
- Okular is the KDE4 universal document viewer.  In addition to viewing
+Description: document viewer for KDE 4
+ Okular is the KDE 4 universal document viewer.  In addition to viewing
  documents, it has support for annotations, forms, and embedded files.
  It can open many document formats, including:
   * PostScriptⓇ
@@ -157,7 +157,7 @@ Description: document viewer for KDE4
   * TeX Device independent file format (DVI)
   * various electronic book formats
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: okular-dev
@@ -166,7 +166,7 @@ Depends: libokularcore1 (= ${binary:Version}), libqt4-dev
 Description: development files for okular
  Development headers used when writing backends for okular.
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
 
 Package: okular-extra-backends
@@ -178,5 +178,5 @@ Description: extra backends for okular
   * Tagged Image File Format (TIFF)
   * DjVu
  .
- This package is part of KDE4, as a component of the KDE4 graphics module.
+ This package is part of KDE 4, as a component of the KDE 4 graphics module.
  See the 'kde' and 'kdegraphics' packages for more information.
