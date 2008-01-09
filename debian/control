@@ -151,7 +151,7 @@ Description: document viewer for KDE 4
  Okular is the KDE 4 universal document viewer.  In addition to viewing
  documents, it has support for annotations, forms, and embedded files.
  It can open many document formats, including:
-  * PostScriptⓇ
+  * PostScript (PS)
   * Portable Document Format (PDF)
   * OpenDocument format (ODF)
   * TeX Device independent file format (DVI)

@@ -1,4 +1,4 @@
-kdegraphics (4:4.0.0-1) experimental; urgency=low
+kdegraphics (4:4.0.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -15,7 +15,11 @@ kdegraphics (4:4.0.0-1) experimental; urgency=low
   * Rework dependencies and descriptions.
   * Add Homepage: to control.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jan 2008 09:45:12 +0100
+  +++ Changes by Armin Berres:
+
+  * Bump shlibs-version of libokularcore1.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Jan 2008 23:03:12 +0100
 
 kdegraphics (4:3.98.0~svn755919-1) experimental; urgency=low
 

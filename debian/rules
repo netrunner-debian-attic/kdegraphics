@@ -1,3 +1,5 @@
 #!/usr/bin/make -f
  
 include debian/cdbs/kde.mk
+
+DEB_DH_MAKESHLIBS_ARGS_libokularcore1 := -V'libokularcore1 (>= 4:4.0.0-1)'
