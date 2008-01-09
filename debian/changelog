@@ -7,6 +7,8 @@ kdegraphics (4:4.0.0-1) experimental; urgency=low
   * Bump build-depends to >=4.0.0-1.
   * Update *.install files.
   * Re-add kgamma.
+  * Remove LDFLAGS from rules, it has been merged in kde.mk.
+  * Update years in copyright file.
 
   +++ Changes by Matthew Rosewarne:
 
