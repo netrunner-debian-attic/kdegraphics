@@ -12,13 +12,13 @@ Homepage: http://www.kde.org/
 
 Package: kdegraphics
 Architecture: all
-Depends: gwenview (= ${binary:Version}), kamera (= ${binary:Version}),
- kcolorchooser (= ${binary:Version}), kgamma (= ${binary:Version}),
- kolourpaint4 (= ${binary:Version}), kruler (= ${binary:Version}),
- kscan (= ${binary:Version}), ksnapshot (= ${binary:Version}),
- okular (= ${binary:Version})
-Recommends: kdegraphics-strigi-plugins (= ${binary:Version}),
- okular-extra-backends (= ${binary:Version})
+Depends: gwenview (>= ${binary:Version}), kamera (>= ${binary:Version}),
+ kcolorchooser (>= ${binary:Version}), kgamma (>= ${binary:Version}),
+ kolourpaint4 (>= ${binary:Version}), kruler (>= ${binary:Version}),
+ kscan (>= ${binary:Version}), ksnapshot (>= ${binary:Version}),
+ okular (>= ${binary:Version})
+Recommends: kdegraphics-strigi-plugins (>= ${binary:Version}),
+ okular-extra-backends (>= ${binary:Version})
 Description: graphics applications from the official KDE 4 release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,

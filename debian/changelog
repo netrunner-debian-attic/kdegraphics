@@ -1,10 +1,10 @@
-kdegraphics (4:4.0.0-1) UNRELEASED; urgency=low
+kdegraphics (4:4.0.0-1) experimental; urgency=low
 
   * New upstream release.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Bump build-depends to >=4.0.0-1.
+  * Bump build-depends to >= 4.0.0-1.
   * Update *.install files.
   * Re-add kgamma.
   * Remove LDFLAGS from rules, it has been merged in kde.mk.
@@ -12,7 +12,7 @@ kdegraphics (4:4.0.0-1) UNRELEASED; urgency=low
 
   +++ Changes by Matthew Rosewarne:
 
-  * Rework dependencies and descriptions.
+  * Rework descriptions.
   * Add Homepage: to control.
 
   +++ Changes by Armin Berres:
