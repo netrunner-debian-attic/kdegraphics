@@ -1,0 +1,10 @@
+--- a/strigi-analyzer/CMakeLists.txt
++++ b/strigi-analyzer/CMakeLists.txt
+@@ -1,6 +1,6 @@
+ 
+ add_subdirectory( dvi )
+-add_subdirectory( ico )
++#add_subdirectory( ico )
+ add_subdirectory( ps )
+ 
+ message(STATUS "!!!!!!!!!!!!!!!!!!!! FIX THE KFILE PLUGINS !!!!!!!!!!!!!!!!!!!!!!!!!")
