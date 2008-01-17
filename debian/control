@@ -74,6 +74,8 @@ Description: digital camera io slave for konqueror
 Package: kcolorchooser
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kcoloredit (<< 4:4.0.0-1)
+Conflicts: kcoloredit (<< 4:4.0.0-1)
 Description: KDE 4's color chooser
  Kcolorchooser is a color chooser for KDE 4.
  .
