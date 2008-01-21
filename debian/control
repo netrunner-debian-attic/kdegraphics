@@ -34,7 +34,7 @@ Package: kdegraphics-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdebase-dbg
+Depends: kdebase-runtime-dbg
 Description: Debugging symbols for kdegraphics
  This package contains the debugging symbols associated with kdegraphics.
  They will automatically be used by gdb for debugging kdegraphics-related
