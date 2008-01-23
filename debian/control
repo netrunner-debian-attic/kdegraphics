@@ -12,13 +12,13 @@ Homepage: http://www.kde.org/
 
 Package: kdegraphics
 Architecture: all
-Depends: gwenview (>= ${binary:Version}), kamera (>= ${binary:Version}),
- kcolorchooser (>= ${binary:Version}), kgamma (>= ${binary:Version}),
- kolourpaint4 (>= ${binary:Version}), kruler (>= ${binary:Version}),
- kscan (>= ${binary:Version}), ksnapshot (>= ${binary:Version}),
- okular (>= ${binary:Version})
-Recommends: kdegraphics-strigi-plugins (>= ${binary:Version}),
- okular-extra-backends (>= ${binary:Version})
+Depends: gwenview (>= ${source:Version}), kamera (>= ${source:Version}),
+ kcolorchooser (>= ${source:Version}), kgamma (>= ${source:Version}),
+ kolourpaint4 (>= ${source:Version}), kruler (>= ${source:Version}),
+ kscan (>= ${source:Version}), ksnapshot (>= ${source:Version}),
+ okular (>= ${source:Version})
+Recommends: kdegraphics-strigi-plugins (>= ${source:Version}),
+ okular-extra-backends (>= ${source:Version})
 Description: Graphics applications from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -35,6 +35,7 @@ Section: libdevel
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
+Suggests: kdegraphics (= ${source:Version})
 Description: Debugging symbols for kdegraphics
  This package contains the debugging symbols associated with kdegraphics.
  They will automatically be used by gdb for debugging kdegraphics-related
@@ -78,8 +79,8 @@ Package: kcolorchooser
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kcoloredit (<< 4:4.0.0-1)
-Conflicts: kcoloredit (<< 4:4.0.0-1)
+Replaces: kcoloredit
+Conflicts: kcoloredit
 Description: Color chooser and palette editor for KDE 4
  KColorChooser is a color palette tool, used to mix colors and create custom
  color palettes.  Using the dropper, it can obtain the color of any pixel on
@@ -173,8 +174,8 @@ Description: Document viewer for KDE 4
  This package is part of the KDE 4 graphics module.
 
 Package: okular-dev
-Architecture: any
-Depends: libokularcore1 (= ${binary:Version}), libqt4-dev
+Architecture: all
+Depends: libokularcore1 (= ${source:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: Development files for the okular libraries
  This package contains headers and other related files needed to build document
  format backends for okular.
