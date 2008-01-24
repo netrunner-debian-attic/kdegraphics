@@ -4,7 +4,6 @@ kdegraphics (4:4.0.0-3) UNRELEASED; urgency=low
 
   * Use source:Version for kdegraphics metapackage.
   * Change okular-dev Depends from libqt4-dev to kdelibs5-dev.
-  * Change okular-dev to Architecture: all.
   * Change kdegraphics-dbg Depends from kdebase-dbg to kdebase-runtime-dbg.
   * Add Suggests: kdegraphics to kdegraphics-dbg.
   * Remove unnecessary version from kcoloredit Conflicts/Replaces.
