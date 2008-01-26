@@ -19,7 +19,7 @@ Depends: gwenview (>= ${source:Version}), kamera (>= ${source:Version}),
  okular (>= ${source:Version})
 Recommends: kdegraphics-strigi-plugins (>= ${source:Version}),
  okular-extra-backends (>= ${source:Version})
-Description: Graphics applications from the official KDE 4 release
+Description: graphics applications from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -36,7 +36,7 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdegraphics (= ${source:Version})
-Description: Debugging symbols for kdegraphics
+Description: debugging symbols for kdegraphics
  This package contains the debugging symbols associated with kdegraphics.
  They will automatically be used by gdb for debugging kdegraphics-related
  issues.
@@ -44,7 +44,7 @@ Description: Debugging symbols for kdegraphics
 Package: kdegraphics-strigi-plugins
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Graphics file format plugins for Strigi Desktop Search
+Description: graphics file format plugins for Strigi Desktop Search
  These plugins allow Strigi Desktop Search to extract additional information
  about several document and graphic file formats.
  .
@@ -59,7 +59,7 @@ Package: gwenview
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Image viewer for KDE 4
+Description: image viewer for KDE 4
  Gwenview is an image viewer, ideal for browsing and displaying a collection of
  images.  It is capable of showing images in a full-screen slideshow view and
  making simple adjustments, such as rotating or cropping images.
@@ -69,7 +69,7 @@ Description: Image viewer for KDE 4
 Package: kamera
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: Digital camera support for KDE 4 applications
+Description: digital camera support for KDE 4 applications
  This package allows any KDE 4 application to access and manipulate pictures on
  a digital camera.
  .
@@ -81,7 +81,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kcoloredit
 Conflicts: kcoloredit
-Description: Color chooser and palette editor for KDE 4
+Description: color chooser and palette editor for KDE 4
  KColorChooser is a color palette tool, used to mix colors and create custom
  color palettes.  Using the dropper, it can obtain the color of any pixel on
  the screen.
@@ -96,7 +96,7 @@ Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: Monitor calibration panel for KDE 4
+Description: monitor calibration panel for KDE 4
  This package contains a settings panel for adjusting the brightness, contrast,
  and gamma-correction of a monitor.  Test patterns are shown to help
  determine the settings that accurately display the full range of colors.
@@ -110,7 +110,7 @@ Package: kolourpaint4
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Simple image editor for KDE 4
+Description: simple image editor for KDE 4
  KolourPaint is a simple drawing and image editing application for KDE 4.
  It aims to be easy to use, providing a level of functionality targeted towards
  the average user. It is ideal for common tasks such as drawing simple graphics
@@ -122,7 +122,7 @@ Package: kruler
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Screen ruler for KDE 4
+Description: screen ruler for KDE 4
  KRuler is a tool for measuring the size, in pixels, of items on the screen.
  .
  This package is part of the KDE 4 graphics module.
@@ -130,7 +130,7 @@ Description: Screen ruler for KDE 4
 Package: kscan
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Scanner library for KDE 4
+Description: scanner library for KDE 4
  This package contains the KDE scanner library, which provides an API and
  widgets for using scanners and other imaging devices supported by SANE.
  .
@@ -140,7 +140,7 @@ Package: ksnapshot
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Screen capture tool for KDE 4
+Description: screen capture tool for KDE 4
  KSnapshot captures images of the screen.  It can capture the whole screen,
  a specified region, an individual window, or only part of a window.
  .
@@ -150,7 +150,7 @@ Package: libokularcore1
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Libraries for for the okular document viewer
+Description: libraries for for the okular document viewer
  This package contains libraries used by the okular document viewer.
  .
  This package is part of the KDE 4 graphics module.
@@ -160,7 +160,7 @@ Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: okular-extra-backends (= ${binary:Version})
-Description: Document viewer for KDE 4
+Description: document viewer for KDE 4
  Okular is a universal document viewer with support for advanced document
  features, such as annotations, forms, and embedded files.
  .
@@ -176,7 +176,7 @@ Description: Document viewer for KDE 4
 Package: okular-dev
 Architecture: any
 Depends: libokularcore1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
-Description: Development files for the okular libraries
+Description: development files for the okular libraries
  This package contains headers and other related files needed to build document
  format backends for okular.
  .
@@ -185,7 +185,7 @@ Description: Development files for the okular libraries
 Package: okular-extra-backends
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Additional document format support for okular
+Description: additional document format support for okular
  These plugins allow Okular to view additional document formats:
   * Microsoft Compiled HTML Help (CHM)
   * Tagged Image File Format (TIFF)
