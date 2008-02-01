@@ -36,10 +36,9 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdegraphics (= ${source:Version})
-Description: debugging symbols for kdegraphics
- This package contains the debugging symbols associated with kdegraphics.
- They will automatically be used by gdb for debugging kdegraphics-related
- issues.
+Description: debugging symbols for the KDE 4 graphics module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE 4 graphics module.
 
 Package: kdegraphics-strigi-plugins
 Architecture: any
@@ -177,8 +176,8 @@ Package: okular-dev
 Architecture: any
 Depends: libokularcore1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: development files for the okular libraries
- This package contains headers and other related files needed to build document
- format backends for okular.
+ This package contains development files for building okular document format
+ backends.
  .
  This package is part of the KDE 4 graphics module.
 
