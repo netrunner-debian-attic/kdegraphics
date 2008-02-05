@@ -1,19 +1,22 @@
-kdegraphics (4:4.0.1-1) UNRELEASED; urgency=low
+kdegraphics (4:4.0.1-1) experimental; urgency=low
 
   * New upstream release.
 
   +++ Changes by Armin Berres:
-  
+
   * Update installed files.
-  * Remove pacth 01_remove_ico_analyzer.diff. ico-analyzer got disabled
-    upstream.
+  * Remove patch 01_remove_ico_analyzer.diff. Merged upstream.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
-  * Update to debhelper 6. 
+
+  * Bump compat/debhelper 6.
   * Bump shlibs-version of libokularcore1.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 02 Feb 2008 04:23:25 +0100
+  +++ Changes by Fathi Boudra:
+
+  * Add Vcs-Browser and Vcs-Svn fields.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Feb 2008 21:43:49 +0100
 
 kdegraphics (4:4.0.0-3) experimental; urgency=low
 
