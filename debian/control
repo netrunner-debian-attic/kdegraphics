@@ -3,7 +3,7 @@ Section: kde
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, kdelibs5-dev (>= 4:4.0.1-1),
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, kdelibs5-dev (>= 4:4.0.2),
  libphonon-dev, libpoppler-qt-dev (>= 0.6.1-1), libpoppler-qt4-dev  (>= 0.6.1-1),
  libsane-dev, libtiff4-dev, libgphoto2-2-dev, libchm-dev, libdjvulibre-dev,
  libxxf86vm-dev, libqimageblitz-dev, libexiv2-dev, libgs-dev
@@ -176,7 +176,7 @@ Description: document viewer for KDE 4
 
 Package: okular-dev
 Architecture: any
-Depends: libokularcore1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.1-1)
+Depends: libokularcore1 (= ${binary:Version}), kdelibs5-dev (>= source:Upstream-Version)
 Description: development files for the okular libraries
  This package contains development files for building okular document format
  backends.
