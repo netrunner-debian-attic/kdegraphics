@@ -176,7 +176,7 @@ Description: document viewer for KDE 4
 
 Package: okular-dev
 Architecture: any
-Depends: libokularcore1 (= ${binary:Version}), kdelibs5-dev (>= source:Upstream-Version)
+Depends: libokularcore1 (= ${binary:Version}), kdelibs5-dev (>= ${source:Upstream-Version})
 Description: development files for the okular libraries
  This package contains development files for building okular document format
  backends.

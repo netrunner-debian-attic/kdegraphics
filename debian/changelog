@@ -2,7 +2,7 @@ kdegraphics (4:4.0.2-1) experimental; urgency=low
 
   * New upstream release:
     - Update installed files.
-    - Replace build-depends to >= 4.0.2 and use {source:Upstream-Version} 
+    - Replace build-depends to >= 4.0.2 and use ${source:Upstream-Version} 
       in the -dev package.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 04 Mar 2008 20:33:26 +0100
