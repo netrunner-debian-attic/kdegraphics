@@ -10,6 +10,8 @@ usr/lib/kde4/okularGenerator_plucker.so
 usr/lib/kde4/okularGenerator_poppler.so
 usr/lib/kde4/okularGenerator_xps.so
 usr/lib/kde4/okularpart.so
+usr/lib/libspectreOkular.so.1
+usr/lib/libspectreOkular.so.1.0.0
 usr/share/applications/kde4/okularApplication_comicbook.desktop
 usr/share/applications/kde4/okularApplication_dvi.desktop
 usr/share/applications/kde4/okularApplication_fb.desktop

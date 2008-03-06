@@ -1,3 +1,14 @@
+kdegraphics (4:4.0.2-2) UNRELEASED; urgency=low
+
+* Changes suggested by Pino Toscano:
+  - Remove Recommends: okular-extra-backends from kdegraphics since
+    okular already Recommends this.
+  - Remove usr/lib/libspectreOkular.so from libokular-dev and move 
+    usr/lib/libspectreOkular.so.* to okular. (This library has been killed in 
+    KDE 4.1)
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Mar 2008 00:25:50 +0100
+
 kdegraphics (4:4.0.2-1) experimental; urgency=low
 
   * New upstream release:
