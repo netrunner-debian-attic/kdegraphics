@@ -20,7 +20,6 @@ Depends: gwenview (>= ${source:Version}), kamera (>= ${source:Version}),
  kscan (>= ${source:Version}), ksnapshot (>= ${source:Version}),
  okular (>= ${source:Version})
 Recommends: kdegraphics-strigi-plugins (>= ${source:Version}),
- okular-extra-backends (>= ${source:Version})
 Description: graphics applications from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
