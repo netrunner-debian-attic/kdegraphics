@@ -6,6 +6,7 @@ kdegraphics (4:4.0.2-2) UNRELEASED; urgency=low
   - Remove usr/lib/libspectreOkular.so from libokular-dev and move 
     usr/lib/libspectreOkular.so.* to okular. (This library has been killed in 
     KDE 4.1)
+  * Remove unnecessary build depend on libpoppler-qt-dev, it is for Qt3...
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Mar 2008 00:25:50 +0100
 
