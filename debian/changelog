@@ -1,4 +1,4 @@
-kdegraphics (4:4.0.2-2) UNRELEASED; urgency=low
+kdegraphics (4:4.0.2-2) experimental; urgency=low
 
   * Changes suggested by Pino Toscano:
   - Remove Recommends: okular-extra-backends from kdegraphics since
