@@ -1,3 +1,11 @@
+kdegraphics (4:4.0.66+svn791114-1) experimental; urgency=low
+  
+  * First KDE 4.1 snapshot packaged.
+  * Update installed files.
+  * Add build depends on libspectre-dev and libqca2-dev.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 28 Mar 2008 23:31:00 +0100
+
 kdegraphics (4:4.0.2-2) experimental; urgency=low
 
   * Changes suggested by Pino Toscano:
