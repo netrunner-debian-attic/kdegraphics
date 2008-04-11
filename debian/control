@@ -151,7 +151,7 @@ Package: libokularcore1
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: libraries for for the okular document viewer
+Description: libraries for the okular document viewer
  This package contains libraries used by the okular document viewer.
  .
  This package is part of the KDE 4 graphics module.
