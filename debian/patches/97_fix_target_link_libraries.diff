@@ -1,0 +1,39 @@
+Index: b/kgamma/kcmkgamma/CMakeLists.txt
+===================================================================
+--- a/kgamma/kcmkgamma/CMakeLists.txt
++++ b/kgamma/kcmkgamma/CMakeLists.txt
+@@ -14,7 +14,7 @@
+ kde4_add_plugin(kcm_kgamma ${kcm_kgamma_PART_SRCS})
+ 
+ 
+-target_link_libraries(kcm_kgamma Xxf86vm ${KDE4_KDEUI_LIBS}
++target_link_libraries(kcm_kgamma Xxf86vm ${KDE4_KDEUI_LIBS} ${X11_X11_LIB}
+ ${KDE4_KDE3SUPPORT_LIBS} )
+ 
+ install(TARGETS kcm_kgamma  DESTINATION ${PLUGIN_INSTALL_DIR} )
+Index: b/okular/CMakeLists.txt
+===================================================================
+--- a/okular/CMakeLists.txt
++++ b/okular/CMakeLists.txt
+@@ -90,7 +90,7 @@
+     SET(OKULAR_IOKIT "-framework IOKit" CACHE STRING "Apple IOKit framework")
+ ENDIF(APPLE)
+ 
+-target_link_libraries(okularcore  ${OKULAR_IOKIT} ${KDE4_KIO_LIBS} ${KDE4_PHONON_LIBRARY} ${MATH_LIB} ${KDE4_THREADWEAVER_LIBRARY} )
++target_link_libraries(okularcore  ${OKULAR_IOKIT} ${KDE4_KIO_LIBS} ${KDE4_PHONON_LIBRARY} ${MATH_LIB} ${KDE4_THREADWEAVER_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTXML_LIBRARY} )
+ 
+ set_target_properties(okularcore PROPERTIES VERSION 1.1.0 SOVERSION 1 )
+ 
+Index: b/svgpart/CMakeLists.txt
+===================================================================
+--- a/svgpart/CMakeLists.txt
++++ b/svgpart/CMakeLists.txt
+@@ -6,7 +6,7 @@
+ 
+ kde4_add_plugin(svgpart ${svgpart_SRCS})
+ 
+-target_link_libraries(svgpart ${KDE4_KPARTS_LIBS})
++target_link_libraries(svgpart ${KDE4_KPARTS_LIBS} ${QT_QTSVG_LIBRARY})
+ 
+ install(TARGETS svgpart DESTINATION ${PLUGIN_INSTALL_DIR})
+ install(FILES svgpart.desktop DESTINATION ${SERVICES_INSTALL_DIR})

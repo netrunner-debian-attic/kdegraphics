@@ -1,3 +1,11 @@
+kdegraphics (4:4.0.71+svn801741-1) experimental; urgency=low
+
+  * New upstream snapshot
+  * Fix target link libraries
+  * add strigi build-deps
+
+ -- Sune Vuorela <debian@pusling.com>  Mon, 28 Apr 2008 10:05:50 +0200
+
 kdegraphics (4:4.0.68+svn794641-1) experimental; urgency=low
 
   * New upstream snapshot. 
