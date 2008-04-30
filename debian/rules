@@ -2,4 +2,4 @@
  
 include debian/cdbs/kde.mk
 
-DEB_DH_MAKESHLIBS_ARGS_libokularcore1 := -V'libokularcore1 (>= 4:4.0.68+svn794641-1)'
+DEB_DH_MAKESHLIBS_ARGS_libokularcore1 := -V'libokularcore1 (>= 4:4.0.71+svn802698-1)'

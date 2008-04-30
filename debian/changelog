@@ -11,6 +11,7 @@ kdegraphics (4:4.0.71+svn802698-1) experimental; urgency=low
 
   * Build depend on libpoppler-qt4-dev >= 0.8.0-1.
   * Build depend on kdelibs and libphonon from latest snapshot.
+  * Bump shlibs version of libokularcore1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 14:01:49 +0200
 
