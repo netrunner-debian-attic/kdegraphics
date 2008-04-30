@@ -1,10 +1,18 @@
-kdegraphics (4:4.0.71+svn801741-1) experimental; urgency=low
+kdegraphics (4:4.0.71+svn802698-1) experimental; urgency=low
 
   * New upstream snapshot
+
+  +++ Changes by Sune Vuorela:
+
   * Fix target link libraries
   * add strigi build-deps
 
- -- Sune Vuorela <debian@pusling.com>  Mon, 28 Apr 2008 10:05:50 +0200
+  +++ Changes by Armin Berres:
+
+  * Build depend on libpoppler-qt4-dev >= 0.8.0-1.
+  * Build depend on kdelibs and libphonon from latest snapshot.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 14:01:49 +0200
 
 kdegraphics (4:4.0.68+svn794641-1) experimental; urgency=low
 

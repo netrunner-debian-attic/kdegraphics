@@ -4,8 +4,8 @@ Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, 
- kdelibs5-dev (>= 4:4.0.68), libphonon-dev  (>= 4:4.0.68), 
- libpoppler-qt4-dev (>= 0.6.4-2), libspectre-dev, libqca2-dev,
+ kdelibs5-dev (>= 4:4.0.71+svn802698-1), libphonon-dev  (>= 4:4.0.71+svn802698-1), 
+ libpoppler-qt4-dev (>= 0.8.0-1), libspectre-dev, libqca2-dev,
  libsane-dev, libtiff4-dev, libgphoto2-2-dev, libchm-dev, libdjvulibre-dev,
  libxxf86vm-dev, libqimageblitz-dev (>=1:0.0.4-2), libexiv2-dev, libgs-dev,
  libstreamanalyzer-dev, libstreams-dev
