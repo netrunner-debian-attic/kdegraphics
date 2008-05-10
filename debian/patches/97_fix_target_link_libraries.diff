@@ -1,5 +1,3 @@
-Index: b/kgamma/kcmkgamma/CMakeLists.txt
-===================================================================
 --- a/kgamma/kcmkgamma/CMakeLists.txt
 +++ b/kgamma/kcmkgamma/CMakeLists.txt
 @@ -14,7 +14,7 @@
@@ -11,8 +9,6 @@ Index: b/kgamma/kcmkgamma/CMakeLists.txt
  ${KDE4_KDE3SUPPORT_LIBS} )
  
  install(TARGETS kcm_kgamma  DESTINATION ${PLUGIN_INSTALL_DIR} )
-Index: b/okular/CMakeLists.txt
-===================================================================
 --- a/okular/CMakeLists.txt
 +++ b/okular/CMakeLists.txt
 @@ -90,7 +90,7 @@
@@ -24,8 +20,6 @@ Index: b/okular/CMakeLists.txt
  
  set_target_properties(okularcore PROPERTIES VERSION 1.1.0 SOVERSION 1 )
  
-Index: b/svgpart/CMakeLists.txt
-===================================================================
 --- a/svgpart/CMakeLists.txt
 +++ b/svgpart/CMakeLists.txt
 @@ -6,7 +6,7 @@

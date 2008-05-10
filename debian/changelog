@@ -1,3 +1,9 @@
+kdegraphics (4:4.0.73-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 10 May 2008 15:30:37 +0200
+
 kdegraphics (4:4.0.72-1) experimental; urgency=low
 
   * New upstream snapshot.
