@@ -1,8 +1,12 @@
-kdegraphics (4:4.0.73-1) UNRELEASED; urgency=low
+kdegraphics (4:4.0.73+svn806642-1) UNRELEASED; urgency=low
 
-  * New upstream snapshot.
+  * New upstream snapshot:
+    - The latest upstream commit is r806642 by uwolfer
+    - Date: Sun May 11 22:03:01 2008 UTC
 
- -- Fathi Boudra <fabo@debian.org>  Sat, 10 May 2008 15:30:37 +0200
+  * kolourpaint4 renamed to kolourpaint. package name is still kolourpaint4.
+
+ -- Fathi Boudra <fabo@debian.org>  Mon, 12 May 2008 11:43:52 +0200
 
 kdegraphics (4:4.0.72-1) experimental; urgency=low
 
