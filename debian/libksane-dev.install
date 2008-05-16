@@ -1,0 +1,5 @@
+usr/include/libksane/ksane.h
+usr/include/libksane/libksane_export.h
+usr/include/libksane/version.h
+usr/lib/libksane.so
+usr/lib/pkgconfig/libksane.pc

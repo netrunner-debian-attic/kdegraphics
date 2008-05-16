@@ -129,12 +129,25 @@ Description: screen ruler for KDE 4
  .
  This package is part of the KDE 4 graphics module.
 
-Package: kscan
+Package: libksane
+Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: scanner library for KDE 4
- This package contains the KDE scanner library, which provides an API and
- widgets for using scanners and other imaging devices supported by SANE.
+Description: scanner library for KDE 4 (runtime)
+ The KDE scanner library provides an API and widgets for using scanners and
+ other imaging devices supported by SANE.
+ .
+ This package is part of the KDE 4 graphics module.
+
+Package: libksane-dev
+Section: libdevel
+Architecture: any
+Depends: libksane (= ${binary:Version}), kdelibs5-dev (>= ${source:Upstream-Version})
+Description: scanner library for KDE 4 (development)
+ The KDE scanner library provides an API and widgets for using scanners and
+ other imaging devices supported by SANE.
+ .
+ This package contains the scanner library development files for KDE 4.
  .
  This package is part of the KDE 4 graphics module.
 
@@ -176,6 +189,7 @@ Description: document viewer for KDE 4
  This package is part of the KDE 4 graphics module.
 
 Package: okular-dev
+Section: libdevel
 Architecture: any
 Depends: libokularcore1 (= ${binary:Version}), kdelibs5-dev (>= ${source:Upstream-Version})
 Description: development files for the okular libraries
