@@ -4,8 +4,8 @@ Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>= 2.6.0), quilt,
- kdelibs5-dev (>= 4:4.0.73-1), libphonon-dev  (>= 4:4.0.73-1),
- libpoppler-qt4-dev (>= 0.8.0-1), libspectre-dev, libqca2-dev,
+ kdelibs5-dev (>= 4:4.0.73), libphonon-dev (>= 4:4.0.73),
+ libpoppler-qt4-dev (>= 0.8.0), libspectre-dev, libqca2-dev,
  libsane-dev, libtiff4-dev, libgphoto2-2-dev, libchm-dev, libdjvulibre-dev,
  libxxf86vm-dev, libqimageblitz-dev (>= 1:0.0.4-2), libexiv2-dev, libgs-dev,
  libstreamanalyzer-dev, libstreams-dev
@@ -129,7 +129,7 @@ Description: screen ruler for KDE 4
  .
  This package is part of the KDE 4 graphics module.
 
-Package: libksane
+Package: libksane0
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -142,7 +142,7 @@ Description: scanner library for KDE 4 (runtime)
 Package: libksane-dev
 Section: libdevel
 Architecture: any
-Depends: libksane (= ${binary:Version}), kdelibs5-dev (>= ${source:Upstream-Version})
+Depends: libksane0 (= ${binary:Version}), kdelibs5-dev (>= ${source:Upstream-Version})
 Description: scanner library for KDE 4 (development)
  The KDE scanner library provides an API and widgets for using scanners and
  other imaging devices supported by SANE.
