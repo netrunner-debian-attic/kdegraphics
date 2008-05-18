@@ -1,10 +1,10 @@
-kdegraphics (4:4.0.74-1) UNRELEASED; urgency=low
+kdegraphics (4:4.0.74-1) experimental; urgency=low
 
   * New upstream snapshot.
   * kolourpaint4 renamed to kolourpaint. package name is still kolourpaint4.
   * kscan is replaced by libksane.
 
- -- Fathi Boudra <fabo@debian.org>  Mon, 12 May 2008 11:43:52 +0200
+ -- Fathi Boudra <fabo@debian.org>  Sun, 18 May 2008 10:01:46 +0200
 
 kdegraphics (4:4.0.72-1) experimental; urgency=low
 
