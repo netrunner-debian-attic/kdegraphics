@@ -1,2 +1,4 @@
 # kolourpaint don't have anything we need to link against
 ./usr/lib/libkolourpaint_lgpl.so
+# same for gwenview
+./usr/lib/libgwenviewlib.so

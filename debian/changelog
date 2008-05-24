@@ -1,3 +1,11 @@
+kdegraphics (4:4.0.80-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+  * Update patch 97.
+  * Update gewnview.install file.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 24 May 2008 14:37:52 +0200
+
 kdegraphics (4:4.0.74-1) experimental; urgency=low
 
   * New upstream snapshot.
