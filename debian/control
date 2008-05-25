@@ -19,7 +19,7 @@ Architecture: all
 Depends: gwenview (>= ${source:Version}), kamera (>= ${source:Version}),
  kcolorchooser (>= ${source:Version}), kgamma (>= ${source:Version}),
  kolourpaint4 (>= ${source:Version}), kruler (>= ${source:Version}),
- libksane (>= ${source:Version}), ksnapshot (>= ${source:Version}),
+ libksane0 (>= ${source:Version}), ksnapshot (>= ${source:Version}),
  okular (>= ${source:Version})
 Recommends: kdegraphics-strigi-plugins (>= ${source:Version}),
 Description: graphics applications from the official KDE 4 release
