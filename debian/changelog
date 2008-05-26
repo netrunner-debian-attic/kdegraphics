@@ -1,4 +1,4 @@
-kdegraphics (4:4.0.80-1) UNRELEASED; urgency=low
+kdegraphics (4:4.0.80-1) experimental; urgency=low
 
   * New upstream snapshot.
   * Update patch 97.
