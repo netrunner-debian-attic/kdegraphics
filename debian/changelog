@@ -4,8 +4,9 @@ kdegraphics (4:4.0.80-2) UNRELEASED; urgency=low
 
   * Bump kdelibs5-dev and libphonon-dev build dependencies to 4.0.80
     (Closes: #483115).
+  * Bump libokularcore1 shlibs (Closes: #483146).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 12:01:35 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 17:29:04 +0300
 
 kdegraphics (4:4.0.80-1) experimental; urgency=low
 
