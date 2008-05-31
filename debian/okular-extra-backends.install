@@ -9,7 +9,7 @@ usr/share/applications/kde4/okularApplication_epub.desktop
 usr/share/applications/kde4/okularApplication_tiff.desktop
 usr/share/kde4/services/libokularGenerator_chmlib.desktop
 usr/share/kde4/services/libokularGenerator_djvu.desktop
-usr/share/kde4/services/okularEPub.desktop
+usr/share/kde4/services/libokularGenerator_epub.desktop
 usr/share/kde4/services/libokularGenerator_tiff.desktop
 usr/share/kde4/services/msits.protocol
 usr/share/kde4/services/okularChm.desktop
