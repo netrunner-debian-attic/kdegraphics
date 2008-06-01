@@ -19,7 +19,7 @@ kdegraphics (4:4.0.81+svn814614-1) UNRELEASED; urgency=low
 
   +++ Changes by Fathi Boudra:
 
-  * Add Provides: pdf-viewer to okular as requested by Pino.
+  * Add Provides: pdf-viewer to okular as requested by Pino. (Closes: #471964)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 May 2008 12:13:11 +0200
 
