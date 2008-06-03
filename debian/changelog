@@ -1,4 +1,4 @@
-kdegraphics (4:4.0.81+svn814614-1) UNRELEASED; urgency=low
+kdegraphics (4:4.0.81+svn816283-1) UNRELEASED; urgency=low
 
   * New upstream snapshot.
 
@@ -13,7 +13,7 @@ kdegraphics (4:4.0.81+svn814614-1) UNRELEASED; urgency=low
   * Update build dependencies:
     - Bump kdelibs5-dev to (>= 4:4.0.81).
     - Change libphonon-dev to new versioning (>= 4:4.2~).
-    - Add libepub-dev.
+    - Add libepub-dev and liblcms1-dev.
   * Bump shlibs version of libokularcore1 to 4:4.0.81.
   * Update okular-extra-backends.install to install files for EPub format.
 
