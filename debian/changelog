@@ -20,8 +20,7 @@ kdegraphics (4:4.0.81+svn816146-1) UNRELEASED; urgency=low
   +++ Changes by Fathi Boudra:
 
   * Add Provides: pdf-viewer to okular as requested by Pino. (Closes: #471964)
-  * Add libkdcraw5, libkexiv26, libkipi5 packages.
-    TODO: check conflicting files against KDE3 versions.
+  * Add libkdcraw5, libkexiv2-6, libkipi5 packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jun 2008 01:04:34 +0200
 

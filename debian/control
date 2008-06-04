@@ -214,6 +214,7 @@ Package: libkdcraw5-dev
 Section: libdevel
 Architecture: any
 Depends: libkdcraw5 (= ${binary:Version}), pkg-config
+Conflicts: libkdcraw-dev
 Description: RAW picture decoding C++ library (development)
  Libkdcraw is a C++ interface around dcraw binary program used to
  decode Raw picture files.
@@ -233,17 +234,18 @@ Description: Raw picture decoding C++ library (runtime)
  .
  libkdcraw5 contains the library of libkdcraw.
 
-Package: libkexiv26-dev
+Package: libkexiv2-6-dev
 Section: libdevel
 Architecture: any
-Depends: libkexiv26 (= ${binary:Version}), pkg-config
+Depends: libkexiv2-6 (= ${binary:Version}), pkg-config
+Conflicts: libkexiv2-dev
 Description: Qt like interface for the libexiv2 library (development)
  libkexif2-dev contains development files and documentation for libkexiv2
  library.  The library documentation is available on kexiv2.h header file.
  .
  Libkexif is a wrapper around Exiv2 library to manipulate pictures metadata.
 
-Package: libkexiv26
+Package: libkexiv2-6
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
@@ -256,6 +258,7 @@ Package: libkipi5-dev
 Section: libdevel
 Architecture: any
 Depends: libkipi5 (= ${binary:Version}), pkg-config
+Conflicts: libkipi0-dev
 Description: library for apps that want to use kipi-plugins (development version)
  Libkipi is a library
  .
@@ -269,6 +272,7 @@ Package: libkipi5
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
+Conflicts: libkipi0
 Description: library for apps that want to use kipi-plugins (runtime version)
  Libkipi is a library
  .
