@@ -2,8 +2,6 @@ usr/bin/gwenview
 usr/lib/kde4/gvpart.so
 usr/lib/kde4/svgpart.so
 usr/lib/libgwenviewlib.so.*
-usr/lib/libkipi.so.5.0.0
-usr/lib/libkipi.so.5
 usr/share/applications/kde4/gwenview.desktop
 usr/share/doc/kde4/HTML/en/gwenview/
 usr/share/icons/hicolor/128x128/apps/gwenview.png

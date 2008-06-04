@@ -209,3 +209,69 @@ Description: additional document format support for okular
   * DjVu scanned page format
  .
  This package is part of the KDE 4 graphics module.
+
+Package: libkdcraw5-dev
+Section: libdevel
+Architecture: any
+Depends: libkdcraw5 (= ${binary:Version}), pkg-config
+Description: RAW picture decoding C++ library (development)
+ Libkdcraw is a C++ interface around dcraw binary program used to
+ decode Raw picture files.
+ .
+ libkdcraw-dev contains development files and documentation. The
+ library documentation is available on kdcraw.h header file.
+
+Package: libkdcraw5
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Raw picture decoding C++ library (runtime)
+ C++ interface around dcraw binary program used to decode RAW
+ picture files.
+ .
+ This library is used by kipi-plugins, digiKam and others kipi host programs.
+ .
+ libkdcraw5 contains the library of libkdcraw.
+
+Package: libkexiv26-dev
+Section: libdevel
+Architecture: any
+Depends: libkexiv26 (= ${binary:Version}), pkg-config
+Description: Qt like interface for the libexiv2 library (development)
+ libkexif2-dev contains development files and documentation for libkexiv2
+ library.  The library documentation is available on kexiv2.h header file.
+ .
+ Libkexif is a wrapper around Exiv2 library to manipulate pictures metadata.
+
+Package: libkexiv26
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Qt like interface for the libexiv2 library (runtime)
+ libkexif2 contains the library of libkexiv2.
+ .
+ Libkexif is a wrapper around Exiv2 library to manipulate pictures metadata.
+
+Package: libkipi5-dev
+Section: libdevel
+Architecture: any
+Depends: libkipi5 (= ${binary:Version}), pkg-config
+Description: library for apps that want to use kipi-plugins (development version)
+ Libkipi is a library
+ .
+     o that contains common routines and widget used by kipi-plugins
+     o to ease implementation of the kipi-plugins interface in an application
+       that wants to use kipi-plugins
+ .
+ This pkg contains development files and documentation for libkipi library.
+
+Package: libkipi5
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: library for apps that want to use kipi-plugins (runtime version)
+ Libkipi is a library
+ .
+     o that contains common routines and widget used by kipi-plugins
+     o to ease implementation of the kipi-plugins interface in an application
+       that wants to use kipi-plugins

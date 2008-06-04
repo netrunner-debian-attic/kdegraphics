@@ -1,0 +1,5 @@
+usr/include/libkexiv2/kexiv2.h
+usr/include/libkexiv2/libkexiv2_export.h
+usr/include/libkexiv2/version.h
+usr/lib/libkexiv2.so
+usr/lib/pkgconfig/libkexiv2.pc
