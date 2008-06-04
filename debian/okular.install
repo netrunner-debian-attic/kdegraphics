@@ -1,4 +1,4 @@
-etc/kde4/okular.knsrc
+usr/share/kde4/config/okular.knsrc
 usr/bin/okular
 usr/lib/kde4/okularGenerator_comicbook.so
 usr/lib/kde4/okularGenerator_dvi.so
