@@ -207,6 +207,7 @@ Description: additional document format support for okular
   * Microsoft Compiled HTML Help (CHM)
   * Tagged Image File Format (TIFF)
   * DjVu scanned page format
+  * EPub eBooks
  .
  This package is part of the KDE 4 graphics module.
 

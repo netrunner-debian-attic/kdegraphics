@@ -22,7 +22,11 @@ kdegraphics (4:4.0.81+svn816146-1) UNRELEASED; urgency=low
   * Add Provides: pdf-viewer to okular as requested by Pino. (Closes: #471964)
   * Add libkdcraw5, libkexiv2-6, libkipi5 packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jun 2008 01:04:34 +0200
+  +++ Changes by Pino Toscano:
+
+  * Add EPub in the description of okular-extra-backends.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Jun 2008 16:31:53 +0200
 
 kdegraphics (4:4.0.80-1) experimental; urgency=low
 
