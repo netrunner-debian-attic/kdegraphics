@@ -25,8 +25,9 @@ kdegraphics (4:4.0.81+svn816146-1) UNRELEASED; urgency=low
   +++ Changes by Pino Toscano:
 
   * Add EPub in the description of okular-extra-backends.
+  * "okular" -> "Okular" in descriptions.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Jun 2008 16:31:53 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 11 Jun 2008 01:41:53 +0200
 
 kdegraphics (4:4.0.80-1) experimental; urgency=low
 
