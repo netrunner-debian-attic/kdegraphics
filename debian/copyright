@@ -219,9 +219,6 @@ These files are under the GPL.
 Files under okular/
 
 These files are under the GPL.
-Files under generators/ghostviem/ghostscript/ references a LICENSE file currently 
-not shipped in the source package. Those files are lifted from the gs-gpl package
-and the LICENSE file in there says GPL.
 
 
 Files under strigi-analyzer/
