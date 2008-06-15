@@ -1,4 +1,4 @@
-kdegraphics (4:4.0.81+svn816146-1) UNRELEASED; urgency=low
+kdegraphics (4:4.0.81+svn819867-1) experimental; urgency=low
 
   * New upstream snapshot.
 
@@ -11,7 +11,7 @@ kdegraphics (4:4.0.81+svn816146-1) UNRELEASED; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update build dependencies:
-    - Bump kdelibs5-dev to (>= 4:4.0.81).
+    - Bump kdelibs5-dev to (>= 4:4.0.82).
     - Change libphonon-dev to new versioning (>= 4:4.2~).
     - Add libepub-dev and liblcms1-dev.
   * Bump shlibs version of libokularcore1 to 4:4.0.81.
@@ -28,7 +28,7 @@ kdegraphics (4:4.0.81+svn816146-1) UNRELEASED; urgency=low
   * "okular" -> "Okular" in descriptions.
   * Remove old references to gs for Okular in copyright and control.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Jun 2008 17:46:05 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Jun 2008 23:05:00 +0200
 
 kdegraphics (4:4.0.80-1) experimental; urgency=low
 
