@@ -1,3 +1,9 @@
+kdegraphics (4:4.0.84-2) UNRELEASED; urgency=low
+
+  * Add Conflict/Replaces to kolourpaint4 with kolourpaint. (Closes: #483493)
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 02 Jul 2008 00:57:32 +0200
+
 kdegraphics (4:4.0.84-1) experimental; urgency=low
 
   * New upstream snapshot.

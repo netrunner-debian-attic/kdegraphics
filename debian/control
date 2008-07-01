@@ -111,6 +111,8 @@ Description: monitor calibration panel for KDE 4
 Package: kolourpaint4
 Section: graphics
 Architecture: any
+Conflicts: kolourpaint4
+Replaces: kolourpaint
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: simple image editor for KDE 4
  KolourPaint is a simple drawing and image editing application for KDE 4.
