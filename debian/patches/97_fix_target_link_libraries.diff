@@ -1,14 +1,3 @@
---- a/kgamma/kcmkgamma/CMakeLists.txt
-+++ b/kgamma/kcmkgamma/CMakeLists.txt
-@@ -14,7 +14,7 @@
- kde4_add_plugin(kcm_kgamma ${kcm_kgamma_PART_SRCS})
- 
- 
--target_link_libraries(kcm_kgamma Xxf86vm ${KDE4_KDEUI_LIBS}
-+target_link_libraries(kcm_kgamma Xxf86vm ${KDE4_KDEUI_LIBS} ${X11_X11_LIB}
- ${KDE4_KDE3SUPPORT_LIBS} )
- 
- install(TARGETS kcm_kgamma  DESTINATION ${PLUGIN_INSTALL_DIR} )
 --- a/okular/CMakeLists.txt
 +++ b/okular/CMakeLists.txt
 @@ -99,7 +99,7 @@
