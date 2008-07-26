@@ -12,6 +12,7 @@ usr/share/icons/hicolor/48x48/apps/gwenview.png
 usr/share/icons/hicolor/64x64/apps/gwenview.png
 usr/share/icons/hicolor/scalable/apps/gwenview.svgz
 usr/share/kde4/apps/gvpart/gvpart.rc
+usr/share/kde4/apps/gvpart/gvpart-gwenview.rc
 usr/share/kde4/apps/gwenview/
 usr/share/kde4/apps/svgpart/svgpart.rc
 usr/share/kde4/services/gvpart.desktop

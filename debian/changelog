@@ -1,6 +1,7 @@
 kdegraphics (4:4.1.0-1) experimental; urgency=low
 
   * New upstream release.
+  * Update installed files in gwenview.install.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 26 Jul 2008 09:59:45 +0200
 
