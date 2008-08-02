@@ -1,3 +1,11 @@
+kdegraphics (4:4.1.0-2) UNRELEASED; urgency=low
+
+  +++ Changes by Pino Toscano:
+
+  * Make okular-extra-backends provide the virtual package djvu-viewer.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jun 2008 15:03:32 +0200
+
 kdegraphics (4:4.1.0-1) experimental; urgency=low
 
   * New upstream release.

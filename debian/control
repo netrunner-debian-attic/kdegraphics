@@ -204,6 +204,7 @@ Description: development files for the Okular libraries
 Package: okular-extra-backends
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: djvu-viewer
 Description: additional document format support for Okular
  These plugins allow Okular to view additional document formats:
   * Microsoft Compiled HTML Help (CHM)
