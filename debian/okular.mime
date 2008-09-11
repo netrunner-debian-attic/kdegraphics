@@ -1,0 +1,3 @@
+application/pdf;        okular %s;        nametemplate=%s.pdf;    test=test "$DISPLAY" != "";     priority=6
+application/postscript; okular %s;        nametemplate=%s.ps;     test=test "$DISPLAY" != "";     priority=5
+application/x-dvi;      okular %s;        nametemplate=%s.dvi;    test=test "$DISPLAY" != "";     priority=4
