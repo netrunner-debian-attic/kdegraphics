@@ -1,4 +1,8 @@
-kdegraphics (4:4.1.1-2) UNRELEASED; urgency=low
+kdegraphics (4:4.1.2-0) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  * TODO: libkdcraw.so.5.0.0 -> libkdcraw.so.6.0.0
 
   +++ Changes by Pino Toscano:
 
@@ -9,7 +13,7 @@ kdegraphics (4:4.1.1-2) UNRELEASED; urgency=low
     + silent warnings about missing application referenced in .desktop files,
       as the executable is in the okular package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Sep 2008 01:27:46 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Sep 2008 16:34:32 +0200
 
 kdegraphics (4:4.1.1-1) experimental; urgency=low
 
