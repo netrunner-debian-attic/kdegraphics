@@ -1,8 +1,23 @@
-kdegraphics (4:4.1.1-1~lenny+1) lenny; urgency=low
+kdegraphics (4:4.1.2-1~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 11 Sep 2008 13:17:08 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 07 Oct 2008 18:19:53 +0200
+
+kdegraphics (4:4.1.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Pino Toscano:
+
+  * okular.mime:
+  * okular-extra-backends.mime:
+    + add mailcap entries for PDF, PS, DVI, DjVu, TIFF. (Closes: #495802)
+  * okular-extra-backends.lintian:
+    + silent warnings about missing application referenced in .desktop files,
+      as the executable is in the okular package.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Oct 2008 20:14:23 +0200
 
 kdegraphics (4:4.1.1-1) experimental; urgency=low
 
@@ -13,12 +28,6 @@ kdegraphics (4:4.1.1-1) experimental; urgency=low
   * Make okular-extra-backends provide the virtual package djvu-viewer.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Jun 2008 11:30:16 +0200
-
-kdegraphics (4:4.1.0-1~lenny+1) lenny; urgency=low
-
-  * Backport for Lenny.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 19 Aug 2008 16:58:08 +0200
 
 kdegraphics (4:4.1.0-1) experimental; urgency=low
 
