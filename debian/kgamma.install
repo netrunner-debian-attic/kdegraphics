@@ -1,5 +1,8 @@
 usr/bin/xf86gammacfg
 usr/lib/kde4/kcm_kgamma.so
+usr/share/doc/kde4/HTML/en/kgamma/common
+usr/share/doc/kde4/HTML/en/kgamma/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kgamma/index.docbook
 usr/share/icons/hicolor/16x16/apps/kgamma.png
 usr/share/icons/hicolor/32x32/apps/kgamma.png
 usr/share/icons/hicolor/48x48/apps/kgamma.png
@@ -11,7 +14,3 @@ usr/share/kde4/apps/kgamma/pics/lightgrey.png
 usr/share/kde4/apps/kgamma/pics/midgrey.png
 usr/share/kde4/apps/kgamma/pics/rgbscale.png
 usr/share/kde4/services/kgamma.desktop
-usr/share/doc/kde4/HTML/en/kgamma/common
-usr/share/doc/kde4/HTML/en/kgamma/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kgamma/index.docbook
-

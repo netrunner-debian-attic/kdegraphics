@@ -2,7 +2,8 @@ usr/bin/kbackgroundsnapshot
 usr/bin/ksnapshot
 usr/share/applications/kde4/ksnapshot.desktop
 usr/share/dbus-1/interfaces/org.kde.ksnapshot.xml
-usr/share/doc/kde4/HTML/en/ksnapshot
+usr/share/doc/kde4/HTML/en/ksnapshot/common
+usr/share/doc/kde4/HTML/en/ksnapshot/index.cache.bz2
 usr/share/doc/kde4/HTML/en/ksnapshot/index.docbook
 usr/share/doc/kde4/HTML/en/ksnapshot/preview.png
 usr/share/doc/kde4/HTML/en/ksnapshot/window.png

@@ -3,13 +3,13 @@ Section: kde
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>= 2.6.0), quilt,
- kdelibs5-dev (>= 4:4.1.3), libphonon-dev (>= 4:4.2.0),
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
+ kdelibs5-dev (>= 4:4.1.80), libphonon-dev (>= 4:4.2.0),
  libpoppler-qt4-dev (>= 0.8.0), libspectre-dev, libqca2-dev,
  libsane-dev, libtiff4-dev, libgphoto2-2-dev, libchm-dev, libdjvulibre-dev,
  libxxf86vm-dev, libqimageblitz-dev (>= 1:0.0.4-2), libexiv2-dev,
  libstreamanalyzer-dev, libstreams-dev, libepub-dev, liblcms1-dev
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdegraphics
 Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdegraphics
@@ -214,11 +214,11 @@ Description: additional document format support for Okular
  .
  This package is part of the KDE 4 graphics module.
 
-Package: libkdcraw5-dev
+Package: libkdcraw7-dev
 Section: libdevel
 Architecture: any
-Depends: libkdcraw5 (= ${binary:Version}), pkg-config
-Conflicts: libkdcraw-dev
+Depends: libkdcraw7 (= ${binary:Version}), pkg-config
+Conflicts: libkdcraw-dev, libkdcraw5-dev
 Description: RAW picture decoding C++ library (development)
  Libkdcraw is a C++ interface around dcraw binary program used to
  decode Raw picture files.
@@ -226,10 +226,12 @@ Description: RAW picture decoding C++ library (development)
  libkdcraw-dev contains development files and documentation. The
  library documentation is available on kdcraw.h header file.
 
-Package: libkdcraw5
+Package: libkdcraw7
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
+Conflicts: libkdcraw5
+Replaces: libkdcraw5
 Description: Raw picture decoding C++ library (runtime)
  C++ interface around dcraw binary program used to decode RAW
  picture files.
@@ -238,18 +240,18 @@ Description: Raw picture decoding C++ library (runtime)
  .
  libkdcraw5 contains the library of libkdcraw.
 
-Package: libkexiv2-6-dev
+Package: libkexiv2-7-dev
 Section: libdevel
 Architecture: any
-Depends: libkexiv2-6 (= ${binary:Version}), pkg-config
-Conflicts: libkexiv2-dev
+Depends: libkexiv2-7 (= ${binary:Version}), pkg-config
+Conflicts: libkexiv2-dev, libkexiv2-6-dev
 Description: Qt like interface for the libexiv2 library (development)
  libkexif2-dev contains development files and documentation for libkexiv2
  library.  The library documentation is available on kexiv2.h header file.
  .
  Libkexif is a wrapper around Exiv2 library to manipulate pictures metadata.
 
-Package: libkexiv2-6
+Package: libkexiv2-7
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
@@ -258,11 +260,11 @@ Description: Qt like interface for the libexiv2 library (runtime)
  .
  Libkexif is a wrapper around Exiv2 library to manipulate pictures metadata.
 
-Package: libkipi5-dev
+Package: libkipi6-dev
 Section: libdevel
 Architecture: any
-Depends: libkipi5 (= ${binary:Version}), pkg-config
-Conflicts: libkipi0-dev
+Depends: libkipi6 (= ${binary:Version}), pkg-config
+Conflicts: libkipi0-dev, libkipi5-dev
 Description: library for apps that want to use kipi-plugins (development version)
  Libkipi is a library
  .
@@ -272,11 +274,12 @@ Description: library for apps that want to use kipi-plugins (development version
  .
  This pkg contains development files and documentation for libkipi library.
 
-Package: libkipi5
+Package: libkipi6
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
-Conflicts: libkipi0
+Conflicts: libkipi0, libkipi5
+Replaces: libkipi5
 Description: library for apps that want to use kipi-plugins (runtime version)
  Libkipi is a library
  .

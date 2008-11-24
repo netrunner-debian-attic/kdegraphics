@@ -1,7 +1,5 @@
-usr/lib/libkdcraw.so.5
-usr/lib/libkdcraw.so.5.0.0
-usr/lib/libkdcraw5/CAMERALIST
-usr/lib/libkdcraw5/kdcraw
+usr/lib/libkdcraw.so.7
+usr/lib/libkdcraw.so.7.0.0
 usr/share/icons/hicolor/128x128/apps/kdcraw.png
 usr/share/icons/hicolor/32x32/apps/kdcraw.png
 usr/share/icons/hicolor/48x48/apps/kdcraw.png

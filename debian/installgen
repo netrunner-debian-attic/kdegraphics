@@ -1,0 +1,88 @@
+[libkdcraw7-dev]
+from:\blibs/libkdcraw/ dst:usr/include
+from:\blibs/libkdcraw/ dst:usr/lib/libkdcraw.so$
+from:\blibs/libkdcraw/ dst:pkgconfig
+
+[libkdcraw7]
+dst:usr/lib/libkdcraw\.so\.7\b
+stop dst:usr/lib/libkdcraw\.so\.
+from:\blibs/libkdcraw/
+
+[libkexiv2-7-dev]
+from:\blibs/libkexiv2/ dst:usr/include
+from:\blibs/libkexiv2/ dst:usr/lib/libkexiv2.so$
+from:\blibs/libkexiv2/ dst:pkgconfig
+
+[libkexiv2-7]
+dst:usr/lib/libkexiv2\.so\.7\b
+stop dst:usr/lib/libkexiv2\.so\.
+from:\blibs/libkexiv2/
+
+[libkipi6-dev]
+from:\blibs/libkipi/ dst:usr/include
+from:\blibs/libkipi/ dst:usr/lib/libkipi.so$
+from:\blibs/libkipi/ dst:pkgconfig
+
+[libkipi6]
+dst:usr/lib/libkipi\.so\.6\b
+stop dst:usr/lib/libkipi\.so\.
+from:\blibs/libkipi/
+
+[libksane-dev]
+from:\blibs/libksane/ dst:usr/include
+from:\blibs/libksane/ dst:usr/lib/libksane.so$
+from:\blibs/libksane/ dst:pkgconfig
+dst:Sane\.cmake$
+
+[libksane0]
+dst:usr/lib/libksane\.so\.0\b
+stop dst:usr/lib/libkipi\.so\.
+from:\blibs/libksane/
+from:\bksaneplugin/
+
+[libokularcore1]
+dst:usr/lib/libokularcore\.so\.1\b
+
+[okular-dev]
+from:\bokular/ dst:usr/include
+from:\bokular/ dst:usr/lib/libokularcore.so$
+from:\bokular/ dst:pkgconfig
+dst:Okular\.cmake$
+
+[devel_virtual]
+stop dst:usr/include
+miss dst:usr/lib/lib[^/]+\.so$ link:usr/lib/lib[^/]+\.so\.
+
+[okular-extra-backends]
+from:\bokular/generators/chm/
+from:\bokular/generators/djvu/
+from:\bokular/generators/epub/
+from:\bokular/generators/tiff/
+
+[okular]
+from:\bokular/
+
+[kdegraphics-strigi-plugins]
+from:\bstrigi-analyzer/
+
+[gwenview]
+from:\bgwenview/
+from:\bsvgpart/
+
+[kamera]
+from:\bkamera/
+
+[kcolorchooser]
+from:\bkcolorchooser/
+
+[kgamma]
+from:\bkgamma/
+
+[kolourpaint4]
+from:\bkolourpaint/
+
+[kruler]
+from:\bkruler/
+
+[ksnapshot]
+from:\bksnapshot/
