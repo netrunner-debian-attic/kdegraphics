@@ -1,4 +1,4 @@
-kdegraphics (4:4.1.80+svn888269-0r1) UNRELEASED; urgency=low
+kdegraphics (4:4.1.80+svn890018-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -13,7 +13,12 @@ kdegraphics (4:4.1.80+svn888269-0r1) UNRELEASED; urgency=low
     - libkcdraw: 5 -> 7, add conflicts, replaces;
     - libexiv2: 6 -> 7.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Nov 2008 12:30:06 +0200
+  +++ Changes by George Kiagiadakis:
+
+  * Make okular-dev and libksane-dev depend on ${sameVersionDep:kdelibs5-dev}
+    instead of kdelibs5-dev (>= ${source:Upstream-Version}).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 11:51:30 +0000
 
 kdegraphics (4:4.1.3-1) experimental; urgency=low
 

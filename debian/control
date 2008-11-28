@@ -144,7 +144,7 @@ Description: scanner library for KDE 4 (runtime)
 Package: libksane-dev
 Section: libdevel
 Architecture: any
-Depends: libksane0 (= ${binary:Version}), kdelibs5-dev (>= ${source:Upstream-Version})
+Depends: libksane0 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libksane0}
 Description: scanner library for KDE 4 (development)
  The KDE scanner library provides an API and widgets for using scanners and
  other imaging devices supported by SANE.
@@ -194,7 +194,7 @@ Description: document viewer for KDE 4
 Package: okular-dev
 Section: libdevel
 Architecture: any
-Depends: libokularcore1 (= ${binary:Version}), kdelibs5-dev (>= ${source:Upstream-Version})
+Depends: libokularcore1 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libokularcore1}
 Description: development files for the Okular libraries
  This package contains development files for building Okular document format
  backends.
