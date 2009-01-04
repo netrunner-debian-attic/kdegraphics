@@ -1,11 +1,11 @@
-kdegraphics (4:4.1.86+svn903457-0r1) UNRELEASED; urgency=low
+kdegraphics (4:4.1.87+svn905238-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
   +++ Changes by Modestas Vainius:
 
   * Remove cmake from Build-Depends.
-  * Bump kdelibs5-dev build dependency to 4:4.1.80
+  * Bump kdelibs5-dev build dependency to 4:4.1.87.
   * Bump Standards-Version to 3.8.0: add README.source.
   * Add debian/installgen and update install files.
   * Soname bumps, rename packages and debhelper files:
