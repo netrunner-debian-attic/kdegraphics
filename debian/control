@@ -8,7 +8,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
  libpoppler-qt4-dev (>= 0.8.0), libspectre-dev, libqca2-dev,
  libsane-dev, libtiff4-dev, libgphoto2-2-dev, libchm-dev, libdjvulibre-dev,
  libxxf86vm-dev, libqimageblitz-dev (>= 1:0.0.4-2), libexiv2-dev,
- libstreamanalyzer-dev, libstreams-dev, libepub-dev, liblcms1-dev
+ libstreamanalyzer-dev (>= 0.6.3), libstreams-dev (>= 0.6.3), libepub-dev, liblcms1-dev
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdegraphics
