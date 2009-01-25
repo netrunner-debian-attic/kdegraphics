@@ -39,7 +39,7 @@ Copyright:
     Copyright (C) 2001-2008 Marcus Meissner <marcus@jet.franken.de>
     Copyright (C) 2003, 2006-2007 Laurent Montel <montel@kde.org>
     Copyright (C) 2001 The Kompany
-    Copyright (C) 2003-2004 Christophe Devriese <Christophe.Devriese@student.kuleuven.ac.be>
+    Copyright (C) 2002-2004 Christophe Devriese <Christophe.Devriese@student.kuleuven.ac.be>
     Copyright (C) 2006-2007, 2009 Brad Hards <bradh@frogmouth.net>
     Copyright (C) 2007 John Layt <john@layt.net>
     Copyright (C) 2008 Ely Levy <elylevy@cs.huji.ac.il>
@@ -101,7 +101,7 @@ Copyright:
     Copyright (C) 2004 Henrique Pinto <stampede@coltec.ufmg.br>
     Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
     Copyright (C) 2004 Christoph Cullmann <crossfire@babylon2k.de>
-    Copyright (C) 2004 Dave Coffin
+    Copyright (C) 2004 Dave Coffin <dcoffin@cybercom.net>
     Copyright (C) 2003 Daniel Molkentin <molkentin@kde.org>
     Copyright (C) 1992-2008 Trolltech ASA. All Rights Reserved.
 
@@ -132,7 +132,7 @@ When "under GPL" is mentioned, it means GPL like this:
 Files under cmake/
 
 These files are under this license:
-	
+    
     | Redistribution and use in source and binary forms, with or without
     | modification, are permitted provided that the following conditions
     | are met:
@@ -177,68 +177,73 @@ These files are under the GNU Free Documentation License v1.2
 Files under gwenview/
 
 These files are under the GPL - except:
-	apps/jinclude.h: * Copyright (C) 1991-1994, Thomas G. Lane.
-	apps/jpegint.h: * Copyright (C) 1991-1997, Thomas G. Lane.
-	apps/transupp.c: * Copyright (C) 1997, Thomas G. Lane.
-	apps/transupp.h: * Copyright (C) 1997, Thomas G. Lane.
-	All files says:
-	 * This file is part of the Independent JPEG Group's software.
-	 * For conditions of distribution and use, see the accompanying README file.
-	but README file isn't around. Luckily it can be located in the libjpeg6b 
-	sources, where these files are lifted from. (This is fixed in upstream svn)
-	The license-relevant part of the much bigger README file:
+    lib/gwenviewlib_export.h: LGPL version 2 or later
+    lib/libjpeg/jinclude.h: * Copyright (C) 1991-1994, Thomas G. Lane.
+    lib/libjpeg/jpegint.h: * Copyright (C) 1991-1997, Thomas G. Lane.
+    lib/libjpeg/transupp.c: * Copyright (C) 1997, Thomas G. Lane.
+    lib/libjpeg/transupp.h: * Copyright (C) 1997, Thomas G. Lane.
+    All files says:
+     * This file is part of the Independent JPEG Group's software.
+     * For conditions of distribution and use, see the accompanying README file.
 
-	In plain English:
+    In plain English:
 
-  	   1. We don't promise that this software works.  (But if you find any bugs,
-	      please let us know!)
-	   2. You can use this software for whatever you want.  You don't have to pay 
-	      us.
-	   3. You may not pretend that you wrote this software.  If you use it in a
-	      program, you must acknowledge somewhere in your documentation that
+       1. We don't promise that this software works.  (But if you find any bugs,
+          please let us know!)
+       2. You can use this software for whatever you want.  You don't have to pay 
+          us.
+       3. You may not pretend that you wrote this software.  If you use it in a
+          program, you must acknowledge somewhere in your documentation that
               you've used the IJG code.
 
         In legalese:
 
-	 The authors make NO WARRANTY or representation, either express or implied,
-	 with respect to this software, its quality, accuracy, merchantability, or
-	 fitness for a particular purpose.  This software is provided "AS IS", and you,
-	 its user, assume the entire risk as to its quality and accuracy.
+     The authors make NO WARRANTY or representation, either express or implied,
+     with respect to this software, its quality, accuracy, merchantability, or
+     fitness for a particular purpose.  This software is provided "AS IS", and you,
+     its user, assume the entire risk as to its quality and accuracy.
 
-	 This software is copyright (C) 1991-1998, Thomas G. Lane.
-	 All Rights Reserved except as specified below.
+     This software is copyright (C) 1991-1998, Thomas G. Lane.
+     All Rights Reserved except as specified below.
 
-	 Permission is hereby granted to use, copy, modify, and distribute this
-	 software (or portions thereof) for any purpose, without fee, subject to these
-	 conditions:
-	 (1) If any part of the source code for this software is distributed, then this
-	 README file must be included, with this copyright and no-warranty notice
-	 unaltered; and any additions, deletions, or changes to the original files
-	 must be clearly indicated in accompanying documentation.
-	 (2) If only executable code is distributed, then the accompanying
-	 documentation must state that "this software is based in part on the work of
-	 the Independent JPEG Group".
-	 (3) Permission for use of this software is granted only if the user accepts
-	 full responsibility for any undesirable consequences; the authors accept
-	 NO LIABILITY for damages of any kind.
+     Permission is hereby granted to use, copy, modify, and distribute this
+     software (or portions thereof) for any purpose, without fee, subject to these
+     conditions:
+     (1) If any part of the source code for this software is distributed, then this
+     README file must be included, with this copyright and no-warranty notice
+     unaltered; and any additions, deletions, or changes to the original files
+     must be clearly indicated in accompanying documentation.
+     (2) If only executable code is distributed, then the accompanying
+     documentation must state that "this software is based in part on the work of
+     the Independent JPEG Group".
+     (3) Permission for use of this software is granted only if the user accepts
+     full responsibility for any undesirable consequences; the authors accept
+     NO LIABILITY for damages of any kind.
 
-	 These conditions apply to any software derived from or based on the IJG code,
-	 not just to the unmodified library.  If you use our work, you ought to
-	 acknowledge us.
+     These conditions apply to any software derived from or based on the IJG code,
+     not just to the unmodified library.  If you use our work, you ought to
+     acknowledge us.
 
-	 Permission is NOT granted for the use of any IJG author's name or company name
-	 in advertising or publicity relating to this software or products derived from
-	 it.  This software may be referred to only as "the Independent JPEG Group's
-	 software".
+     Permission is NOT granted for the use of any IJG author's name or company name
+     in advertising or publicity relating to this software or products derived from
+     it.  This software may be referred to only as "the Independent JPEG Group's
+     software".
 
-	 We specifically permit and encourage the use of this software as the basis of
-	 commercial products, provided that all warranty or liability claims are
-	 assumed by the product vendor.
+     We specifically permit and encourage the use of this software as the basis of
+     commercial products, provided that all warranty or liability claims are
+     assumed by the product vendor.
 
 
 Files under kamera/
 
-These files are under the GPL.
+    Upstream authors are:
+        The Kompany
+        Ilya Konstantinov <kde-devel@future.shiny.co.il>
+        Marcus Meissner <marcus@jet.franken.de>
+        Nadeem Hasan <nhasan@nadmm.com>
+
+
+    These files are under the GPL.
 
 
 Files under kcolorchooser/
@@ -264,10 +269,41 @@ These files are under this license:
 
 
 Files under kgamma/
+Upstream author:
+    Michael v.Ostheim <MvOstheim@web.de>
 
 These files are under the GPL.
 
 Files under kolourpaint/
+
+Upstream authors:
+    Clarence Dang <dang@kde.org>
+    Project Founder
+
+    Thurston Dang <thurston_dang@users.sourceforge.net>
+    Chief Investigator
+
+    Kristof Borrey <borrey@kde.org>
+    Icons
+
+    Kazuki Ohta <mover@hct.zaq.ne.jp>
+    InputMethod Support
+
+    Nuno Pinheiro <nf.pinheiro@gmail.com>
+    Icons
+
+    Danny Allen <dannya40uk@yahoo.co.uk>
+    Icons
+
+    Mike Gashler <gashlerm@yahoo.com>
+    Imaqe Effects
+
+    Laurent Montel <montel@kde.org>
+    KDE 4 Porting
+
+    Martin Koller <m.koller@surfeu.at>
+    Scanning Support
+
 
 Except for the directory lgpl/, which is under LGPL (you can read 
 /usr/share/common-licenses/lgpl-2 for details), kolourpaint is under:
@@ -293,10 +329,15 @@ Except for the directory lgpl/, which is under LGPL (you can read
     | (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
     | THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-	
+    
 Files under kruler/ 
 
 These files are under the GPL.
+
+
+Files under ksaneplugin/
+
+These files are under the LGPL.
 
 
 Files under ksnapshot/
@@ -304,17 +345,77 @@ Files under ksnapshot/
 These files are under the GPL.
 
 
-Files under libkscan/
+Files under libs/*
 
-These files are under the GPL.
+These files are under the GPL except:
+
+These files are under the LGPL:
+libkdcraw/libkdcraw/libkdcraw_export.h
+libkexiv2/libkexiv2/libkexiv2_export.h
+libkipi/libkipi/libkipi_export.h
+libksane/*
+
+Some files are based on dcraw.c by Dave Coffin
+which is redistributable under the following conditions
+   dcraw.c -- Dave Coffin's raw photo decoder
+   Copyright 1997-2008 by Dave Coffin, dcoffin a cybercom o net
+
+   This is a command-line ANSI C program to convert raw photos from
+   any digital camera on any computer running any operating system.
+
+   No license is required to download and use dcraw.c.  However,
+   to lawfully redistribute dcraw, you must either (a) offer, at
+   no extra charge, full source code* for all executable files
+   containing RESTRICTED functions, (b) distribute this code under
+   the GPL Version 2 or later, (c) remove all RESTRICTED functions,
+   re-implement them, or copy them from an earlier, unrestricted
+   Revision of dcraw.c, or (d) purchase a license from the author.
+
+   The functions that process Foveon images have been RESTRICTED
+   since Revision 1.237.  All other code remains free for all uses.
+
+   *If you have not modified dcraw.c in any way, a link to my
+   homepage qualifies as "full source code".
+   
+Files under libs/libkexiv2/
 
 
 Files under okular/
+    Upstream authors are:
+
+        Pino Toscano <pino@kde.org>
+        Albert Astals Cid <aacid@kde.org>
+        Tobias Koenig <tokoe@kde.org>
+        Piotr Szymanski <djurban@pld-dc.org>
+        Enrico Ros <eros.kde@email.it>
+
+    License:
+    Most of the files are under the GPL v2 or later, with few exceptions listed below.
+
+    Files released as GPL v2 or GPL v3:
+
+        okular/generators/comicbook/qnatsort.cpp
+        okular/generators/comicbook/qnatsort.h
+
+    Files released as LGPL v2:
+
+        okular/ui/ktreeviewsearchline.cpp
+        okular/ui/ktreeviewsearchline.h
+
+    Files released as LGPL v2 or later:
+
+        okular/generators/dvi/bigEndianByteReader.h
+
+Files under strigi-analyzer/
 
 These files are under the GPL.
 
+Except these files that are under the LGPL version 2 or later:
+    dvi/dvithroughanalyzer.cpp
+    ps/gscreator.cpp
+    ps/gscreator.h
 
-Files under strigi-analyzer/
+Files under svgpart/
 
 These files are under the GPL.
 
