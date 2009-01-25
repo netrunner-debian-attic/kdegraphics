@@ -1,6 +1,5 @@
 kdegraphics (4:4.2.0-0r1) UNRELEASED; urgency=low
 
-  [ Debian Qt/KDE Maintainers ]
   * New upstream release.
 
   +++ Changes by Modestas Vainius:
@@ -40,7 +39,7 @@ kdegraphics (4:4.2.0-0r1) UNRELEASED; urgency=low
 
   * Copyright review.
 
- -- David Palacio <dpalacio@uninorte.edu.co>  Sun, 25 Jan 2009 16:45:31 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Jan 2009 16:45:31 -0500
 
 kdegraphics (4:4.1.3-1) experimental; urgency=low
 
