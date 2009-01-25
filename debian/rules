@@ -7,3 +7,10 @@ DEB_DH_MAKESHLIBS_ARGS_libksane0 := -V #'libksane (>= 4:4.1.86)'
 DEB_DH_MAKESHLIBS_ARGS_libkdcraw7 := -V #'libkdcraw7 (>= 4:4.1.86)'
 DEB_DH_MAKESHLIBS_ARGS_libkexiv2-7 := -V#'libkexiv2-7 (>= 4:4.1.86)'
 DEB_DH_MAKESHLIBS_ARGS_libkipi6 := -V#'libkipi6 (>= 4:4.1.86)'
+DEB_DH_SHLIBDEPS_ARGS_libokularcore1:=-- -xkdebase-runtime
+DEB_DH_SHLIBDEPS_ARGS_libksane0:=-- -xkdebase-runtime
+DEB_DH_SHLIBDEPS_ARGS_libkdcraw7:=-- -xkdebase-runtime
+DEB_DH_SHLIBDEPS_ARGS_libkipi6:=-- -xkdebase-runtime
+DEB_DH_SHLIBDEPS_ARGS_libkexiv2-7 := -- -xkdebase-runtime
+
+
