@@ -12,6 +12,98 @@ Copyright:
 
     Unless something else is mentioned, copyright is
     (C) 1996-2008, The K Desktop Enviroment project http://www.kde.org
+   
+   Other copyright holders:
+    Copyright (C) 2003-2007 Clarence Dang <dang@kde.org>
+    Copyright (C) 2000-2008 Aurélien Gâteau <aurelien.gateau@free.fr>
+    Copyright (C) 2006-2008 Pino Toscano <toscano.pino@tiscali.it> <pino@kde.org>
+    Copyright (C) 2005-2008 Tobias Koenig <tokoe@kde.org>
+    Copyright (C) 2004-2009 Gilles Caulier <caulier.gilles@gmail.com>
+    Copyright (C) 2003-2008 Albert Astals Cid <aacid@kde.org> <tsdgeos@terra.es>
+    Copyright (C) 2004-2005 Enrico Ros <eros.kde@email.it>
+    Copyright (C) 2000-2006 Stefan Kebekus <kebekus@kde.org>
+    Copyright (C) 2007-2008 Kare Sars <kare.sars@iki.fi>
+    Copyright (C) 2008 Harri Porten <porten@kde.org>
+    Copyright (C) 2008 Alex Tutubalin <lexa@lexa.ru>
+    Copyright (C) 2006-2009 Marcel Wiesweg <marcel.wiesweg@gmx.de>
+    Copyright (C) 2004-2005 Renchi Raju <renchi.raju@kdemail.net>
+    Copyright (C) 2004-2007 Georgy Yunaev <tim@krasnogorsk.ru> <gyunaev@ulduzsoft.com>
+    Copyright (C) 2006-2007 Mike Gashler <gashlerm@yahoo.com>
+    Copyright (C) 2002-2003 Nadeem Hasan <nhasan@nadmm.com> <nhasan@kde.org>
+    Copyright (C) 2004-2005 Jesper K. Pedersen <blackie@kde.org>
+    Copyright (C) 2005 Piotr Szymanski <niedakh@gmail.com>
+    Copyright (C) 2002 Wilco Greven <greven@kde.org>
+    Copyright (C) 2001-2003 Ilya Konstantinov <kde-devel@future.shiny.co.il>
+    Copyright (C) 2000, 2006-2007 David Faure <faure@kde.org>
+    Copyright (C) 2006 Luigi Toscano <luigi.toscano@tiscali.it>
+    Copyright (C) 2001-2008 Marcus Meissner <marcus@jet.franken.de>
+    Copyright (C) 2003, 2006-2007 Laurent Montel <montel@kde.org>
+    Copyright (C) 2001 The Kompany
+    Copyright (C) 2003-2004 Christophe Devriese <Christophe.Devriese@student.kuleuven.ac.be>
+    Copyright (C) 2006-2007, 2009 Brad Hards <bradh@frogmouth.net>
+    Copyright (C) 2007 John Layt <john@layt.net>
+    Copyright (C) 2008 Ely Levy <elylevy@cs.huji.ac.il>
+    Copyright (C) 2004 Bernd Brandstetter <bbrand@freenet.de>
+    Copyright (C) 2002, 2007 Aaron J. Seigo <aseigo@kde.org>
+    Copyright (C) 2007 Montel Laurent <montel@kde.org>
+    Copyright (C) 1997-2008 Richard J. Moore <rich@kde.org>
+    Copyright (C) 2002 Bill Janssen
+    Copyright (C) 1994 Paul Vojta. All Rights Reserved.
+    Copyright (C) 2007-2008 Guillaume Castagnino <casta@xwing.info>
+    Copyright (C) 2000 Matthias Ettrich <ettrich@troll.no>
+    Copyright (C) 2006 Chu Xiaodong <xiaodongchu@gmail.com>
+    Copyright (C) 1991-1997 Thomas G. Lane.
+    Copyright (C) 2006-2008 Urs Wolfer <uwolfer@kde.org>
+    Copyright (C) 2005 Kazuki Ohta <mover@hct.zaq.ne.jp>
+    Copyright (C) 1998-2000, 2004 Waldo Bastian <bastian@kde.org>
+    Copyright (C) 2003 Razvan Cojocaru <razvanco@gmx.net>
+    Copyright (C) 2000 Till Krech <till@snafu.de>
+    Copyright (C) 2003-2004 Dirk Mueller <mueller@kde.org>
+    Copyright (C) 2007 Martin Pool <m.koller@surfeu.at>
+    Copyright (C) 2008 Mathias Soeken <msoeken@informatik.uni-bremen.de>
+    Copyright (C) 2002 Matthias Witzgall <witzi@gmx.net>
+    Copyright (C) 2005 Steffen Hansen <hansen@kde.org>
+    Copyright (C) 2003-2004 Andy Goossens <andygoossens@telenet.be>
+    Copyright (C) 2004-2006 Wilfried Huss, Michael Nordstrom
+    Copyright (C) 2007 Alex Merry <huntedhacker@tiscali.co.uk>
+    Copyright (C) 2004 Dominique Devriese <devriese@kde.org>
+    Copyright (C) 1990, 1995 Frank D. Cringle.
+    Copyright (C) 2001 KGhostView authors
+    Copyright (C) 2003 Scott Wheeler <wheeler@kde.org>
+    Copyright (C) 2008 Andi Clemens <andi.clemens@gmx.net>
+    Copyright (C) 2002 Chris Cheney <ccheney@cheney.cx>
+    Copyright (C) 2003 Volker Krause <volker.krause@rwth-aachen.de>
+    Copyright (C) 2005 Tom Albers <tomalbers@kde.nl>
+    Copyright (C) 2006 Hamish Rodda <rodda@kde.org>
+    Copyright (C) 2008 Ilya Konkov <eruart@gmail.com>
+    Copyright (C) 2003 Benjamin Meyer <benjamin@csh.rit.edu>
+    Copyright (C) 2002-2003 Malcolm Hunter <malcolm.hunter@gmx.co.uk>
+    Copyright (C) 2002 Ignacio Castaño <castano@ludicon.com>
+    Copyright (C) 2008 Angelo Naselli <anaselli@linux.it>
+    Copyright (C) 2007 Luca Gugelmann <lucag@student.ethz.ch>
+    Copyright (C) 2004 Jeroen Wijnhout <Jeroen.Wijnhout@kdemail.net>
+    Copyright (C) 2005 Rafal Rzepecki <divide@users.sourceforge.net>
+    Copyright (C) 2000-2001 Ghostgum Software Pty Ltd. All Rights Reserved.
+    Copyright (C) 2000-2001 Malte Starostik <malte@kde.org>
+    Copyright (C) 1997 Martin Jones <mjones@kde.org>
+    Copyright (C) 2008 Nokia Corporation and/or its subsidiary(-ies) <qt-info@nokia.com>
+    Copyright (C) 2003 Luboš Luňák <l.lunak@kde.org>
+    Copyright (C) 2004 James Ots <kde@jamesots.com>
+    Copyright (C) 2003 Philipp Hullmann <phull@gmx.de>
+    Copyright (C) 2007 Roberto Raggi <roberto@kdevelop.org>
+    Copyright (C) 2005 Helge Deller <deller@kde.org>
+    Copyright (C) 2004 Antti Markus <antti.markus@starman.ee>
+    Copyright (C) 2003 Kurt Pfeifle <kpfeifle@danka.de>
+    Copyright (C) 2004 Melchior FRANZ <mfranz@kde.org>
+    Copyright (C) 2007 Matthias Lechner <matthias@lmme.de>
+    Copyright (C) 2002 Shane Wright <me@shanewright.co.uk>
+    Copyright (C) 1998-2002 Mark Ian Lillywhite
+    Copyright (C) 2004 Henrique Pinto <stampede@coltec.ufmg.br>
+    Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+    Copyright (C) 2004 Christoph Cullmann <crossfire@babylon2k.de>
+    Copyright (C) 2004 Dave Coffin
+    Copyright (C) 2003 Daniel Molkentin <molkentin@kde.org>
+    Copyright (C) 1992-2008 Trolltech ASA. All Rights Reserved.
 
 License:
 
@@ -228,6 +320,6 @@ These files are under the GPL.
 
 
 
-The Debian packaging is (C) 2007-2008, Debian Qt/KDE Maintainers
+The Debian packaging is (C) 2007-2009, Debian Qt/KDE Maintainers
 <debian-qt-kde@lists.debian.org> and is licensed under the GPL, 
 see `/usr/share/common-licenses/GPL'.
