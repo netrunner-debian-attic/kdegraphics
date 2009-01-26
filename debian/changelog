@@ -1,4 +1,4 @@
-kdegraphics (4:4.2.0-0r1) UNRELEASED; urgency=low
+kdegraphics (4:4.2.0-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -41,9 +41,9 @@ kdegraphics (4:4.2.0-0r1) UNRELEASED; urgency=low
 
   +++ Changes by Sune Vuorela:
 
-  * Don't put kdebase-runtime in dependencies of lib packaging
+  * Don't put kdebase-runtime in dependencies of lib packaging.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Jan 2009 16:45:31 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Jan 2009 12:41:37 +0100
 
 kdegraphics (4:4.1.3-1) experimental; urgency=low
 
