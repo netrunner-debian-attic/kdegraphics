@@ -111,7 +111,7 @@ Description: monitor calibration panel for KDE 4
 Package: kolourpaint4
 Section: graphics
 Architecture: any
-Conflicts: kolourpaint4
+Conflicts: kolourpaint
 Replaces: kolourpaint
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: simple image editor for KDE 4

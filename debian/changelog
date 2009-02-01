@@ -1,3 +1,11 @@
+kdegraphics (4:4.2.0-2) UNRELEASED; urgency=low
+
+  +++ Changes by Pino Toscano:
+
+  * Make kolourpaint4 conflict with kolourpaint, not with itself.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Feb 2009 15:29:13 +0100
+
 kdegraphics (4:4.2.0-1) experimental; urgency=low
 
   * New upstream release.
