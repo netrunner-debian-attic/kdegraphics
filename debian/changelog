@@ -3,8 +3,10 @@ kdegraphics (4:4.2.0-2) UNRELEASED; urgency=low
   +++ Changes by Pino Toscano:
 
   * Make kolourpaint4 conflict with kolourpaint, not with itself.
+  * Add missing kdelibs5-dev for libkdcraw7-dev, libkexiv2-7-dev and
+    libkipi6-dev. (Closes: #514020)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Feb 2009 15:29:13 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Feb 2009 14:50:48 +0100
 
 kdegraphics (4:4.2.0-1) experimental; urgency=low
 

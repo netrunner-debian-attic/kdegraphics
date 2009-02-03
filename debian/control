@@ -217,7 +217,8 @@ Description: additional document format support for Okular
 Package: libkdcraw7-dev
 Section: libdevel
 Architecture: any
-Depends: libkdcraw7 (= ${binary:Version}), pkg-config
+Depends: libkdcraw7 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkdcraw7},
+ pkg-config
 Conflicts: libkdcraw-dev, libkdcraw5-dev
 Description: RAW picture decoding C++ library (development)
  Libkdcraw is a C++ interface around dcraw binary program used to
@@ -243,7 +244,8 @@ Description: Raw picture decoding C++ library (runtime)
 Package: libkexiv2-7-dev
 Section: libdevel
 Architecture: any
-Depends: libkexiv2-7 (= ${binary:Version}), pkg-config
+Depends: libkexiv2-7 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkexiv2-7},
+ pkg-config
 Conflicts: libkexiv2-dev, libkexiv2-6-dev
 Description: Qt like interface for the libexiv2 library (development)
  libkexif2-dev contains development files and documentation for libkexiv2
@@ -263,7 +265,8 @@ Description: Qt like interface for the libexiv2 library (runtime)
 Package: libkipi6-dev
 Section: libdevel
 Architecture: any
-Depends: libkipi6 (= ${binary:Version}), pkg-config
+Depends: libkipi6 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkipi6},
+ pkg-config
 Conflicts: libkipi0-dev, libkipi5-dev
 Description: library for apps that want to use kipi-plugins (development version)
  Libkipi is a library
