@@ -5,8 +5,12 @@ kdegraphics (4:4.2.0-2) UNRELEASED; urgency=low
   * Make kolourpaint4 conflict with kolourpaint, not with itself.
   * Add missing kdelibs5-dev for libkdcraw7-dev, libkexiv2-7-dev and
     libkipi6-dev. (Closes: #514020)
+  * Suggest unrar for okular's Comicbook backend. I know, suggesting
+    a non-free software sucks, but given that the free unrar sucks even more
+    (and Okular discards it anyway), the only alternative left to at least
+    give an hint to the users about the optional unrar need is this.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Feb 2009 14:50:48 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Feb 2009 17:17:23 +0100
 
 kdegraphics (4:4.2.0-1) experimental; urgency=low
 
