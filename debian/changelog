@@ -1,3 +1,11 @@
+kdegraphics (4:4.2.1-2) UNRELEASED; urgency=low
+
+  +++ Changes by Fathi Boudra:
+
+  * Add patch to bump gwenview version from 2.2.0 to 2.2.1.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Mar 2009 13:33:11 +0100
+
 kdegraphics (4:4.2.1-1) experimental; urgency=low
 
   * New upstream release.
