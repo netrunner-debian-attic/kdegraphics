@@ -2,8 +2,8 @@ kdegraphics (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release.
   * Bump bulid-deps
-  * KDEGraphics is now free of a embedded code copy (Closes: #436164)
-  * KDEGraphics no longer uses imlib (Closes: 455852)
+  * KDEGraphics is now free of a embedded xpdf copy. (Closes: #436164)
+  * KDEGraphics no longer uses imlib. (Closes: 455852)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Mar 2009 22:29:17 +0200
 
