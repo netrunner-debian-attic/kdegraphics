@@ -1,6 +1,6 @@
 Source: kdegraphics
 Section: kde
-Priority: extra
+Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
@@ -34,7 +34,7 @@ Description: graphics applications from the official KDE 4 release
  release of KDE 4.
 
 Package: kdegraphics-dbg
-Section: libdevel
+Section: debug
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
@@ -70,6 +70,7 @@ Description: image viewer for KDE 4
 
 Package: kamera
 Architecture: any
+Section: graphics
 Depends: ${shlibs:Depends}
 Description: digital camera support for KDE 4 applications
  This package allows any KDE 4 application to access and manipulate pictures on
