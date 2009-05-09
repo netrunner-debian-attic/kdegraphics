@@ -1,3 +1,11 @@
+kdegraphics (4:4.2.2-2) unstable; urgency=low
+
+  * Fix build failure with newer sane. (Closes: #527006)
+    Thanks to Lennart Sorensen for the patch.
+  * As a side effect, gets rebuilt against newer exiv. (Closes: #527544)
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 09 May 2009 10:30:38 +0200
+
 kdegraphics (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release.
