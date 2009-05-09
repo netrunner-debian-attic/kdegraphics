@@ -1,0 +1,58 @@
+From lsorense@csclub.uwaterloo.ca Wed May 06 17:49:13 2009
+Received: (at 527006) by bugs.debian.org; 6 May 2009 17:49:13 +0000
+X-Spam-Checker-Version: SpamAssassin 3.2.3-bugs.debian.org_2005_01_02
+	(2007-08-08) on rietz.debian.org
+X-Spam-Level: 
+X-Spam-Bayes: score:0.0000 Tokens: new, 44; hammy, 71; neutral, 43; spammy, 2.
+	spammytokens:0.993-1--H*MI:csclub, 0.881-1--H*MI:uwaterloo
+	hammytokens:0.000-+--libs, 0.000-+--H*UA:1.5.18, 0.000-+--H*u:1.5.18,
+	0.000-+--H*UA:2008-05-17, 0.000-+--H*u:2008-05-17
+X-Spam-Status: No, score=-4.9 required=4.0 tests=AWL,BAYES_00,FOURLA,
+	MURPHY_DRUGS_REL8,RCVD_IN_DNSWL_MED autolearn=no
+	version=3.2.3-bugs.debian.org_2005_01_02
+Return-path: <lsorense@csclub.uwaterloo.ca>
+Received: from caffeine.csclub.uwaterloo.ca ([129.97.134.17])
+	by rietz.debian.org with esmtp (Exim 4.63)
+	(envelope-from <lsorense@csclub.uwaterloo.ca>)
+	id 1M1lF2-0007IO-TH
+	for 527006@bugs.debian.org; Wed, 06 May 2009 17:49:13 +0000
+Received: from caffeine.csclub.uwaterloo.ca (localhost [127.0.0.1])
+	by caffeine.csclub.uwaterloo.ca (Postfix) with ESMTP id 38C8A73CD3
+	for <527006@bugs.debian.org>; Wed,  6 May 2009 13:49:12 -0400 (EDT)
+Received: by caffeine.csclub.uwaterloo.ca (Postfix, from userid 20367)
+	id 2C57373CDD; Wed,  6 May 2009 13:49:12 -0400 (EDT)
+Date: Wed, 6 May 2009 13:49:12 -0400
+To: 527006@bugs.debian.org
+Subject: patch that makes it compile
+Message-ID: <20090506174912.GU21463@csclub.uwaterloo.ca>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.18 (2008-05-17)
+From: lsorense@csclub.uwaterloo.ca (Lennart Sorensen)
+X-Virus-Scanned: ClamAV using ClamSMTP
+
+Here is a patch that does something similar to what sane itself does
+and makes libksane (and all of kdegraphics) compile again.  kdegraphics
+4.2.3 has the same bug still.
+
+--- a/libs/libksane/libksane/sane_widget.cpp
++++ b/libs/libksane/libksane/sane_widget.cpp
+@@ -1087,7 +1087,7 @@
+     // Start the scanning with sane_start
+     status = sane_start(d->saneHandle);
+ 
+-#ifndef SANE_CAP_ALWAYS_SETTABLE
++#if !defined(SANE_CAP_ALWAYS_SETTABLE) && defined(SANE_STATUS_WARMING_UP)
+     // should better be done by detecting SANE's version in configure and providing a HAS_SANE_1_1
+     // FIXME remove these ifdefs and require sane 1.1.x as soon as possible
+     if (status == SANE_STATUS_WARMING_UP) {
+@@ -1110,7 +1110,7 @@
+              || (status == SANE_STATUS_COVER_OPEN)
+              || (status == SANE_STATUS_DEVICE_BUSY)
+              || (status == SANE_STATUS_ACCESS_DENIED)
+-#ifndef SANE_CAP_ALWAYS_SETTABLE
++#if !defined(SANE_CAP_ALWAYS_SETTABLE) && defined(SANE_STATUS_HW_LOCKED)
+              || (status == SANE_STATUS_HW_LOCKED)
+ #endif
+            )
