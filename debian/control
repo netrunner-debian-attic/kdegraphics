@@ -39,6 +39,8 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdegraphics (= ${source:Version})
+Conflicts: okular-dbg
+Replaces: okular-dbg
 Description: debugging symbols for the KDE 4 graphics module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE 4 graphics module.
