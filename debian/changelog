@@ -1,10 +1,11 @@
-kdegraphics (4:4.2.3-1) UNRELEASED; urgency=low
+kdegraphics (4:4.2.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
   +++ Changes by Sune Vuorela:
 
   * Fix sections.
+  * Remove sane patch from last upload, fixed upstream
 
   +++ Changes by Fathi Boudra:
 
