@@ -18,7 +18,7 @@ kdegraphics (4:4.2.4-1) UNRELEASED; urgency=low
 
   +++ Changes by Martin Alfke:
 
-  * added cups-bsd to okular suggestsions. (Closes #499514)
+  * Add cups-bsd to okular suggestions. (Closes #499514)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2009 13:09:21 +0200
 
