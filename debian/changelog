@@ -16,10 +16,6 @@ kdegraphics (4:4.2.4-1) UNRELEASED; urgency=low
 
   * Add conflict/replace to kdegraphics-dbg against Lenny's okular-dbg.
 
-  +++ Changes by Martin Alfke:
-
-  * Add cups-bsd to okular suggestions. (Closes #499514)
-
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2009 13:09:21 +0200
 
 kdegraphics (4:4.2.2-2) unstable; urgency=low
