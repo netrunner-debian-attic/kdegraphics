@@ -1,4 +1,11 @@
-kdegraphics (4:4.2.4-1) UNRELEASED; urgency=low
+kdegraphics (4:4.2.96-0r1) UNRELEASED; urgency=low
+
+  * New upstream
+    - Okular mobi viewer.
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 11 Jul 2009 21:32:06 +0200
+
+kdegraphics (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release.
 

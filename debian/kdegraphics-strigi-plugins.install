@@ -1,3 +1,8 @@
 usr/lib/kde4/gsthumbnail.so
+usr/lib/kde4/mobithumbnail.so
+usr/lib/kde4/rawthumbnail.so
+usr/lib/strigi/strigila_mobi.so
 usr/lib/strigi/strigita_dvi.so
 usr/share/kde4/services/gsthumbnail.desktop
+usr/share/kde4/services/mobithumbnail.desktop
+usr/share/kde4/services/rawthumbnail.desktop

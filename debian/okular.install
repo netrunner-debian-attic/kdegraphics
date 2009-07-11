@@ -5,6 +5,7 @@ usr/lib/kde4/okularGenerator_fax.so
 usr/lib/kde4/okularGenerator_fb.so
 usr/lib/kde4/okularGenerator_ghostview.so
 usr/lib/kde4/okularGenerator_kimgio.so
+usr/lib/kde4/okularGenerator_mobi.so
 usr/lib/kde4/okularGenerator_ooo.so
 usr/lib/kde4/okularGenerator_plucker.so
 usr/lib/kde4/okularGenerator_poppler.so
@@ -17,6 +18,7 @@ usr/share/applications/kde4/okularApplication_fax.desktop
 usr/share/applications/kde4/okularApplication_fb.desktop
 usr/share/applications/kde4/okularApplication_ghostview.desktop
 usr/share/applications/kde4/okularApplication_kimgio.desktop
+usr/share/applications/kde4/okularApplication_mobi.desktop
 usr/share/applications/kde4/okularApplication_ooo.desktop
 usr/share/applications/kde4/okularApplication_pdf.desktop
 usr/share/applications/kde4/okularApplication_plucker.desktop
@@ -36,8 +38,6 @@ usr/share/icons/hicolor/scalable/apps/okular.svgz
 usr/share/kde4/apps/okular/icons/hicolor/16x16/apps/okular-gv.png
 usr/share/kde4/apps/okular/icons/hicolor/32x32/apps/okular-gv.png
 usr/share/kde4/apps/okular/part.rc
-usr/share/kde4/apps/okular/shell.rc
-usr/share/kde4/apps/okular/tools.xml
 usr/share/kde4/apps/okular/pics/checkmark.png
 usr/share/kde4/apps/okular/pics/circle.png
 usr/share/kde4/apps/okular/pics/comment.png
@@ -67,6 +67,8 @@ usr/share/kde4/apps/okular/pics/tool-stamp-okular.png
 usr/share/kde4/apps/okular/pics/tool-underline-okular.png
 usr/share/kde4/apps/okular/pics/uparrow.png
 usr/share/kde4/apps/okular/pics/upleftarrow.png
+usr/share/kde4/apps/okular/shell.rc
+usr/share/kde4/apps/okular/tools.xml
 usr/share/kde4/config.kcfg/gssettings.kcfg
 usr/share/kde4/config.kcfg/okular.kcfg
 usr/share/kde4/config/okular.knsrc
@@ -76,6 +78,7 @@ usr/share/kde4/services/libokularGenerator_fax.desktop
 usr/share/kde4/services/libokularGenerator_fb.desktop
 usr/share/kde4/services/libokularGenerator_ghostview.desktop
 usr/share/kde4/services/libokularGenerator_kimgio.desktop
+usr/share/kde4/services/libokularGenerator_mobi.desktop
 usr/share/kde4/services/libokularGenerator_ooo.desktop
 usr/share/kde4/services/libokularGenerator_plucker.desktop
 usr/share/kde4/services/libokularGenerator_poppler.desktop
@@ -86,6 +89,7 @@ usr/share/kde4/services/okularFax.desktop
 usr/share/kde4/services/okularFb.desktop
 usr/share/kde4/services/okularGhostview.desktop
 usr/share/kde4/services/okularKimgio.desktop
+usr/share/kde4/services/okularMobi.desktop
 usr/share/kde4/services/okularOoo.desktop
 usr/share/kde4/services/okularPlucker.desktop
 usr/share/kde4/services/okularPoppler.desktop
