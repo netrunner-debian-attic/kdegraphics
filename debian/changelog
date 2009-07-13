@@ -1,4 +1,4 @@
-kdegraphics (4:4.2.96-0r1) UNRELEASED; urgency=low
+kdegraphics (4:4.2.96-1) experimental; urgency=low
 
   * New upstream
     - Okular mobi viewer.
