@@ -1,8 +1,12 @@
-kdegraphics (4:4.2.96-3) UNRELEASED; urgency=low
+kdegraphics (4:4.2.98-1) UNRELEASED; urgency=low
 
-  +++ Changes by Frederik Schwarzer
+  * New upstream release, RC3.
 
-  * Fix typos and casing in packages descriptions
+  +++ Changes by Frederik Schwarzer:
+
+  * Fix typos and casing in packages descriptions.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 26 Jul 2009 03:01:53 +0200
 
 kdegraphics (4:4.2.96-2) experimental; urgency=low
 
