@@ -5,6 +5,7 @@ kdegraphics (4:4.3.0-0r1) UNRELEASED; urgency=low
   +++ Changes by Frederik Schwarzer:
 
   * Fix typos and casing in packages descriptions.
+  * Update build depends to >= 4.3.0.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 26 Jul 2009 03:01:53 +0200
 
