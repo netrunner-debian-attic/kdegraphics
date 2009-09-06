@@ -1,3 +1,11 @@
+kdegraphics (4:4.3.1-2) UNRELEASED; urgency=low
+
+  +++ Changes by Pino Toscano:
+
+  * Make okular provide the virtual postscript-viewer capability.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Sep 2009 11:39:06 +0200
+
 kdegraphics (4:4.3.1-1) unstable; urgency=low
 
   * New upstream release.
