@@ -3,8 +3,10 @@ kdegraphics (4:4.3.1-2) UNRELEASED; urgency=low
   +++ Changes by Pino Toscano:
 
   * Make okular provide the virtual postscript-viewer capability.
+  * Add the poppler-data suggestion for okular, as it can be useful for
+    showing correctly CJK text in PDF documents.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Sep 2009 11:39:06 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Sep 2009 11:42:53 +0200
 
 kdegraphics (4:4.3.1-1) unstable; urgency=low
 
