@@ -207,6 +207,7 @@ Description: development files for the Okular libraries
 Package: okular-extra-backends
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: okular
 Provides: djvu-viewer
 Description: additional document format support for Okular
  These plugins allow Okular to view additional document formats:
