@@ -1,4 +1,6 @@
-kdegraphics (4:4.3.1-2) UNRELEASED; urgency=low
+kdegraphics (4:4.3.2-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   +++ Changes by Pino Toscano:
 
@@ -7,7 +9,7 @@ kdegraphics (4:4.3.1-2) UNRELEASED; urgency=low
     showing correctly CJK text in PDF documents.
   * Recommend okular for okular-extra-backends.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Sep 2009 12:08:19 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Oct 2009 01:18:15 +0200
 
 kdegraphics (4:4.3.1-1) unstable; urgency=low
 
