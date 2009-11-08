@@ -1,9 +1,17 @@
-kdegraphics (4:4.3.2-2) UNRELEASED; urgency=low
+kdegraphics (4:4.3.3-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Karl Ferdinand Ebert:
 
   * Add source.lintian-overrides to ignore lintian warning about missing
     debug depends. 
 
- -- Karl Ferdinand Ebert <kfebert@gmail.com>  Thu, 08 Oct 2009 16:24:59 +0200
+  +++ Changes by Lukasz Janyst:
+
+  * Update build dep's version numbers in debian/control
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Nov 2009 15:40:27 +0100
 
 kdegraphics (4:4.3.2-1) unstable; urgency=low
 
