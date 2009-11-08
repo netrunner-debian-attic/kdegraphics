@@ -9,7 +9,7 @@ kdegraphics (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   +++ Changes by Lukasz Janyst:
 
-  * Update build dep's version numbers in debian/control
+  * Bump build depends.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Nov 2009 15:40:27 +0100
 
