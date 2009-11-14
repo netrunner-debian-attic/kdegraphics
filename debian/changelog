@@ -11,6 +11,10 @@ kdegraphics (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * Bump build depends.
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove myself from Uploaders.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Nov 2009 15:40:27 +0100
 
 kdegraphics (4:4.3.2-1) unstable; urgency=low
