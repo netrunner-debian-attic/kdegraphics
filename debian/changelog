@@ -2,6 +2,8 @@ kdegraphics (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
     - Fix Okular open encoded URLs. (Closes: #546278)
+    - Fix display of rotated pages of PDF documents in Okular.
+      (Closes: #541308)
 
   +++ Changes by Karl Ferdinand Ebert:
 
@@ -21,7 +23,7 @@ kdegraphics (4:4.3.3-0r1) UNRELEASED; urgency=low
   * Suggest ghostscript for okular, for the PS-as-PDF import function.
     (Closes: #557646)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Nov 2009 15:54:02 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Nov 2009 16:06:05 +0100
 
 kdegraphics (4:4.3.2-1) unstable; urgency=low
 
