@@ -15,7 +15,12 @@ kdegraphics (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * Remove myself from Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Nov 2009 15:40:27 +0100
+  +++ Changes by Pino Toscano:
+
+  * Suggest ghostscript for okular, for the PS-as-PDF import function.
+    (Closes: #557646)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Nov 2009 15:45:11 +0100
 
 kdegraphics (4:4.3.2-1) unstable; urgency=low
 
