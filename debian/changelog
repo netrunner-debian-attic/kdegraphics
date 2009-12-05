@@ -23,6 +23,10 @@ kdegraphics (4:4.3.4-0r1) UNRELEASED; urgency=low
   * Suggest ghostscript for okular, for the PS-as-PDF import function.
     (Closes: #557646)
 
+  +++ Changes by Modestas Vainius:
+
+  * Update install files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:56 +0200
 
 kdegraphics (4:4.3.2-1) unstable; urgency=low
