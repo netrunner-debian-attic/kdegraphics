@@ -11,7 +11,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  libstreamanalyzer-dev (>= 0.6.3), libstreams-dev (>= 0.6.3), libepub-dev, liblcms1-dev
 Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdegraphics
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdegraphics/#_trunk_packages_kdegraphics_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdegraphics
 
 Package: kdegraphics
