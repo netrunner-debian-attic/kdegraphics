@@ -179,7 +179,7 @@ Package: okular
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: okular-extra-backends (= ${binary:Version}), texlive-base-bin, unrar, poppler-data, ghostscript
+Suggests: okular-extra-backends (= ${binary:Version}), texlive-binaries, unrar, poppler-data, ghostscript
 Provides: pdf-viewer, postscript-viewer
 Description: document viewer for KDE 4
  Okular is a universal document viewer with support for advanced document
