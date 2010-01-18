@@ -100,7 +100,7 @@ Package: kgamma
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: monitor calibration panel for KDE 4
  This package contains a settings panel for adjusting the brightness, contrast,
  and gamma-correction of a monitor.  Test patterns are shown to help
