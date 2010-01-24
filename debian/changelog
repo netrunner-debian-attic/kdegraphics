@@ -10,8 +10,10 @@ kdegraphics (4:4.3.4-2) UNRELEASED; urgency=low
   * Change the khelpcenter suggest of kgamma to khelpcenter4.
   * Change the texlive-base-bin suggest of okular to texlive-binaries,
     as it is the new texlive package containing `kpsewhich' (for DVI fonts).
+  * Add some more mailcap entries for okular.
+    - ... including application/x-pdf (Closes: #565873)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jan 2010 18:42:40 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 24 Jan 2010 15:33:30 +0100
 
 kdegraphics (4:4.3.4-1) unstable; urgency=low
 
