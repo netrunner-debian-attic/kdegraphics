@@ -1,4 +1,7 @@
-kdegraphics (4:4.3.4-2) UNRELEASED; urgency=low
+kdegraphics (4:4.4.0-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+    - Okular prints the number of copies specified. (Closes: #560378)
 
   [ Modestas Vainius ]
   * Add myself as uploader.
@@ -13,7 +16,7 @@ kdegraphics (4:4.3.4-2) UNRELEASED; urgency=low
   * Add some more mailcap entries for okular.
     - ... including application/x-pdf (Closes: #565873)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 24 Jan 2010 15:33:30 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Feb 2010 18:59:38 +0100
 
 kdegraphics (4:4.3.4-1) unstable; urgency=low
 
