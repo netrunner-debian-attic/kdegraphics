@@ -24,7 +24,6 @@ kdegraphics (4:4.4.1~svn1094620-0r1) UNRELEASED; urgency=low
   * Update install files.
   * Add ${misc:Depends} to Depends field of all packages which missed it.
   * Add lintian overrides.
-  * Remove quilt from Build-Depends as there are no patches.
   * Add symbol files for public libraries.
 
   [ Pino Toscano ]
