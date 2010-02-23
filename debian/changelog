@@ -1,4 +1,4 @@
-kdegraphics (4:4.4.0-0r1) UNRELEASED; urgency=low
+kdegraphics (4:4.4.0+svn1094620-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
     - Okular prints the number of copies specified. (Closes: #560378)
@@ -8,6 +8,9 @@ kdegraphics (4:4.4.0-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
+  * Bump Standards-Version to 3.8.4: no changes needed.
+  * Bump KDE build depends to 4:4.4, libphonon-dev to 4:4.6.0really4.3.80.
+  * Bump pkg-kde-tools dependency to 0.6.4.
 
   [ Pino Toscano ]
   * Add the libxext-dev build-depend, so we are sure to have
