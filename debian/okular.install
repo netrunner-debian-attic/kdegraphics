@@ -71,7 +71,6 @@ usr/share/kde4/apps/okular/shell.rc
 usr/share/kde4/apps/okular/tools.xml
 usr/share/kde4/config.kcfg/gssettings.kcfg
 usr/share/kde4/config.kcfg/okular.kcfg
-usr/share/kde4/config/okular.knsrc
 usr/share/kde4/services/libokularGenerator_comicbook.desktop
 usr/share/kde4/services/libokularGenerator_dvi.desktop
 usr/share/kde4/services/libokularGenerator_fax.desktop

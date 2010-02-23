@@ -19,4 +19,5 @@ usr/share/kde4/apps/libkdcraw/profiles/prophoto.icm
 usr/share/kde4/apps/libkdcraw/profiles/srgb-d65.icm
 usr/share/kde4/apps/libkdcraw/profiles/srgb.icm
 usr/share/kde4/apps/libkdcraw/profiles/widegamut.icm
+usr/share/kde4/apps/libkexiv2/data/topicset.iptc-subjectcode.xml
 usr/share/kde4/servicetypes/kipiplugin.desktop

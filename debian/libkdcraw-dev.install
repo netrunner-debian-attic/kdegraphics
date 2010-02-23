@@ -5,6 +5,7 @@ usr/include/libkdcraw/libkdcraw_export.h
 usr/include/libkdcraw/rawdecodingsettings.h
 usr/include/libkdcraw/rawfiles.h
 usr/include/libkdcraw/rcombobox.h
+usr/include/libkdcraw/rexpanderbox.h
 usr/include/libkdcraw/rnuminput.h
 usr/include/libkdcraw/squeezedcombobox.h
 usr/include/libkdcraw/version.h
