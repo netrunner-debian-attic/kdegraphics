@@ -11,6 +11,18 @@ kdegraphics (4:4.4.0+svn1094620-0r1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Bump KDE build depends to 4:4.4, libphonon-dev to 4:4.6.0really4.3.80.
   * Bump pkg-kde-tools dependency to 0.6.4.
+  * Build depend on shared-mime-info and shared-desktop-ontologies.
+  * Change the name of following library packages due to bumped soname versions
+    and drop soname version number from the development package names:
+    - libkipi6 -> libkipi7. Development package renamed to libkipi-dev;
+    - libkdcraw7 -> libkdcraw8. Development package renamed to libkdcraw-dev;
+    - libexiv2-7 -> libexiv2-8. Development package renamed to libexiv2-dev;
+  * Split off libkipi7, libkdcraw8 and libksane0 data files to
+    the new kdegraphics-libs-data package in order to allow less painful
+    upgrades next time. Make library packages depend on it with
+    >= ${source:Version} relationship.
+  * Update install files.
+  * Add ${misc:Depends} to Depends field of all packages which missed it.
 
   [ Pino Toscano ]
   * Add the libxext-dev build-depend, so we are sure to have

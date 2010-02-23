@@ -8,7 +8,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.6.
  libpoppler-qt4-dev (>= 0.8.0), libspectre-dev, libqca2-dev,
  libsane-dev, libtiff4-dev, libgphoto2-2-dev, libchm-dev, libdjvulibre-dev,
  libxxf86vm-dev, libxext-dev, libqimageblitz-dev (>= 1:0.0.4-2), libexiv2-dev,
- libstreamanalyzer-dev (>= 0.6.3), libstreams-dev (>= 0.6.3), libepub-dev, liblcms1-dev
+ libstreamanalyzer-dev (>= 0.6.3), libstreams-dev (>= 0.6.3), libepub-dev, liblcms1-dev,
+ shared-mime-info, shared-desktop-ontologies
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdegraphics/#_trunk_packages_kdegraphics_
@@ -16,7 +17,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdegraphics
 
 Package: kdegraphics
 Architecture: all
-Depends: gwenview (>= ${source:Version}), kamera (>= ${source:Version}),
+Depends: ${misc:Depends}, gwenview (>= ${source:Version}), kamera (>= ${source:Version}),
  kcolorchooser (>= ${source:Version}), kgamma (>= ${source:Version}),
  kolourpaint4 (>= ${source:Version}), kruler (>= ${source:Version}),
  libksane0 (>= ${source:Version}), ksnapshot (>= ${source:Version}),
@@ -33,17 +34,17 @@ Description: graphics applications from the official KDE 4 release
  This metapackage includes graphics applications provided with the official
  release of KDE 4.
 
-Package: kdegraphics-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: kdebase-runtime-dbg
-Suggests: kdegraphics (= ${source:Version})
-Conflicts: okular-dbg
-Replaces: okular-dbg
-Description: debugging symbols for the KDE 4 graphics module
- This package contains debugging files used to investigate problems with
- binaries included in the KDE 4 graphics module.
+Package: kdegraphics-libs-data
+Section: libs
+Architecture: all
+Depends: ${misc:Depends}
+Conflicts: libkdcraw5, libkdraw7, libkipi0, libkipi5, libkipi6
+Replaces: libkdcraw5, libkdraw7, libkipi5, libkipi6, libsane0 (<< 4:4.4.0)
+Description: data files for libraries from the kdegraphics module
+ This package contains data files needed by libraries built from the KDE
+ graphics module.
+ .
+ This package is part of the KDE 4 graphics module.
 
 Package: kdegraphics-strigi-plugins
 Architecture: any
@@ -73,7 +74,7 @@ Description: image viewer for KDE 4
 Package: kamera
 Architecture: any
 Section: graphics
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: digital camera support for KDE 4 applications
  This package allows any KDE 4 application to access and manipulate pictures on
  a digital camera.
@@ -99,7 +100,7 @@ Description: color chooser and palette editor for KDE 4
 Package: kgamma
 Section: graphics
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
 Description: monitor calibration panel for KDE 4
  This package contains a settings panel for adjusting the brightness, contrast,
@@ -137,7 +138,7 @@ Description: screen ruler for KDE 4
 Package: libksane0
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdegraphics-libs-data (>= ${source:Version})
 Description: scanner library for KDE 4 (runtime)
  The KDE scanner library provides an API and widgets for using scanners and
  other imaging devices supported by SANE.
@@ -147,7 +148,8 @@ Description: scanner library for KDE 4 (runtime)
 Package: libksane-dev
 Section: libdevel
 Architecture: any
-Depends: libksane0 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libksane0}
+Depends: libksane0 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libksane0}
 Description: scanner library for KDE 4 (development)
  The KDE scanner library provides an API and widgets for using scanners and
  other imaging devices supported by SANE.
@@ -197,7 +199,8 @@ Description: document viewer for KDE 4
 Package: okular-dev
 Section: libdevel
 Architecture: any
-Depends: libokularcore1 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libokularcore1}
+Depends: libokularcore1 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libokularcore1}
 Description: development files for the Okular libraries
  This package contains development files for building Okular document format
  backends.
@@ -218,25 +221,10 @@ Description: additional document format support for Okular
  .
  This package is part of the KDE 4 graphics module.
 
-Package: libkdcraw7-dev
-Section: libdevel
-Architecture: any
-Depends: libkdcraw7 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkdcraw7},
- pkg-config
-Conflicts: libkdcraw-dev, libkdcraw5-dev
-Description: RAW picture decoding C++ library (development)
- Libkdcraw is a C++ interface around dcraw binary program used to
- decode Raw picture files.
- .
- libkdcraw-dev contains development files and documentation. The
- library documentation is available on kdcraw.h header file.
-
-Package: libkdcraw7
+Package: libkdcraw8
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}
-Conflicts: libkdcraw5
-Replaces: libkdcraw5
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdegraphics-libs-data (>= ${source:Version})
 Description: RAW picture decoding C++ library (runtime)
  C++ interface around dcraw binary program used to decode RAW
  picture files.
@@ -245,33 +233,57 @@ Description: RAW picture decoding C++ library (runtime)
  .
  libkdcraw5 contains the library of libkdcraw.
 
-Package: libkexiv2-7-dev
+Package: libkdcraw-dev
 Section: libdevel
 Architecture: any
-Depends: libkexiv2-7 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkexiv2-7},
- pkg-config
-Conflicts: libkexiv2-dev, libkexiv2-6-dev
+Depends: libkdcraw8 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libkdcraw8}, pkg-config
+Conflicts: libkdcraw5-dev, libkdraw7-dev
+Description: RAW picture decoding C++ library (development)
+ Libkdcraw is a C++ interface around dcraw binary program used to
+ decode Raw picture files.
+ .
+ libkdcraw-dev contains development files and documentation. The
+ library documentation is available on kdcraw.h header file.
+
+Package: libkexiv2-8
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Qt like interface for the libexiv2 library (runtime)
+ libkexif2 contains the library of libkexiv2.
+ .
+ Libkexif is a wrapper around Exiv2 library to manipulate pictures metadata.
+
+Package: libkexiv2-dev
+Section: libdevel
+Architecture: any
+Depends: libkexiv2-8 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libkexiv2-8}, pkg-config
+Conflicts: libkexiv2-6-dev, libkexiv2-7-dev
 Description: Qt-like interface for the libexiv2 library (development)
  libkexif2-dev contains development files and documentation for libkexiv2
  library.  The library documentation is available on kexiv2.h header file.
  .
  Libkexif is a wrapper around Exiv2 library to manipulate pictures metadata.
 
-Package: libkexiv2-7
+Package: libkipi7
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}
-Description: Qt like interface for the libexiv2 library (runtime)
- libkexif2 contains the library of libkexiv2.
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdegraphics-libs-data (>= ${source:Version})
+Description: library for apps that want to use kipi-plugins (runtime version)
+ Libkipi is a library
  .
- Libkexif is a wrapper around Exiv2 library to manipulate pictures metadata.
+     o that contains common routines and widget used by kipi-plugins
+     o to ease implementation of the kipi-plugins interface in an application
+       that wants to use kipi-plugins
 
-Package: libkipi6-dev
+Package: libkipi-dev
 Section: libdevel
 Architecture: any
-Depends: libkipi6 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkipi6},
- pkg-config
-Conflicts: libkipi0-dev, libkipi5-dev
+Depends: libkipi7 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libkipi7}, pkg-config
+Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev
 Description: library for apps that want to use kipi-plugins (development version)
  Libkipi is a library
  .
@@ -281,15 +293,14 @@ Description: library for apps that want to use kipi-plugins (development version
  .
  This pkg contains development files and documentation for libkipi library.
 
-Package: libkipi6
-Section: libs
+Package: kdegraphics-dbg
+Section: debug
 Architecture: any
-Depends: ${shlibs:Depends}
-Conflicts: libkipi0, libkipi5
-Replaces: libkipi5
-Description: library for apps that want to use kipi-plugins (runtime version)
- Libkipi is a library
- .
-     o that contains common routines and widget used by kipi-plugins
-     o to ease implementation of the kipi-plugins interface in an application
-       that wants to use kipi-plugins
+Priority: extra
+Depends: ${misc:Depends}, kdebase-runtime-dbg
+Suggests: kdegraphics (= ${source:Version})
+Conflicts: okular-dbg
+Replaces: okular-dbg
+Description: debugging symbols for the KDE 4 graphics module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE 4 graphics module.
