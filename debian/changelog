@@ -188,7 +188,7 @@ kdegraphics (4:4.2.0-1) experimental; urgency=low
   * Add debian/installgen and update install files.
   * Soname bumps, rename packages and debhelper files:
     - libkipi: 5 -> 6, add conflicts, replaces;
-    - libkcdraw: 5 -> 7, add conflicts, replaces;
+    - libkdcraw: 5 -> 7, add conflicts, replaces;
     - libexiv2: 6 -> 7.
   * Bump shlibs of the libraries to upstream version.
   * Rename debian/*.lintian to debian/*.lintian-overrides.

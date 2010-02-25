@@ -39,8 +39,8 @@ Package: kdegraphics-libs-data
 Section: libs
 Architecture: all
 Depends: ${misc:Depends}
-Conflicts: libkdcraw5, libkdraw7, libkipi0, libkipi5, libkipi6
-Replaces: libkdcraw5, libkdraw7, libkipi5, libkipi6, libsane0 (<< 4:4.4.0)
+Conflicts: libkdcraw5, libkdcraw7, libkipi0, libkipi5, libkipi6
+Replaces: libkdcraw5, libkdcraw7, libkipi5, libkipi6, libksane0 (<< 4:4.4.0)
 Description: data files for libraries from the kdegraphics module
  This package contains data files needed by libraries built from the KDE
  graphics module.
@@ -239,7 +239,7 @@ Section: libdevel
 Architecture: any
 Depends: libkdcraw8 (= ${binary:Version}), ${misc:Depends},
  ${sameVersionDep:kdelibs5-dev:libkdcraw8}, pkg-config
-Conflicts: libkdcraw5-dev, libkdraw7-dev
+Conflicts: libkdcraw5-dev, libkdcraw7-dev
 Description: RAW picture decoding C++ library (development)
  Libkdcraw is a C++ interface around dcraw binary program used to
  decode Raw picture files.
