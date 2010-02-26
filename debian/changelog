@@ -1,4 +1,4 @@
-kdegraphics (4:4.4.1~svn1094620-0r1) UNRELEASED; urgency=low
+kdegraphics (4:4.4.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - Okular prints the number of copies specified. (Closes: #560378)
