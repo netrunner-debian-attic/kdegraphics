@@ -32,12 +32,14 @@ kdegraphics (4:4.4.1-0r1) UNRELEASED; urgency=low
   * Add the libxext-dev build-depend, so we are sure to have
     X11/extensions/shape.h for ksnapshot.
   * Change the khelpcenter suggest of kgamma to khelpcenter4.
-  * Change the texlive-base-bin suggest of okular to texlive-binaries,
-    as it is the new texlive package containing `kpsewhich' (for DVI fonts).
+  * Okular suggestions:
+    - change texlive-base-bin to texlive-binaries, as it is the new texlive
+      package containing `kpsewhich' (for TeX fonts in DVI documents)
+    - add kttsd (for the speech functions)
   * Add some more mailcap entries for okular.
     - ... including application/x-pdf (Closes: #565873)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Feb 2010 18:59:38 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Feb 2010 10:50:29 +0100
 
 kdegraphics (4:4.3.4-1) unstable; urgency=low
 
