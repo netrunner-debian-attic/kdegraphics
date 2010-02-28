@@ -26,7 +26,7 @@ kdegraphics (4:4.4.1-0r1) UNRELEASED; urgency=low
   * Add lintian overrides.
   * Add symbol files for public libraries.
   * Add cmake to Build-Depends.
-  * Add kde-sc-dev-latest (>= 4:4.4.1) | kde-sc-dev-maint to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
 
   [ Pino Toscano ]
   * Add the libxext-dev build-depend, so we are sure to have
