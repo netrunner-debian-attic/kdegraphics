@@ -237,6 +237,7 @@ Description: RAW picture decoding C++ library (runtime)
 Package: libkdcraw-dev
 Section: libdevel
 Architecture: any
+Provides: libkdcraw7-dev
 Depends: libkdcraw8 (= ${binary:Version}), ${misc:Depends},
  ${sameVersionDep:kdelibs5-dev:libkdcraw8}, pkg-config
 Conflicts: libkdcraw5-dev, libkdcraw7-dev
@@ -259,6 +260,7 @@ Description: Qt like interface for the libexiv2 library (runtime)
 Package: libkexiv2-dev
 Section: libdevel
 Architecture: any
+Provides: ibkexiv2-7-dev
 Depends: libkexiv2-8 (= ${binary:Version}), ${misc:Depends},
  ${sameVersionDep:kdelibs5-dev:libkexiv2-8}, pkg-config
 Conflicts: libkexiv2-6-dev, libkexiv2-7-dev
@@ -282,6 +284,7 @@ Description: library for apps that want to use kipi-plugins (runtime version)
 Package: libkipi-dev
 Section: libdevel
 Architecture: any
+Provides: libkipi6-dev
 Depends: libkipi7 (= ${binary:Version}), ${misc:Depends},
  ${sameVersionDep:kdelibs5-dev:libkipi7}, pkg-config
 Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev
