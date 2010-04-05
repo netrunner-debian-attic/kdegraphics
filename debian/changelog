@@ -1,4 +1,4 @@
-kdegraphics (4:4.4.2-0rc1) UNRELEASED; urgency=low
+kdegraphics (4:4.4.2-1) experimental; urgency=low
 
   * New upstream release:
     - Okular prints the number of copies specified. (Closes: #560378)
@@ -43,7 +43,7 @@ kdegraphics (4:4.4.2-0rc1) UNRELEASED; urgency=low
   * Add old -dev package names to renamed -dev packages to keep rdeps
     binNMU'able
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Mar 2010 03:06:13 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Apr 2010 23:15:17 +0300
 
 kdegraphics (4:4.3.4-1) unstable; urgency=low
 
