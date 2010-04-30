@@ -7,6 +7,8 @@ kdegraphics (4:4.4.3-0r1) UNRELEASED; urgency=low
     from the respective *-dev packages. The number of affected 3rd party
     packages is too small to warrant this. (Closes: #576727)
   * Bump kde-sc-dev-latest build dependency to 4.4.3.
+  * Confirm symbol files for 4.4.2 on i386 ia64 kfreebsd-amd64 kfreebsd-i386
+    powerpc s390 sparc.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:04 +0300
 
