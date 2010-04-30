@@ -1,10 +1,14 @@
-kdegraphics (4:4.4.2-2) UNRELEASED; urgency=low
+kdegraphics (4:4.4.3-0r1) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ Modestas Vainius ]
   * Drop "compatibility" provides (libkdcraw7-dev libkexiv2-7-dev libkipi6-dev)
     from the respective *-dev packages. The number of affected 3rd party
     packages is too small to warrant this. (Closes: #576727)
+  * Bump kde-sc-dev-latest build dependency to 4.4.3.
 
- -- Modestas Vainius <modax@debian.org>  Tue, 13 Apr 2010 15:32:18 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:04 +0300
 
 kdegraphics (4:4.4.2-1) experimental; urgency=low
 
