@@ -1,4 +1,4 @@
-kdegraphics (4:4.4.3-0r1) UNRELEASED; urgency=low
+kdegraphics (4:4.4.3-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -9,8 +9,9 @@ kdegraphics (4:4.4.3-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4.4.3.
   * Confirm symbol files for 4.4.2 on i386 ia64 kfreebsd-amd64 kfreebsd-i386
     powerpc s390 sparc.
+  * Release KDE SC 4.4.3 to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:04 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 May 2010 23:37:53 +0300
 
 kdegraphics (4:4.4.2-1) experimental; urgency=low
 
