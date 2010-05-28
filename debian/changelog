@@ -6,6 +6,8 @@ kdegraphics (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Update libkexiv2-8.symbols for kfreebsd-i386.
   * Bump pkg-kde-tools build dependency to (>= 0.9) for HTML_INSTALL_DIR
     switch and 3.0 (quilt) source format support.
+  * Switch to 3.0 (quilt) source package format and original tar.bz2
+    tarballs.
 
   [ Sune Vuorela ]
   * Change my email address
