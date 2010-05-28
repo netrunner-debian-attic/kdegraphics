@@ -14,13 +14,10 @@ kdegraphics (4:4.4.4-0r1) UNRELEASED; urgency=low
     now.
   * Drop quilt-build-dep-but-no-series-file from lintian source overrides,
     it is no longer relevant.
-
   * Bump kde-sc-dev-latest build dependency to 4:4.4.4.
 
   [ Sune Vuorela ]
   * Change my email address
-  * Steal patch from upstream to make nepomuk not crash. Thanks to Jos van den
-    Oever
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:17 +0300
 
