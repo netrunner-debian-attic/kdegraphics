@@ -1,9 +1,9 @@
 usr/bin/kruler
 usr/share/applications/kde4/kruler.desktop
-usr/share/doc/kde4/HTML/en/kruler/common
-usr/share/doc/kde4/HTML/en/kruler/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kruler/index.docbook
-usr/share/doc/kde4/HTML/en/kruler/kruler.png
+usr/share/doc/kde/HTML/en/kruler/common
+usr/share/doc/kde/HTML/en/kruler/index.cache.bz2
+usr/share/doc/kde/HTML/en/kruler/index.docbook
+usr/share/doc/kde/HTML/en/kruler/kruler.png
 usr/share/icons/hicolor/128x128/apps/kruler.png
 usr/share/icons/hicolor/16x16/apps/kruler.png
 usr/share/icons/hicolor/22x22/apps/kruler.png

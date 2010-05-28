@@ -23,11 +23,11 @@ usr/share/applications/kde4/okularApplication_ooo.desktop
 usr/share/applications/kde4/okularApplication_pdf.desktop
 usr/share/applications/kde4/okularApplication_plucker.desktop
 usr/share/applications/kde4/okularApplication_xps.desktop
-usr/share/doc/kde4/HTML/en/okular/common
-usr/share/doc/kde4/HTML/en/okular/configure.png
-usr/share/doc/kde4/HTML/en/okular/embedded-files-bar.png
-usr/share/doc/kde4/HTML/en/okular/index.cache.bz2
-usr/share/doc/kde4/HTML/en/okular/index.docbook
+usr/share/doc/kde/HTML/en/okular/common
+usr/share/doc/kde/HTML/en/okular/configure.png
+usr/share/doc/kde/HTML/en/okular/embedded-files-bar.png
+usr/share/doc/kde/HTML/en/okular/index.cache.bz2
+usr/share/doc/kde/HTML/en/okular/index.docbook
 usr/share/icons/hicolor/128x128/apps/okular.png
 usr/share/icons/hicolor/16x16/apps/okular.png
 usr/share/icons/hicolor/22x22/apps/okular.png
