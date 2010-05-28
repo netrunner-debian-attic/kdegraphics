@@ -15,6 +15,7 @@ kdegraphics (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Drop quilt-build-dep-but-no-series-file from lintian source overrides,
     it is no longer relevant.
 
+  * Bump kde-sc-dev-latest build dependency to 4:4.4.4.
 
   [ Sune Vuorela ]
   * Change my email address
