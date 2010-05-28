@@ -1,4 +1,6 @@
-kdegraphics (4:4.4.3-2) UNRELEASED; urgency=low
+kdegraphics (4:4.4.4-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Modestas Vainius ]
   * Update libkexiv2-8.symbols for kfreebsd-i386.
@@ -8,7 +10,7 @@ kdegraphics (4:4.4.3-2) UNRELEASED; urgency=low
   * Steal patch from upstream to make nepomuk not crash. Thanks to Jos van den
     Oever
 
- -- Sune Vuorela <sune@debian.org>  Sat, 22 May 2010 13:17:17 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:17 +0300
 
 kdegraphics (4:4.4.3-1) unstable; urgency=low
 
