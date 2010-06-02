@@ -1,3 +1,11 @@
+kdegraphics (4:4.4.4-2) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * Expand a bit the okular description, so all the formats supported by
+    plugins in that package are listed.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Jun 2010 00:40:45 +0200
+
 kdegraphics (4:4.4.4-1) unstable; urgency=low
 
   * New upstream release.
