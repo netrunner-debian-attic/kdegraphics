@@ -1,10 +1,12 @@
 kdegraphics (4:4.4.4-2) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
-  * Expand a bit the okular description, so all the formats supported by
-    plugins in that package are listed.
+  * Some changes in the package descriptions, including:
+    - expanded description of okular, so all the formats supported by plugins
+      in that package are listed
+    - typo fixed in description of libkdcraw8 (Closes: #585429)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Jun 2010 00:40:45 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 11 Jun 2010 17:35:31 +0200
 
 kdegraphics (4:4.4.4-1) unstable; urgency=low
 
