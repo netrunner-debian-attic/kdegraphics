@@ -1,4 +1,6 @@
-kdegraphics (4:4.4.4-2) UNRELEASED; urgency=low
+kdegraphics (4:4.4.5-1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Pino Toscano ]
   * Some changes in the package descriptions, including:
@@ -6,7 +8,10 @@ kdegraphics (4:4.4.4-2) UNRELEASED; urgency=low
       in that package are listed
     - typo fixed in description of libkdcraw8 (Closes: #585429)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 11 Jun 2010 17:35:31 +0200
+  [ Modestas Vainius ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.4.5.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 04 Jul 2010 19:00:51 +0300
 
 kdegraphics (4:4.4.4-1) unstable; urgency=low
 
