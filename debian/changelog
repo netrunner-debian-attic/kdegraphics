@@ -285,6 +285,13 @@ kdegraphics (4:4.2.0-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Jan 2009 12:41:37 +0100
 
+kdegraphics (4:4.1.4-1) experimental; urgency=low
+
+  * New upstream release
+    - bump build-deps
+
+ -- Sune Vuorela <debian@pusling.com>  Fri, 09 Jan 2009 23:15:49 +0100
+
 kdegraphics (4:4.1.3-1) experimental; urgency=low
 
   * New upstream release 
