@@ -559,12 +559,7 @@ kdegraphics (4:3.96.0-1) experimental; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update b-d on poppler to latest release in experimental (0.6.1-1)
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:34:27 +0100
-
-kdegraphics (4:3.95.2-1) experimental; urgency=low
-
-  * New upstream release.
+  * Add kdegraphics-dbg package. 
 
   +++ Changes by Armin Berres:
 
@@ -573,13 +568,7 @@ kdegraphics (4:3.95.2-1) experimental; urgency=low
   * Clean up any kghostview related mention.
     kghostview was dropped upstream in favor of okular.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Nov 2007 11:00:03 +0000
-
-kdegraphics (4:3.95.0-2) experimental; urgency=low
-
-  * Add kdegraphics-dbg package. 
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 31 Oct 2007 14:37:00 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:34:27 +0100
 
 kdegraphics (4:3.95.0-1) experimental; urgency=low
 
@@ -608,10 +597,3 @@ kdegraphics (4:3.94.0-1) experimental; urgency=low
   * Change kdegraphics metapackage to Arch:all.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 21:31:44 +0200
-
-kdegraphics (4:3.90.1-1) unstable; urgency=low
-
-  * Initial release.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 22 May 2007 11:45:58 +0100
-
