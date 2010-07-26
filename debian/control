@@ -13,8 +13,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  shared-mime-info, shared-desktop-ontologies
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdegraphics/#_trunk_packages_kdegraphics_
-Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdegraphics
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdegraphics.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdegraphics.git
 
 Package: kdegraphics
 Architecture: all
