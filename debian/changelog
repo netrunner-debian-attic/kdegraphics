@@ -111,7 +111,7 @@ kdegraphics (4:4.3.4-1) unstable; urgency=low
   +++ Changes by Karl Ferdinand Ebert:
 
   * Add source.lintian-overrides to ignore lintian warning about missing
-    debug depends. 
+    debug depends.
 
   +++ Changes by Lukasz Janyst:
 
@@ -294,7 +294,7 @@ kdegraphics (4:4.1.4-1) experimental; urgency=low
 
 kdegraphics (4:4.1.3-1) experimental; urgency=low
 
-  * New upstream release 
+  * New upstream release
     - bump build-deps.
     - kgamma docs in kgamma
 
@@ -416,12 +416,12 @@ kdegraphics (4:4.0.72-1) experimental; urgency=low
 
 kdegraphics (4:4.0.68+svn794641-1) experimental; urgency=low
 
-  * New upstream snapshot. 
+  * New upstream snapshot.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 05 Apr 2008 20:45:36 +0200
 
 kdegraphics (4:4.0.66+svn791114-1) experimental; urgency=low
-  
+
   * First KDE 4.1 snapshot packaged.
   * Update installed files.
   * Add build depends on libspectre-dev and libqca2-dev.
@@ -434,8 +434,8 @@ kdegraphics (4:4.0.2-2) experimental; urgency=low
   * Changes suggested by Pino Toscano:
   - Remove Recommends: okular-extra-backends from kdegraphics since
     okular already Recommends this.
-  - Remove usr/lib/libspectreOkular.so from libokular-dev and move 
-    usr/lib/libspectreOkular.so.* to okular. (This library has been killed in 
+  - Remove usr/lib/libspectreOkular.so from libokular-dev and move
+    usr/lib/libspectreOkular.so.* to okular. (This library has been killed in
     KDE 4.1)
   * Remove unnecessary build depend on libpoppler-qt-dev, it is for Qt3...
 
@@ -445,7 +445,7 @@ kdegraphics (4:4.0.2-1) experimental; urgency=low
 
   * New upstream release:
     - Update installed files.
-    - Replace build-depends to >= 4.0.2 and use ${source:Upstream-Version} 
+    - Replace build-depends to >= 4.0.2 and use ${source:Upstream-Version}
       in the -dev package.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 04 Mar 2008 20:33:26 +0100
@@ -544,7 +544,7 @@ kdegraphics (4:3.98.0~svn753247-1) experimental; urgency=low
 
 kdegraphics (4:3.97.0-1) experimental; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
   * Update Standards-Version to 3.7.3.
   * Update *.install files and build-depends.
   * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
@@ -559,7 +559,7 @@ kdegraphics (4:3.96.0-1) experimental; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update b-d on poppler to latest release in experimental (0.6.1-1)
-  * Add kdegraphics-dbg package. 
+  * Add kdegraphics-dbg package.
 
   +++ Changes by Armin Berres:
 
@@ -583,9 +583,9 @@ kdegraphics (4:3.95.0-1) experimental; urgency=low
 kdegraphics (4:3.94.0-1) experimental; urgency=low
 
   * KDE4 beta3, first upload to the Debian archive.
- 
+
   +++ Changes by Sune Vuorela:
- 
+
   * Split out programs, plugins and stuff.
   * Write copyright file.
 
@@ -593,7 +593,7 @@ kdegraphics (4:3.94.0-1) experimental; urgency=low
 
   * Update Uploaders field.
   * Improve package descriptions.
-  * Improve copyright file. 
+  * Improve copyright file.
   * Change kdegraphics metapackage to Arch:all.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 21:31:44 +0200
