@@ -1,6 +1,8 @@
 kdegraphics (4:4.4.5-2) UNRELEASED; urgency=low
 
   * Point debian/control Vcs fields to the new Git repository.
+  * Fix mistake in Solid action predicate for kamera (Closes: #585717). Thanks
+    to dju` <dju@elegiac.net> for the patch.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:24:35 +0300
 
