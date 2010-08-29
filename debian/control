@@ -65,7 +65,7 @@ Package: gwenview
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: image viewer for KDE
+Description: image viewer
  Gwenview is an image viewer, ideal for browsing and displaying a collection of
  images.  It is capable of showing images in a full-screen slideshow view and
  making simple adjustments, such as rotating or cropping images.
@@ -88,7 +88,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kcoloredit
 Conflicts: kcoloredit
-Description: color chooser and palette editor for KDE
+Description: color chooser and palette editor
  KColorChooser is a color palette tool, used to mix colors and create custom
  color palettes.  Using the dropper, it can obtain the color of any pixel on
  the screen.
@@ -119,7 +119,7 @@ Architecture: any
 Conflicts: kolourpaint
 Replaces: kolourpaint
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: simple image editor for KDE
+Description: simple image editor and drawing application
  KolourPaint is a simple drawing and image editing application for KDE.
  It aims to be easy to use, providing a level of functionality targeted towards
  the average user. It is ideal for common tasks such as drawing simple graphics
@@ -131,7 +131,7 @@ Package: kruler
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: screen ruler for KDE
+Description: screen ruler
  KRuler is a tool for measuring the size, in pixels, of items on the screen.
  .
  This package is part of the KDE graphics module.
@@ -140,7 +140,7 @@ Package: libksane0
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdegraphics-libs-data (>= ${source:Version})
-Description: scanner library for KDE (runtime)
+Description: scanner library (runtime)
  The KDE scanner library provides an API and widgets for using scanners and
  other imaging devices supported by SANE.
  .
@@ -151,11 +151,11 @@ Section: libdevel
 Architecture: any
 Depends: libksane0 (= ${binary:Version}), ${misc:Depends},
  ${sameVersionDep:kdelibs5-dev:libksane0}
-Description: scanner library for KDE (development)
+Description: scanner library development headers
  The KDE scanner library provides an API and widgets for using scanners and
  other imaging devices supported by SANE.
  .
- This package contains the scanner library development files for KDE.
+ This package contains the scanner library development files.
  .
  This package is part of the KDE graphics module.
 
@@ -163,7 +163,7 @@ Package: ksnapshot
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: screen capture tool for KDE
+Description: screen capture tool
  KSnapshot captures images of the screen.  It can capture the whole screen,
  a specified region, an individual window, or only part of a window.
  .
@@ -184,7 +184,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: okular-extra-backends (= ${binary:Version}), texlive-binaries, unrar, poppler-data, ghostscript, kttsd
 Provides: pdf-viewer, postscript-viewer
-Description: document viewer for KDE
+Description: universal document viewer
  Okular is a universal document viewer with support for advanced document
  features, such as annotations, forms, and embedded files.
  .

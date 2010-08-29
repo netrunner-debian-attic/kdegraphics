@@ -9,6 +9,9 @@ kdegraphics (4:4.4.5-2) UNRELEASED; urgency=low
   * Import upstream revision r1167826 to fix CVE-2010-2575 in the plucker
     backend of Okular.
 
+  [ Sune Vuorela ]
+  * Some description updates.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Aug 2010 15:35:55 +0200
 
 kdegraphics (4:4.4.5-1) unstable; urgency=low
