@@ -1,4 +1,4 @@
-kdegraphics (4:4.4.5-2) UNRELEASED; urgency=medium
+kdegraphics (4:4.4.5-2) unstable; urgency=medium
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
