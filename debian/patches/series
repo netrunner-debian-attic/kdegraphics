@@ -1,1 +1,2 @@
 fix_solid_camera_predicate.diff
+01_do_not_break_kexiv2_abi.diff

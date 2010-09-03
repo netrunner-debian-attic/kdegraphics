@@ -6,6 +6,8 @@ kdegraphics (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Add myself to uploaders.
   * Remove patch 01_r1167826_CVE-2010-2575.diff; applied upstream.
   * Update installed files.
+  * Add patch 01_do_not_break_kexiv2_abi.diff to maintain binary
+    compatibility in libkexiv2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 Sep 2010 15:13:33 +0300
 
