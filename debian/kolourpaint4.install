@@ -1,7 +1,8 @@
 usr/bin/kolourpaint
 usr/lib/libkolourpaint_lgpl.so.4
-usr/lib/libkolourpaint_lgpl.so.4.4.0
+usr/lib/libkolourpaint_lgpl.so.4.5.0
 usr/share/applications/kde4/kolourpaint.desktop
+usr/share/doc/kde/HTML/en/kolourpaint/KolourPaint.png
 usr/share/doc/kde/HTML/en/kolourpaint/brush_shapes.png
 usr/share/doc/kde/HTML/en/kolourpaint/color_box.png
 usr/share/doc/kde/HTML/en/kolourpaint/common
@@ -22,7 +23,6 @@ usr/share/doc/kde/HTML/en/kolourpaint/image_skew.png
 usr/share/doc/kde/HTML/en/kolourpaint/image_soften_sharpen.png
 usr/share/doc/kde/HTML/en/kolourpaint/index.cache.bz2
 usr/share/doc/kde/HTML/en/kolourpaint/index.docbook
-usr/share/doc/kde/HTML/en/kolourpaint/kolourpaint-main.png
 usr/share/doc/kde/HTML/en/kolourpaint/line_width.png
 usr/share/doc/kde/HTML/en/kolourpaint/lines_30_45_deg.png
 usr/share/doc/kde/HTML/en/kolourpaint/lines_30_deg.png

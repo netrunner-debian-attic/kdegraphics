@@ -3,7 +3,7 @@ usr/bin/gwenview_importer
 usr/lib/kde4/gvpart.so
 usr/lib/kde4/svgpart.so
 usr/lib/libgwenviewlib.so.4
-usr/lib/libgwenviewlib.so.4.4.0
+usr/lib/libgwenviewlib.so.4.5.0
 usr/share/applications/kde4/gwenview.desktop
 usr/share/doc/kde/HTML/en/gwenview/browse_mode.png
 usr/share/doc/kde/HTML/en/gwenview/common
