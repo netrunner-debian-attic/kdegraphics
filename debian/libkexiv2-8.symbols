@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.3 armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.5.1 amd64
 libkexiv2.so.8 libkexiv2-8 #MINVER#
  _ZN11KExiv2Iface10KExiv2DataC1ERKS0_@Base 4:4.4.1
  _ZN11KExiv2Iface10KExiv2DataC1Ev@Base 4:4.4.1
@@ -29,7 +29,9 @@ libkexiv2.so.8 libkexiv2-8 #MINVER#
  _ZN11KExiv2Iface13SubjectWidget14slotDelSubjectEv@Base 4:4.4.1
  _ZN11KExiv2Iface13SubjectWidget14slotRefChangedEv@Base 4:4.4.1
  _ZN11KExiv2Iface13SubjectWidget14slotRepSubjectEv@Base 4:4.4.1
+ _ZN11KExiv2Iface13SubjectWidget15setSubjectsListERK11QStringList@Base 4:4.5.1
  _ZN11KExiv2Iface13SubjectWidget16staticMetaObjectE@Base 4:4.4.1
+ _ZN11KExiv2Iface13SubjectWidget19slotSubjectsToggledEb@Base 4:4.5.1
  _ZN11KExiv2Iface13SubjectWidget21slotEditOptionChangedEi@Base 4:4.4.1
  _ZN11KExiv2Iface13SubjectWidget23loadSubjectCodesFromXMLERK4KUrl@Base 4:4.4.1
  _ZN11KExiv2Iface13SubjectWidget27slotSubjectSelectionChangedEv@Base 4:4.4.1
@@ -131,6 +133,13 @@ libkexiv2.so.8 libkexiv2-8 #MINVER#
  _ZN11KExiv2Iface6KExiv2D1Ev@Base 4:4.4.1
  _ZN11KExiv2Iface6KExiv2D2Ev@Base 4:4.4.1
  _ZN11KExiv2Iface6KExiv2aSERKS0_@Base 4:4.4.1
+ (optional=templinst)_ZN5Exiv28toStringIjEESsRKT_@Base 4:4.5.1
+ (optional=templinst)_ZN5Exiv29ValueTypeIjE11setDataAreaEPKhl@Base 4:4.5.1
+ (optional=templinst)_ZN5Exiv29ValueTypeIjE4readEPKhlNS_9ByteOrderE@Base 4:4.5.1
+ (optional=templinst)_ZN5Exiv29ValueTypeIjE4readERKSs@Base 4:4.5.1
+ (optional=templinst)_ZN5Exiv29ValueTypeIjEC1ERKS1_@Base 4:4.5.1
+ (optional=templinst)_ZN5Exiv29ValueTypeIjED0Ev@Base 4:4.5.1
+ (optional=templinst)_ZN5Exiv29ValueTypeIjED1Ev@Base 4:4.5.1
  _ZNK11KExiv2Iface11MsgTextEdit10metaObjectEv@Base 4:4.4.1
  _ZNK11KExiv2Iface11MsgTextEdit12clickMessageEv@Base 4:4.4.1
  _ZNK11KExiv2Iface13SubjectWidget10metaObjectEv@Base 4:4.4.1
@@ -141,13 +150,17 @@ libkexiv2.so.8 libkexiv2-8 #MINVER#
  _ZNK11KExiv2Iface14AltLangStrEdit14defaultAltLangEv@Base 4:4.4.1
  _ZNK11KExiv2Iface14AltLangStrEdit16asDefaultAltLangEv@Base 4:4.4.1
  _ZNK11KExiv2Iface14AltLangStrEdit19currentLanguageCodeEv@Base 4:4.4.1
+ _ZNK11KExiv2Iface14KExiv2Previews12originalSizeEv@Base 4:4.5.1
+ _ZNK11KExiv2Iface14KExiv2Previews16originalMimeTypeEv@Base 4:4.5.1
  _ZNK11KExiv2Iface6KExiv210getGPSInfoERdS1_S1_@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv210setGPSInfoEdddb@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv211getCommentsEv@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv211getFilePathEv@Base 4:4.4.1
+ _ZNK11KExiv2Iface6KExiv211getMimeTypeEv@Base 4:4.5.1
  _ZNK11KExiv2Iface6KExiv211hasCommentsEv@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv211setCommentsERK10QByteArray@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv212applyChangesEv@Base 4:4.4.1
+ _ZNK11KExiv2Iface6KExiv212getPixelSizeEv@Base 4:4.5.1
  _ZNK11KExiv2Iface6KExiv212loadFromDataERK10QByteArray@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv212removeXmpTagEPKcb@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv212setProgramIdEb@Base 4:4.4.1
@@ -190,6 +203,7 @@ libkexiv2.so.8 libkexiv2-8 #MINVER#
  _ZNK11KExiv2Iface6KExiv216setExifThumbnailERK6QImageb@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv216setImageDateTimeERK9QDateTimebb@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv216setIptcTagStringEPKcRK7QStringb@Base 4:4.4.1
+ _ZNK11KExiv2Iface6KExiv216setTiffThumbnailERK6QImageb@Base 4:4.5.1
  _ZNK11KExiv2Iface6KExiv217getExifTagVariantEPKcbbi@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv217setExifTagVariantEPKcRK8QVariantbb@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv217setImageProgramIdERK7QStringS3_@Base 4:4.4.1
@@ -208,6 +222,7 @@ libkexiv2.so.8 libkexiv2-8 #MINVER#
  _ZNK11KExiv2Iface6KExiv219getImageOrientationEv@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv219getIptcTagsDataListERK11QStringListb@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv219getXmpSubCategoriesEv@Base 4:4.4.1
+ _ZNK11KExiv2Iface6KExiv219removeExifThumbnailEv@Base 4:4.5.1
  _ZNK11KExiv2Iface6KExiv219setImageOrientationENS0_16ImageOrientationEb@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv219setXmpSubCategoriesERK11QStringListb@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv219updateFileTimeStampEv@Base 4:4.4.1
@@ -246,12 +261,24 @@ libkexiv2.so.8 libkexiv2-8 #MINVER#
  _ZNK11KExiv2Iface6KExiv28clearXmpEv@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv29clearExifEv@Base 4:4.4.1
  _ZNK11KExiv2Iface6KExiv29clearIptcEv@Base 4:4.4.1
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE10toRationalEl@Base 4:4.5.1
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE12sizeDataAreaEv@Base 4:4.5.1
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE4copyEPhNS_9ByteOrderE@Base 4:4.5.1
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE4sizeEv@Base 4:4.5.1
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE5countEv@Base 4:4.5.1
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE5writeERSo@Base 4:4.5.1
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE6clone_Ev@Base 4:4.5.1
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE6toLongEl@Base 4:4.5.1
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE7toFloatEl@Base 4:4.5.1
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE8dataAreaEv@Base 4:4.5.1
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE8toStringEl@Base 4:4.5.1
  (optional=templinst)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 4:4.4.1
  (optional=templinst)_ZNSt10_List_baseIN5Exiv29ExifdatumESaIS1_EED2Ev@Base 4:4.4.5
  (optional=templinst)_ZNSt4listIN5Exiv29ExifdatumESaIS1_EEaSERKS3_@Base 4:4.4.5
  (optional=templinst)_ZNSt6vectorIN5Exiv217PreviewPropertiesESaIS1_EED1Ev@Base 4:4.4.1
  (optional=templinst)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EEaSERKS3_@Base 4:4.4.1
  (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EEaSERKS3_@Base 4:4.4.1
+ (optional=templinst)_ZNSt6vectorIjSaIjEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPjS1_EERKj@Base 4:4.5.1
  (optional=templinst)_ZNSt8auto_ptrIN5Exiv25ImageEED1Ev@Base 4:4.4.1
  _ZTIN11KExiv2Iface11MsgTextEditE@Base 4:4.4.1
  _ZTIN11KExiv2Iface13SubjectWidgetE@Base 4:4.4.1
@@ -259,19 +286,22 @@ libkexiv2.so.8 libkexiv2-8 #MINVER#
  _ZTIN11KExiv2Iface15CountrySelectorE@Base 4:4.4.1
  _ZTIN11KExiv2Iface6KExiv2E@Base 4:4.4.1
  _ZTIN5Exiv210BasicErrorIcEE@Base 4:4.4.5
+ _ZTIN5Exiv29ValueTypeIjEE@Base 4:4.5.1
  _ZTSN11KExiv2Iface11MsgTextEditE@Base 4:4.4.1
  _ZTSN11KExiv2Iface13SubjectWidgetE@Base 4:4.4.1
  _ZTSN11KExiv2Iface14AltLangStrEditE@Base 4:4.4.1
  _ZTSN11KExiv2Iface15CountrySelectorE@Base 4:4.4.1
  _ZTSN11KExiv2Iface6KExiv2E@Base 4:4.4.1
  _ZTSN5Exiv210BasicErrorIcEE@Base 4:4.4.5
+ _ZTSN5Exiv29ValueTypeIjEE@Base 4:4.5.1
  _ZTVN11KExiv2Iface11MsgTextEditE@Base 4:4.4.1
  _ZTVN11KExiv2Iface13SubjectWidgetE@Base 4:4.4.1
  _ZTVN11KExiv2Iface14AltLangStrEditE@Base 4:4.4.1
  _ZTVN11KExiv2Iface15CountrySelectorE@Base 4:4.4.1
  _ZTVN11KExiv2Iface6KExiv2E@Base 4:4.4.1
+ _ZTVN5Exiv210BasicErrorIcEE@Base 4:4.5.1
+ _ZTVN5Exiv29ValueTypeIjEE@Base 4:4.5.1
  (c++)"non-virtual thunk to KExiv2Iface::AltLangStrEdit::~AltLangStrEdit()@Base" 4:4.4.1
  (c++)"non-virtual thunk to KExiv2Iface::CountrySelector::~CountrySelector()@Base" 4:4.4.1
  (c++)"non-virtual thunk to KExiv2Iface::MsgTextEdit::~MsgTextEdit()@Base" 4:4.4.1
  (c++)"non-virtual thunk to KExiv2Iface::SubjectWidget::~SubjectWidget()@Base" 4:4.4.1
-

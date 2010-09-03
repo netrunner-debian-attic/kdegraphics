@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.1 amd64
+# SymbolsHelper-Confirmed: 4:4.5.1 amd64
 libkdcraw.so.8 libkdcraw8 #MINVER#
  _ZN11KDcrawIface11RClickLabel11leftClickedEv@Base 4:4.4.1
  _ZN11KDcrawIface11RClickLabel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.1
@@ -15,6 +15,7 @@ libkdcraw.so.8 libkdcraw8 #MINVER#
  _ZN11KDcrawIface12RExpanderBox10insertItemEiP7QWidgetRK7QPixmapRK7QStringS8_b@Base 4:4.4.1
  _ZN11KDcrawIface12RExpanderBox10insertItemEiP7QWidgetRK7QStringS5_b@Base 4:4.4.1
  _ZN11KDcrawIface12RExpanderBox10removeItemEi@Base 4:4.4.1
+ _ZN11KDcrawIface12RExpanderBox10setCheckedEib@Base 4:4.5.1
  _ZN11KDcrawIface12RExpanderBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.1
  _ZN11KDcrawIface12RExpanderBox11qt_metacastEPKc@Base 4:4.4.1
  _ZN11KDcrawIface12RExpanderBox11setItemIconEiRK7QPixmap@Base 4:4.4.1
@@ -25,8 +26,11 @@ libkdcraw.so.8 libkdcraw8 #MINVER#
  _ZN11KDcrawIface12RExpanderBox14setItemEnabledEib@Base 4:4.4.1
  _ZN11KDcrawIface12RExpanderBox14setItemToolTipEiRK7QString@Base 4:4.4.1
  _ZN11KDcrawIface12RExpanderBox15setItemExpandedEib@Base 4:4.4.1
+ _ZN11KDcrawIface12RExpanderBox15slotItemToggledEb@Base 4:4.5.1
  _ZN11KDcrawIface12RExpanderBox16slotItemExpandedEb@Base 4:4.4.1
  _ZN11KDcrawIface12RExpanderBox16staticMetaObjectE@Base 4:4.4.1
+ _ZN11KDcrawIface12RExpanderBox17signalItemToggledEib@Base 4:4.5.1
+ _ZN11KDcrawIface12RExpanderBox18setCheckBoxVisibleEib@Base 4:4.5.1
  _ZN11KDcrawIface12RExpanderBox18signalItemExpandedEib@Base 4:4.4.1
  _ZN11KDcrawIface12RExpanderBox7addItemEP7QWidgetRK7QPixmapRK7QStringS8_b@Base 4:4.4.1
  _ZN11KDcrawIface12RExpanderBox7addItemEP7QWidgetRK7QStringS5_b@Base 4:4.4.1
@@ -53,13 +57,16 @@ libkdcraw.so.8 libkdcraw8 #MINVER#
  _ZN11KDcrawIface12RIntNumInputD0Ev@Base 4:4.4.1
  _ZN11KDcrawIface12RIntNumInputD1Ev@Base 4:4.4.1
  _ZN11KDcrawIface12RIntNumInputD2Ev@Base 4:4.4.1
+ _ZN11KDcrawIface14RLabelExpander10setCheckedEb@Base 4:4.5.1
  _ZN11KDcrawIface14RLabelExpander11eventFilterEP7QObjectP6QEvent@Base 4:4.4.1
  _ZN11KDcrawIface14RLabelExpander11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.1
  _ZN11KDcrawIface14RLabelExpander11qt_metacastEPKc@Base 4:4.4.1
  _ZN11KDcrawIface14RLabelExpander11setExpandedEb@Base 4:4.4.1
+ _ZN11KDcrawIface14RLabelExpander13signalToggledEb@Base 4:4.5.1
  _ZN11KDcrawIface14RLabelExpander14setLineVisibleEb@Base 4:4.4.1
  _ZN11KDcrawIface14RLabelExpander14signalExpandedEb@Base 4:4.4.1
  _ZN11KDcrawIface14RLabelExpander16staticMetaObjectE@Base 4:4.4.1
+ _ZN11KDcrawIface14RLabelExpander18setCheckBoxVisibleEb@Base 4:4.5.1
  _ZN11KDcrawIface14RLabelExpander18setExpandByDefaultEb@Base 4:4.4.1
  _ZN11KDcrawIface14RLabelExpander19slotToggleContainerEv@Base 4:4.4.1
  _ZN11KDcrawIface14RLabelExpander7setIconERK7QPixmap@Base 4:4.4.1
@@ -128,8 +135,10 @@ libkdcraw.so.8 libkdcraw8 #MINVER#
  _ZN11KDcrawIface19DcrawSettingsWidget11NRThresholdEv@Base 4:4.4.1
  _ZN11KDcrawIface19DcrawSettingsWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.1
  _ZN11KDcrawIface19DcrawSettingsWidget11qt_metacastEPKc@Base 4:4.4.1
+ _ZN11KDcrawIface19DcrawSettingsWidget11setSettingsERKNS_19RawDecodingSettingsE@Base 4:4.5.1
  _ZN11KDcrawIface19DcrawSettingsWidget11sixteenBitsEv@Base 4:4.4.1
  _ZN11KDcrawIface19DcrawSettingsWidget11unclipColorEv@Base 4:4.4.1
+ _ZN11KDcrawIface19DcrawSettingsWidget12readSettingsER12KConfigGroup@Base 4:4.5.1
  _ZN11KDcrawIface19DcrawSettingsWidget12setFourColorEb@Base 4:4.4.1
  _ZN11KDcrawIface19DcrawSettingsWidget12useFourColorEv@Base 4:4.4.1
  _ZN11KDcrawIface19DcrawSettingsWidget12whiteBalanceEv@Base 4:4.4.1
@@ -138,6 +147,8 @@ libkdcraw.so.8 libkdcraw8 #MINVER#
  _ZN11KDcrawIface19DcrawSettingsWidget13setWhitePointEi@Base 4:4.4.1
  _ZN11KDcrawIface19DcrawSettingsWidget13useBlackPointEv@Base 4:4.4.1
  _ZN11KDcrawIface19DcrawSettingsWidget13useWhitePointEv@Base 4:4.4.1
+ _ZN11KDcrawIface19DcrawSettingsWidget13writeSettingsER12KConfigGroup@Base 4:4.5.1
+ _ZN11KDcrawIface19DcrawSettingsWidget14resetToDefaultEv@Base 4:4.5.1
  _ZN11KDcrawIface19DcrawSettingsWidget14setNRThresholdEi@Base 4:4.4.1
  _ZN11KDcrawIface19DcrawSettingsWidget14setSixteenBitsEb@Base 4:4.4.1
  _ZN11KDcrawIface19DcrawSettingsWidget14setUnclipColorEi@Base 4:4.4.1
@@ -203,12 +214,15 @@ libkdcraw.so.8 libkdcraw8 #MINVER#
  _ZN11KDcrawIface19RSqueezedClickLabelC1ERK7QStringP7QWidget@Base 4:4.4.1
  _ZN11KDcrawIface19RSqueezedClickLabelC2EP7QWidget@Base 4:4.4.1
  _ZN11KDcrawIface19RSqueezedClickLabelC2ERK7QStringP7QWidget@Base 4:4.4.1
+ _ZN11KDcrawIface19RawDecodingSettings12readSettingsER12KConfigGroup@Base 4:4.5.1
+ _ZN11KDcrawIface19RawDecodingSettings13writeSettingsER12KConfigGroup@Base 4:4.5.1
  _ZN11KDcrawIface19RawDecodingSettings19optimizeTimeLoadingEv@Base 4:4.4.1
  _ZN11KDcrawIface19RawDecodingSettingsC1Ev@Base 4:4.4.1
  _ZN11KDcrawIface19RawDecodingSettingsC2Ev@Base 4:4.4.1
  _ZN11KDcrawIface19RawDecodingSettingsD0Ev@Base 4:4.4.1
  _ZN11KDcrawIface19RawDecodingSettingsD1Ev@Base 4:4.4.1
  _ZN11KDcrawIface19RawDecodingSettingsD2Ev@Base 4:4.4.1
+ _ZN11KDcrawIface19RawDecodingSettingsaSERKS0_@Base 4:4.5.1
  _ZN11KDcrawIface6KDcraw11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.1
  _ZN11KDcrawIface6KDcraw11qt_metacastEPKc@Base 4:4.4.1
  _ZN11KDcrawIface6KDcraw12rawFilesListEv@Base 4:4.4.1
@@ -216,6 +230,7 @@ libkdcraw.so.8 libkdcraw8 #MINVER#
  _ZN11KDcrawIface6KDcraw13librawVersionEv@Base 4:4.4.1
  _ZN11KDcrawIface6KDcraw14decodeRAWImageERK7QStringRKNS_19RawDecodingSettingsER10QByteArrayRiS9_S9_@Base 4:4.4.1
  _ZN11KDcrawIface6KDcraw14extractRAWDataERK7QStringR10QByteArrayRNS_18DcrawInfoContainerE@Base 4:4.4.1
+ _ZN11KDcrawIface6KDcraw14extractRAWDataERK7QStringR10QByteArrayRNS_18DcrawInfoContainerEbj@Base 4:4.5.1
  _ZN11KDcrawIface6KDcraw14loadFromLibrawERK7QStringR10QByteArrayRiS6_S6_@Base 4:4.4.1
  _ZN11KDcrawIface6KDcraw15loadHalfPreviewER6QImageRK7QString@Base 4:4.4.1
  _ZN11KDcrawIface6KDcraw15rawFileIdentifyERNS_18DcrawInfoContainerERK7QString@Base 4:4.4.1
@@ -263,20 +278,24 @@ libkdcraw.so.8 libkdcraw8 #MINVER#
  _ZNK11KDcrawIface12RExpanderBox11itemToolTipEi@Base 4:4.4.1
  _ZNK11KDcrawIface12RExpanderBox13isItemEnabledEi@Base 4:4.4.1
  _ZNK11KDcrawIface12RExpanderBox14isItemExpandedEi@Base 4:4.4.1
+ _ZNK11KDcrawIface12RExpanderBox17checkBoxIsVisibleEi@Base 4:4.5.1
  _ZNK11KDcrawIface12RExpanderBox5countEv@Base 4:4.4.1
  _ZNK11KDcrawIface12RExpanderBox6widgetEi@Base 4:4.4.1
  _ZNK11KDcrawIface12RExpanderBox7indexOfEPNS_14RLabelExpanderE@Base 4:4.4.1
  _ZNK11KDcrawIface12RExpanderBox8itemIconEi@Base 4:4.4.1
  _ZNK11KDcrawIface12RExpanderBox8itemTextEi@Base 4:4.4.1
+ _ZNK11KDcrawIface12RExpanderBox9isCheckedEi@Base 4:4.5.1
  _ZNK11KDcrawIface12RIntNumInput10metaObjectEv@Base 4:4.4.1
  _ZNK11KDcrawIface12RIntNumInput5inputEv@Base 4:4.4.1
  _ZNK11KDcrawIface14RLabelExpander10isExpandedEv@Base 4:4.4.1
  _ZNK11KDcrawIface14RLabelExpander10metaObjectEv@Base 4:4.4.1
  _ZNK11KDcrawIface14RLabelExpander13lineIsVisibleEv@Base 4:4.4.1
+ _ZNK11KDcrawIface14RLabelExpander17checkBoxIsVisibleEv@Base 4:4.5.1
  _ZNK11KDcrawIface14RLabelExpander17isExpandByDefaultEv@Base 4:4.4.1
  _ZNK11KDcrawIface14RLabelExpander4iconEv@Base 4:4.4.1
  _ZNK11KDcrawIface14RLabelExpander4textEv@Base 4:4.4.1
  _ZNK11KDcrawIface14RLabelExpander6widgetEv@Base 4:4.4.1
+ _ZNK11KDcrawIface14RLabelExpander9isCheckedEv@Base 4:4.5.1
  _ZNK11KDcrawIface15RDoubleNumInput10metaObjectEv@Base 4:4.4.1
  _ZNK11KDcrawIface15RDoubleNumInput5inputEv@Base 4:4.4.1
  _ZNK11KDcrawIface16RArrowClickLabel10metaObjectEv@Base 4:4.4.1
@@ -288,11 +307,14 @@ libkdcraw.so.8 libkdcraw8 #MINVER#
  _ZNK11KDcrawIface19DcrawSettingsWidget10metaObjectEv@Base 4:4.4.1
  _ZNK11KDcrawIface19DcrawSettingsWidget19inputProfileUrlEditEv@Base 4:4.4.1
  _ZNK11KDcrawIface19DcrawSettingsWidget20outputProfileUrlEditEv@Base 4:4.4.1
+ _ZNK11KDcrawIface19DcrawSettingsWidget8settingsEv@Base 4:4.5.1
  _ZNK11KDcrawIface19RSqueezedClickLabel10metaObjectEv@Base 4:4.4.1
  _ZNK11KDcrawIface19RawDecodingSettingseqERKS0_@Base 4:4.4.1
  _ZNK11KDcrawIface6KDcraw10metaObjectEv@Base 4:4.4.1
  _ZNK11KDcrawIface9RComboBox10metaObjectEv@Base 4:4.4.1
  _ZNK11KDcrawIface9RComboBox5comboEv@Base 4:4.4.1
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.5.1
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.5.1
  _ZTI17LibRaw_exceptions@Base 4:4.4.1
  _ZTIN11KDcrawIface11RClickLabelE@Base 4:4.4.1
  _ZTIN11KDcrawIface12RExpanderBoxE@Base 4:4.4.1
