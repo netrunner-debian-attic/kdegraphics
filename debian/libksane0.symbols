@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.1 amd64
+# SymbolsHelper-Confirmed: 4:4.5.90 amd64
 libksane.so.0 libksane0 #MINVER#
  _ZN10KSaneIface11KSaneWidget10currentDPIEv@Base 4:4.3.4
  _ZN10KSaneIface11KSaneWidget10getOptValsER4QMapI7QStringS2_E@Base 4:4.3.4
@@ -14,6 +14,7 @@ libksane.so.0 libksane0 #MINVER#
  _ZN10KSaneIface11KSaneWidget12setSelectionE7QPointFS1_@Base 4:4.4.1
  _ZN10KSaneIface11KSaneWidget13scanAreaWidthEv@Base 4:4.4.1
  _ZN10KSaneIface11KSaneWidget14scanAreaHeightEv@Base 4:4.4.1
+ _ZN10KSaneIface11KSaneWidget14toQImageSilentERK10QByteArrayiiiNS0_11ImageFormatE@Base 4:4.5.90
  _ZN10KSaneIface11KSaneWidget16enableAutoSelectEb@Base 4:4.3.4
  _ZN10KSaneIface11KSaneWidget16staticMetaObjectE@Base 4:4.3.4
  _ZN10KSaneIface11KSaneWidget17setScanButtonTextERK7QString@Base 4:4.3.4
