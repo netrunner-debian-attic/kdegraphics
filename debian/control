@@ -227,7 +227,7 @@ Description: additional document format support for Okular
  .
  This package is part of the KDE graphics module.
 
-Package: libkdcraw8
+Package: libkdcraw9
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdegraphics-libs-data (>= ${source:Version})
@@ -237,13 +237,13 @@ Description: RAW picture decoding C++ library (runtime)
  .
  This library is used by kipi-plugins, digiKam, and krita.
  .
- libkdcraw5 contains the library of libkdcraw.
+ libkdcraw9 contains the library of libkdcraw.
 
 Package: libkdcraw-dev
 Section: libdevel
 Architecture: any
-Depends: libkdcraw8 (= ${binary:Version}), ${misc:Depends},
- ${sameVersionDep:kdelibs5-dev:libkdcraw8}, pkg-config
+Depends: libkdcraw9 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libkdcraw9}, pkg-config
 Conflicts: libkdcraw5-dev, libkdcraw7-dev
 Description: RAW picture decoding C++ library (development)
  Libkdcraw is a C++ interface around dcraw binary program used to
@@ -252,20 +252,20 @@ Description: RAW picture decoding C++ library (development)
  libkdcraw-dev contains development files and documentation. The
  library documentation is available on kdcraw.h header file.
 
-Package: libkexiv2-8
+Package: libkexiv2-9
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Qt like interface for the libexiv2 library (runtime)
- libkexif2 contains the library of libkexiv2.
+ libkexiv2-9 contains the library of libkexiv2.
  .
- Libkexif is a wrapper around Exiv2 library to manipulate pictures metadata.
+ Libkexiv is a wrapper around Exiv2 library to manipulate pictures metadata.
 
 Package: libkexiv2-dev
 Section: libdevel
 Architecture: any
-Depends: libkexiv2-8 (= ${binary:Version}), ${misc:Depends},
- ${sameVersionDep:kdelibs5-dev:libkexiv2-8}, pkg-config
+Depends: libkexiv2-9 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libkexiv2-9}, pkg-config
 Conflicts: libkexiv2-6-dev, libkexiv2-7-dev
 Description: Qt-like interface for the libexiv2 library (development)
  libkexif2-dev contains development files and documentation for libkexiv2
@@ -273,7 +273,7 @@ Description: Qt-like interface for the libexiv2 library (development)
  .
  Libkexif is a wrapper around Exiv2 library to manipulate pictures metadata.
 
-Package: libkipi7
+Package: libkipi8
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdegraphics-libs-data (>= ${source:Version})
@@ -287,8 +287,8 @@ Description: library for apps that want to use kipi-plugins (runtime version)
 Package: libkipi-dev
 Section: libdevel
 Architecture: any
-Depends: libkipi7 (= ${binary:Version}), ${misc:Depends},
- ${sameVersionDep:kdelibs5-dev:libkipi7}, pkg-config
+Depends: libkipi8 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libkipi8}, pkg-config
 Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev
 Description: library for apps that want to use kipi-plugins (development version)
  Libkipi is a library

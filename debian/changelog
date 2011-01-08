@@ -13,6 +13,11 @@ kdegraphics (4:4.5.90-0r1) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Drop patch fix_solid_camera_predicate.diff, applied upstream. 
+  * Update installed files.
+  * Renamed the following libraries due to so bump:
+    - libkdcraw8 -> libkdcraw9
+    - libkexiv2-8.install -> libkexiv2-9
+    - libkipi7.install -> libkipi8.install
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 Sep 2010 15:13:33 +0300
 

@@ -1,4 +1,6 @@
 usr/bin/okular
+usr/lib/cmake/Okular/OkularConfig.cmake
+usr/lib/cmake/Okular/OkularConfigVersion.cmake
 usr/lib/kde4/okularGenerator_comicbook.so
 usr/lib/kde4/okularGenerator_dvi.so
 usr/lib/kde4/okularGenerator_fax.so
@@ -23,11 +25,18 @@ usr/share/applications/kde4/okularApplication_ooo.desktop
 usr/share/applications/kde4/okularApplication_pdf.desktop
 usr/share/applications/kde4/okularApplication_plucker.desktop
 usr/share/applications/kde4/okularApplication_xps.desktop
+usr/share/doc/kde/HTML/en/kruler/kruler-settings.png
+usr/share/doc/kde/HTML/en/ksnapshot/send-to-menu.png
+usr/share/doc/kde/HTML/en/okular/annotation-properties.png
+usr/share/doc/kde/HTML/en/okular/annotations.png
 usr/share/doc/kde/HTML/en/okular/common
 usr/share/doc/kde/HTML/en/okular/configure.png
 usr/share/doc/kde/HTML/en/okular/embedded-files-bar.png
+usr/share/doc/kde/HTML/en/okular/forms-bar.png
 usr/share/doc/kde/HTML/en/okular/index.cache.bz2
 usr/share/doc/kde/HTML/en/okular/index.docbook
+usr/share/doc/kde/HTML/en/okular/mainwindow.png
+usr/share/doc/kde/HTML/en/okular/presentation.png
 usr/share/icons/hicolor/128x128/apps/okular.png
 usr/share/icons/hicolor/16x16/apps/okular.png
 usr/share/icons/hicolor/22x22/apps/okular.png
