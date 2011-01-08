@@ -11,6 +11,9 @@ kdegraphics (4:4.5.90-0r1) UNRELEASED; urgency=low
   * Update symbols files.
   * Bump build dependency on kdelibs5-dev to version 4:4.5.
 
+  [ José Manuel Santamaría Lema ]
+  * Drop patch fix_solid_camera_predicate.diff, applied upstream. 
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 Sep 2010 15:13:33 +0300
 
 kdegraphics (4:4.4.5-2) unstable; urgency=medium
