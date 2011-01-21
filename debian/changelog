@@ -21,6 +21,9 @@ kdegraphics (4:4.5.95-0r1) UNRELEASED; urgency=low
     - libkexiv2-8.install -> libkexiv2-9
     - libkipi7.install -> libkipi8.install
   * Update symbols files.
+  
+  [ Pino Toscano ]
+  * Add libxfixes-dev build dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 Sep 2010 15:13:33 +0300
 
