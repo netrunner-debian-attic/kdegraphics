@@ -12,7 +12,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.0),
  libxxf86vm-dev, libxext-dev, libqimageblitz-dev (>= 1:0.0.4-2), libexiv2-dev,
  libstreamanalyzer-dev (>= 0.6.3), libstreams-dev (>= 0.6.3), libepub-dev, liblcms1-dev,
  libxfixes-dev, shared-mime-info, shared-desktop-ontologies
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdegraphics.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdegraphics.git
@@ -40,8 +40,10 @@ Package: kdegraphics-libs-data
 Section: libs
 Architecture: all
 Depends: ${misc:Depends}
-Conflicts: libkdcraw5, libkdcraw7, libkipi0, libkipi5, libkipi6
-Replaces: libkdcraw5, libkdcraw7, libkipi5, libkipi6, libksane0 (<< 4:4.4.0)
+Replaces: libkipi0, ibkdcraw5, libkdcraw7, libkipi5, libkipi6, 
+ libksane0 (<< 4:4.4.0)
+Breaks: libkipi0, ibkdcraw5, libkdcraw7, libkipi5, libkipi6, 
+ libksane0 (<< 4:4.4.0)
 Description: data files for libraries from the kdegraphics module
  This package contains data files needed by libraries built from the KDE
  graphics module.
@@ -88,7 +90,7 @@ Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kcoloredit
-Conflicts: kcoloredit
+Breaks: kcoloredit
 Description: color chooser and palette editor
  KColorChooser is a color palette tool, used to mix colors and create custom
  color palettes.  Using the dropper, it can obtain the color of any pixel on
@@ -117,8 +119,8 @@ Description: monitor calibration panel for KDE
 Package: kolourpaint4
 Section: graphics
 Architecture: any
-Conflicts: kolourpaint
 Replaces: kolourpaint
+Breaks: kolourpaint
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: simple image editor and drawing application
  KolourPaint is a simple drawing and image editing application for KDE.
@@ -305,8 +307,8 @@ Architecture: any
 Priority: extra
 Depends: ${misc:Depends}, kdebase-runtime-dbg
 Suggests: kdegraphics (= ${source:Version})
-Conflicts: okular-dbg
 Replaces: okular-dbg
+Breaks: okular-dbg
 Description: debugging symbols for the KDE graphics module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE graphics module.
