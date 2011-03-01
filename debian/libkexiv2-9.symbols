@@ -24,7 +24,6 @@ libkexiv2.so.9 libkexiv2-9 #MINVER#
  _ZN11KExiv2Iface11MsgTextEditD2Ev@Base 4:4.5.90
  _ZN11KExiv2Iface13SubjectWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
  _ZN11KExiv2Iface13SubjectWidget11qt_metacastEPKc@Base 4:4.5.90
- _ZN11KExiv2Iface13SubjectWidget14setSubjectListERK11QStringList@Base 4:4.5.90
  _ZN11KExiv2Iface13SubjectWidget14signalModifiedEv@Base 4:4.5.90
  _ZN11KExiv2Iface13SubjectWidget14slotAddSubjectEv@Base 4:4.5.90
  _ZN11KExiv2Iface13SubjectWidget14slotDelSubjectEv@Base 4:4.5.90
