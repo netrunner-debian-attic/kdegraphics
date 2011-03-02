@@ -305,7 +305,7 @@ Package: kdegraphics-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, kdebase-runtime-dbg
+Depends: ${misc:Depends}, kdelibs5-dbg
 Suggests: kdegraphics (= ${source:Version})
 Replaces: okular-dbg
 Breaks: okular-dbg
