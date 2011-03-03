@@ -3,22 +3,20 @@ kdegraphics (4:4.6.1-0r0) UNRELEASED; urgency=low
   * New upstream release:
     - makes facing page options in okular easier to discover (Closes: #542266)
     - fixes exiting full screen mode not working correctly (Closes: #508634)
+  * Update installed files.
+  * Update symbols files.
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
   * Remove patch 01_r1167826_CVE-2010-2575.diff; applied upstream.
-  * Update installed files.
-  * Update symbols files.
   * Bump build dependency on kdelibs5-dev to version 4:4.6.
 
   [ José Manuel Santamaría Lema ]
   * Drop patch fix_solid_camera_predicate.diff, applied upstream. 
-  * Update installed files.
   * Renamed the following libraries due to so bump:
     - libkdcraw8 -> libkdcraw9
     - libkexiv2-8.install -> libkexiv2-9
     - libkipi7.install -> libkipi8.install
-  * Update symbols files.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
   
