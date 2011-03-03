@@ -1,4 +1,4 @@
-kdegraphics (4:4.6.1-0r0) UNRELEASED; urgency=low
+kdegraphics (4:4.6.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - makes facing page options in okular easier to discover (Closes: #542266)
