@@ -15,8 +15,8 @@ kdegraphics (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Drop patch fix_solid_camera_predicate.diff, applied upstream. 
   * Renamed the following libraries due to so bump:
     - libkdcraw8 -> libkdcraw9
-    - libkexiv2-8.install -> libkexiv2-9
-    - libkipi7.install -> libkipi8.install
+    - libkexiv2-8 -> libkexiv2-9
+    - libkipi7 -> libkipi8
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
   * Update lintian overrides.
