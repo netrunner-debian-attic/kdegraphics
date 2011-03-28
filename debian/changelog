@@ -25,6 +25,7 @@ kdegraphics (4:4.6.1-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Add libxfixes-dev build dependency.
   * Tighten the libexiv2-dev build-dendency to the version required upstream.
+  * Replace kttsd suggest with jovie.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 Sep 2010 15:13:33 +0300
 
