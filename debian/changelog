@@ -24,8 +24,6 @@ kdegraphics (4:4.6.1-0r1) UNRELEASED; urgency=low
   
   [ Pino Toscano ]
   * Add libxfixes-dev build dependency.
-  * kdegraphics-dbg does not need to depend on kdebase-runtime-dbg,
-    kdelibs5-dbg is enough.
   * Tighten the libexiv2-dev build-dendency to the version required upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 Sep 2010 15:13:33 +0300
