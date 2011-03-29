@@ -27,6 +27,10 @@ kdegraphics (4:4.6.1-0r2) UNRELEASED; urgency=low
   * Tighten the libexiv2-dev build-dendency to the version required upstream.
   * Replace kttsd suggest with jovie.
 
+  [ Modestas Vainius ]
+  * Switch debian/rules engine to dhmk bassed qt-kde-team/2/*.
+  * Disable testsuite.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 Sep 2010 15:13:33 +0300
 
 kdegraphics (4:4.4.5-2) unstable; urgency=medium
