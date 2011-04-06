@@ -1,4 +1,4 @@
-kdegraphics (4:4.6.1-0r3) UNRELEASED; urgency=low
+kdegraphics (4:4.6.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release:
     - makes facing page options in okular easier to discover (Closes: #542266)
@@ -17,7 +17,7 @@ kdegraphics (4:4.6.1-0r3) UNRELEASED; urgency=low
     - libkdcraw8 -> libkdcraw9
     - libkexiv2-8 -> libkexiv2-9
     - libkipi7 -> libkipi8
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
   * Update lintian overrides.
   * Add myself to Uploaders.
