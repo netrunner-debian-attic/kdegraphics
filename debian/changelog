@@ -31,6 +31,7 @@ kdegraphics (4:4.6.2-0r0) UNRELEASED; urgency=low
   * Switch debian/rules engine to dhmk bassed qt-kde-team/2/*.
   * Disable testsuite.
   * Add symbol file libokularcore1 (4:4.4.5 based, updated for 4:4.6.1).
+  * Do not care about shlibs anymore, no longer pass -V to dh_makeshlibs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Mar 2011 11:35:10 +0300
 

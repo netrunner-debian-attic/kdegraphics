@@ -4,9 +4,6 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 .PHONY: override_dh_auto_test
 
-override_dh_makeshlibs:
-	$(overridden_command) -V
-
 override_dh_shlibdeps:
 	$(overridden_command) $(foreach p,$(shell dh_listpackages | grep ^lib),-p$p) -- -xkdebase-runtime
 	$(overridden_command) --remaining-packages
