@@ -41,10 +41,8 @@ Package: kdegraphics-libs-data
 Section: libs
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: libkipi0, ibkdcraw5, libkdcraw7, libkipi5, libkipi6, 
- libksane0 (<< 4:4.4.0)
-Breaks: libkipi0, ibkdcraw5, libkdcraw7, libkipi5, libkipi6, 
- libksane0 (<< 4:4.4.0)
+Replaces: libkipi0, ibkdcraw5, libkdcraw7, libkipi5, libkipi6
+Breaks: libkipi0, ibkdcraw5, libkdcraw7, libkipi5, libkipi6
 Description: data files for libraries from the kdegraphics module
  This package contains data files needed by libraries built from the KDE
  graphics module.

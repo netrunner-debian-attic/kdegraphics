@@ -32,6 +32,7 @@ kdegraphics (4:4.6.2-0r1) UNRELEASED; urgency=low
   * Disable testsuite.
   * Add symbol file libokularcore1 (4:4.4.5 based, updated for 4:4.6.1).
   * Do not care about shlibs anymore, no longer pass -V to dh_makeshlibs.
+  * Clean up Replaces/Breaks which predate squeeze (whenever possible).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Apr 2011 23:18:27 +0300
 
