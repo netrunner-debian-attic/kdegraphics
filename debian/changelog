@@ -1,4 +1,4 @@
-kdegraphics (4:4.6.2-0r2) UNRELEASED; urgency=low
+kdegraphics (4:4.6.2-1) experimental; urgency=low
 
   * New upstream release:
     - makes facing page options in okular easier to discover (Closes: #542266)
@@ -35,7 +35,7 @@ kdegraphics (4:4.6.2-0r2) UNRELEASED; urgency=low
   * Do not care about shlibs anymore, no longer pass -V to dh_makeshlibs.
   * Clean up Replaces/Breaks which predate squeeze (whenever possible).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Apr 2011 23:18:27 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:41 +0300
 
 kdegraphics (4:4.4.5-2) unstable; urgency=medium
 
