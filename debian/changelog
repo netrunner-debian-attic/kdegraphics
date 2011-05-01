@@ -1,3 +1,8 @@
+kdegraphics (4:4.6.2-2) UNRELEASED; urgency=low
+
+
+ -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 02:32:36 +0300
+
 kdegraphics (4:4.6.2-1) experimental; urgency=low
 
   * New upstream release:
