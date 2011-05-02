@@ -2,6 +2,7 @@ kdegraphics (4:4.6.2-2) UNRELEASED; urgency=low
 
   * Confirm symbol files on more debian arches.
   * Mark symbol which triggers FTBFS on gcc-4.4 arches as optional.
+  * Bump Standards-Version to 3.9.2: no changes needed.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 02:32:36 +0300
 

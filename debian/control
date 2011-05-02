@@ -13,7 +13,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.2),
  libxxf86vm-dev, libxext-dev, libqimageblitz-dev (>= 1:0.0.4-2), libexiv2-dev (>= 0.18),
  libstreamanalyzer-dev (>= 0.6.3), libstreams-dev (>= 0.6.3), libepub-dev, liblcms1-dev,
  libxfixes-dev, shared-mime-info, shared-desktop-ontologies
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdegraphics.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdegraphics.git
