@@ -162,7 +162,7 @@ libkexiv2.so.9 libkexiv2-9 #MINVER#
  _ZN11KExiv2Iface6KExiv2D1Ev@Base 4:4.5.90
  _ZN11KExiv2Iface6KExiv2D2Ev@Base 4:4.5.90
  _ZN11KExiv2Iface6KExiv2aSERKS0_@Base 4:4.5.90
- (arch=!ia64 !mips !s390 !sparc)_ZN5Exiv213toBasicStringIcA59_cEESbIT_St11char_traitsIS2_ESaIS2_EERKT0_@Base 4:4.6.2
+ (optional=external|arch=!ia64 !mips !s390 !sparc)_ZN5Exiv213toBasicStringIcA59_cEESbIT_St11char_traitsIS2_ESaIS2_EERKT0_@Base 4:4.6.2
  (optional=templinst|arch=!mips !s390 !sparc)_ZN5Exiv28toStringIjEESsRKT_@Base 4:4.5.90
  (optional=templinst)_ZN5Exiv29ValueTypeIjE11setDataAreaEPKhl@Base 4:4.5.90
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readEPKhlNS_9ByteOrderE@Base 4:4.5.90
