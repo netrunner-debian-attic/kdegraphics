@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkexiv2.so.9 libkexiv2-9 #MINVER#
  _ZN11KExiv2Iface10KExiv2Data14KExiv2DataPriv5clearEv@Base 4:4.5.90
  _ZN11KExiv2Iface10KExiv2DataC1ERKS0_@Base 4:4.5.90
@@ -168,9 +168,9 @@ libkexiv2.so.9 libkexiv2-9 #MINVER#
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readEPKhlNS_9ByteOrderE@Base 4:4.5.90
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readERKSs@Base 4:4.5.90
  (optional=templinst)_ZN5Exiv29ValueTypeIjEC1ERKS1_@Base 4:4.5.90
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5Exiv29ValueTypeIjEC1Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5Exiv29ValueTypeIjEC1Ev@Base 4:4.6.1
  (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5Exiv29ValueTypeIjEC2ERKS1_@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5Exiv29ValueTypeIjEC2Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5Exiv29ValueTypeIjEC2Ev@Base 4:4.6.1
  (optional=templinst)_ZN5Exiv29ValueTypeIjED0Ev@Base 4:4.5.90
  (optional=templinst)_ZN5Exiv29ValueTypeIjED1Ev@Base 4:4.5.90
  (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5Exiv29ValueTypeIjED2Ev@Base 4:4.6.1
@@ -315,9 +315,12 @@ libkexiv2.so.9 libkexiv2-9 #MINVER#
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE7toFloatEl@Base 4:4.5.90
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE8dataAreaEv@Base 4:4.5.90
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE8toStringEl@Base 4:4.5.90
- (optional=templinst)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 4:4.5.90
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt10_List_baseIN5Exiv29ExifdatumESaIS1_EE8_M_clearEv@Base 4:4.6.1
- (optional=templinst|arch=ia64 mips s390 sparc)_ZNSt10_List_baseIN5Exiv29ExifdatumESaIS1_EED2Ev@Base 4:4.6.2
+#MISSING: 4:4.6.3# (optional=templinst)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 4:4.5.90
+ (optional=templinst)_ZNSsC1IPcEET_S1_RKSaIcE@Base 4:4.6.3
+ (optional=templinst)_ZNSsC2IPcEET_S1_RKSaIcE@Base 4:4.6.3
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt10_List_baseIN5Exiv29ExifdatumESaIS1_EE8_M_clearEv@Base 4:4.6.1
+ (optional=templinst)_ZNSt10_List_baseIN5Exiv29ExifdatumESaIS1_EED1Ev@Base 4:4.6.3
+ (optional=templinst|arch=amd64 ia64 mips s390 sparc)_ZNSt10_List_baseIN5Exiv29ExifdatumESaIS1_EED2Ev@Base 4:4.6.2
  (optional=templinst|arch=armel)_ZNSt12_Vector_baseIN5Exiv28XmpdatumESaIS1_EED1Ev@Base 4:4.6.2
  (optional=templinst|arch=armel)_ZNSt12_Vector_baseIN5Exiv28XmpdatumESaIS1_EED2Ev@Base 4:4.6.2
  (optional=templinst|arch=armel)_ZNSt12_Vector_baseIN5Exiv29IptcdatumESaIS1_EED1Ev@Base 4:4.6.2
@@ -327,17 +330,17 @@ libkexiv2.so.9 libkexiv2-9 #MINVER#
  (optional=templinst)_ZNSt4listIN5Exiv29ExifdatumESaIS1_EEaSERKS3_@Base 4:4.5.90
  (optional=templinst)_ZNSt6vectorIN5Exiv217PreviewPropertiesESaIS1_EED1Ev@Base 4:4.5.90
  (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt6vectorIN5Exiv217PreviewPropertiesESaIS1_EED2Ev@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EED1Ev@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EED2Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EED1Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EEaSERKS3_@Base 4:4.5.90
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EED1Ev@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EED2Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EED1Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EEaSERKS3_@Base 4:4.5.90
- (optional=templinst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorIhSaIhEED1Ev@Base 4:4.6.1
- (optional=templinst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorIhSaIhEED2Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorIhSaIhEED1Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorIhSaIhEED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIjSaIjEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPjS1_EERKj@Base 4:4.5.90
- (optional=templinst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorIjSaIjEED1Ev@Base 4:4.6.1
- (optional=templinst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorIjSaIjEED2Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorIjSaIjEED1Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorIjSaIjEED2Ev@Base 4:4.6.1
  (optional=templinst|arch=ia64 mips s390 sparc)_ZNSt8auto_ptrIN5Exiv25ImageEED1Ev@Base 4:4.6.2
  (optional=templinst|arch=ia64 mips s390 sparc)_ZNSt8auto_ptrIN5Exiv25ImageEEaSESt12auto_ptr_refIS1_E@Base 4:4.6.2
  _ZTIN11KExiv2Iface11MsgTextEditE@Base 4:4.5.90
