@@ -133,6 +133,8 @@ Package: kruler
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: okular (<= 4:4.6.3-2~)
+Replaces: okular (<= 4:4.6.3-2~)
 Description: screen ruler
  KRuler is a tool for measuring the size, in pixels, of items on the screen.
  .
@@ -165,6 +167,8 @@ Package: ksnapshot
 Section: graphics
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: okular (<= 4:4.6.3-2~)
+Replaces: okular (<= 4:4.6.3-2~)
 Description: screen capture tool
  KSnapshot captures images of the screen.  It can capture the whole screen,
  a specified region, an individual window, or only part of a window.

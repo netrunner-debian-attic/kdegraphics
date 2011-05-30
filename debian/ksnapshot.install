@@ -1,4 +1,5 @@
 usr/bin/kbackgroundsnapshot
+usr/share/doc/kde/HTML/en/ksnapshot/send-to-menu.png
 usr/bin/ksnapshot
 usr/share/applications/kde4/ksnapshot.desktop
 usr/share/dbus-1/interfaces/org.kde.ksnapshot.xml
