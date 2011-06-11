@@ -4,3 +4,4 @@ usr/include/libksane/version.h
 usr/lib/cmake/KSane/KSaneConfig.cmake
 usr/lib/libksane.so
 usr/lib/pkgconfig/libksane.pc
+usr/share/kde4/apps/cmake/modules/FindKSane.cmake
