@@ -1,11 +1,14 @@
-kdegraphics (4:4.6.3-2) UNRELEASED; urgency=low
+kdegraphics (4:4.6.4-0r1) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
   * Move these files
     - usr/share/doc/kde/HTML/en/kruler/kruler-settings.png
     - usr/share/doc/kde/HTML/en/ksnapshot/send-to-menu.png
     to kruler and ksnapshot respectively.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 30 May 2011 22:15:01 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 11 Jun 2011 14:34:19 +0300
 
 kdegraphics (4:4.6.3-1) unstable; urgency=low
 
