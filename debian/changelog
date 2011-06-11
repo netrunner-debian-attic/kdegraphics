@@ -8,6 +8,9 @@ kdegraphics (4:4.6.4-0r1) UNRELEASED; urgency=low
     - usr/share/doc/kde/HTML/en/ksnapshot/send-to-menu.png
     to kruler and ksnapshot respectively.
 
+  [ Modestas Vainius ]
+  * Confirm symbol files on all Debian arches.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 11 Jun 2011 14:34:19 +0300
 
 kdegraphics (4:4.6.3-1) unstable; urgency=low
