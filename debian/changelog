@@ -1,4 +1,4 @@
-kdegraphics (4:4.6.4-0r2) UNRELEASED; urgency=low
+kdegraphics (4:4.6.5-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -8,7 +8,7 @@ kdegraphics (4:4.6.4-0r2) UNRELEASED; urgency=low
     - usr/share/doc/kde/HTML/en/ksnapshot/send-to-menu.png
     to kruler and ksnapshot respectively.
   * Update installed files.
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.4.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
 
   [ Modestas Vainius ]
   * Confirm symbol files on all Debian arches.
