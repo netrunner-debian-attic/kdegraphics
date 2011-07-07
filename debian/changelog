@@ -9,6 +9,7 @@ kdegraphics (4:4.6.5-0r0) UNRELEASED; urgency=low
     to kruler and ksnapshot respectively.
   * Update installed files.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
+  * Update symbols files.
 
   [ Modestas Vainius ]
   * Confirm symbol files on all Debian arches.
