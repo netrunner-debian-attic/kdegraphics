@@ -1,4 +1,4 @@
-kdegraphics (4:4.6.5-0r1) UNRELEASED; urgency=low
+kdegraphics (4:4.6.5-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -14,7 +14,7 @@ kdegraphics (4:4.6.5-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Confirm symbol files on all Debian arches.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2011 00:06:36 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jul 2011 21:53:57 +0300
 
 kdegraphics (4:4.6.3-1) unstable; urgency=low
 
