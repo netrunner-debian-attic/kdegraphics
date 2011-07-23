@@ -1,10 +1,11 @@
-kdegraphics (4:4.6.5-3) UNRELEASED; urgency=low
+kdegraphics (4:4.6.5-3) unstable; urgency=low
 
+  [ Modestas Vainius ]
   * Reconfirm symbol files.
   * Pass -c0 to dpkg-gensymbols because the package creates multiple C++
     libraries.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 23 Jul 2011 10:35:25 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jul 2011 10:37:36 +0300
 
 kdegraphics (4:4.6.5-2) unstable; urgency=low
 
