@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 35648 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc viso
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkexiv2.so.9 libkexiv2-9 #MINVER#
  _ZN11KExiv2Iface10KExiv2Data14KExiv2DataPriv5clearEv@Base 4:4.5.90
  (arch=!armel)_ZN11KExiv2Iface10KExiv2Data14KExiv2DataPrivD1Ev@Base 4:4.6.5

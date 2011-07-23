@@ -1,5 +1,6 @@
 kdegraphics (4:4.6.5-3) UNRELEASED; urgency=low
 
+  * Reconfirm symbol files.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 23 Jul 2011 10:35:25 +0300
 
