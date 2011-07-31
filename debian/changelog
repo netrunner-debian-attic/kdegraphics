@@ -1,5 +1,7 @@
 kdegraphics (4:4.6.5-4) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Improve/rewrite some package descriptions. (Closes: #636098)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jul 2011 12:03:44 +0200
 
