@@ -287,7 +287,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, kdegraphics-libs-data (>= ${source:
 Description: KDE Image Plugin Interface library
  Libkipi is a KDE library that provides a common interface for operations
  on images such as manipulation, organization, importing from and exporting
- to online services (and not only), batch editing, etc.
+ to online services (and not only these), batch editing, etc.
  .
  These services are used in graphics applications such as gwenview, digiKam,
  kphotoalbum, and ksnapshot.
@@ -303,7 +303,7 @@ Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev
 Description: KDE Image Plugin Interface library -- development files
  Libkipi is a KDE library that provides a common interface for operations
  on images such as manipulation, organization, importing from and exporting
- to online services (and not only), batch editing, etc.
+ to online services (and not only these), batch editing, etc.
  .
  These services are used in graphics applications such as gwenview, digiKam,
  kphotoalbum, and ksnapshot.
